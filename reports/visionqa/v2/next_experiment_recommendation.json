@@ -1,0 +1,25 @@
+{
+  "decision": "Run one source-grouped cross-validated global confidence-threshold recalibration on the existing 5,214-image WebUI validation predictions.",
+  "execute_now": false,
+  "model_training": false,
+  "frozen_399_screen_evaluation_used": false,
+  "hypothesis": "The v2 score scale moved downward; a validation-derived threshold near 0.057 recovers transfer detections that confidence 0.25 suppresses.",
+  "method": [
+    "Partition validation source groups into deterministic folds.",
+    "Select one global threshold on calibration folds and measure it on held-out source folds.",
+    "Accept the threshold hypothesis only if held-out folds show stable F1/recall gains without a precision collapse.",
+    "Do not apply the result to the frozen 399-screen slice; reserve confirmation for a future prospectively frozen external holdout."
+  ],
+  "why_this_experiment": {
+    "v2_best_validation_threshold": 0.057330094277858734,
+    "v2_best_validation_f1": 0.14419147033183513,
+    "v2_f1_at_0_25": 0.04689570062249324,
+    "v2_predictions_at_0_25": 2997,
+    "v2_zero_prediction_images_at_0_25": 3895
+  },
+  "estimated_cost": {
+    "gpu": "none; reuse persisted raw predictions",
+    "cpu": "minutes",
+    "relative_to_prior_3_10_hour_training": "well below 1% and no checkpoint changes"
+  }
+}

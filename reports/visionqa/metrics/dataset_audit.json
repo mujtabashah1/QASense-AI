@@ -1,0 +1,125 @@
+{
+  "captured_at": "2026-10-12T20:36:15.436699+00:00",
+  "status": "PASS",
+  "dataset_path": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock",
+  "data_yaml": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\data.yaml",
+  "nc": 14,
+  "names": {
+    "0": "button",
+    "1": "link",
+    "2": "input",
+    "3": "image",
+    "4": "icon",
+    "5": "checkbox",
+    "6": "radio",
+    "7": "select",
+    "8": "block-nav",
+    "9": "block-sidebar",
+    "10": "block-footer",
+    "11": "block-form",
+    "12": "block-table",
+    "13": "block"
+  },
+  "splits": {
+    "train": {
+      "images": 5422,
+      "labels": 5422,
+      "total_boxes": 760188,
+      "empty_labels": 8,
+      "invalid_lines": 0,
+      "invalid_class_ids": 0,
+      "invalid_boxes": 0,
+      "class_counts": {
+        "button": 65302,
+        "link": 353642,
+        "input": 10634,
+        "image": 113039,
+        "icon": 102599,
+        "checkbox": 29823,
+        "radio": 2609,
+        "select": 12207,
+        "block-nav": 6387,
+        "block-sidebar": 2029,
+        "block-footer": 5087,
+        "block-form": 1256,
+        "block-table": 416,
+        "block": 55158
+      },
+      "boxes_per_image": {
+        "mean": 140.20435263740316,
+        "median": 121.0,
+        "p95": 301,
+        "p99": 455,
+        "max": 1303
+      },
+      "passed": true
+    },
+    "val": {
+      "images": 1388,
+      "labels": 1388,
+      "total_boxes": 173231,
+      "empty_labels": 3,
+      "invalid_lines": 0,
+      "invalid_class_ids": 0,
+      "invalid_boxes": 0,
+      "class_counts": {
+        "button": 14568,
+        "link": 85669,
+        "input": 2483,
+        "image": 20517,
+        "icon": 26998,
+        "checkbox": 2606,
+        "radio": 529,
+        "select": 2445,
+        "block-nav": 1651,
+        "block-sidebar": 543,
+        "block-footer": 1276,
+        "block-form": 235,
+        "block-table": 86,
+        "block": 13625
+      },
+      "boxes_per_image": {
+        "mean": 124.80619596541787,
+        "median": 109.0,
+        "p95": 264,
+        "p99": 456,
+        "max": 1310
+      },
+      "passed": true
+    },
+    "test": {
+      "images": 1389,
+      "labels": 1389,
+      "total_boxes": 178465,
+      "empty_labels": 4,
+      "invalid_lines": 0,
+      "invalid_class_ids": 0,
+      "invalid_boxes": 0,
+      "class_counts": {
+        "button": 15308,
+        "link": 89194,
+        "input": 2481,
+        "image": 20372,
+        "icon": 27632,
+        "checkbox": 2395,
+        "radio": 710,
+        "select": 2226,
+        "block-nav": 1625,
+        "block-sidebar": 608,
+        "block-footer": 1298,
+        "block-form": 273,
+        "block-table": 98,
+        "block": 14245
+      },
+      "boxes_per_image": {
+        "mean": 128.48452123830094,
+        "median": 112,
+        "p95": 282,
+        "p99": 443,
+        "max": 1287
+      },
+      "passed": true
+    }
+  },
+  "total_boxes": 1111884
+}

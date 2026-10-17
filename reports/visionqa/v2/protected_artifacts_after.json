@@ -1,0 +1,36 @@
+{
+  "verified_after_training": true,
+  "artifacts": {
+    "risknet": {
+      "path": "models/risknet/risknet_v1.joblib",
+      "sha256": "b32efa3e83707f01bdf29bd7dbcaebe4d484aa9f81f44bf890b9a739deac913c",
+      "bytes": 426844
+    },
+    "codelocator_v2": {
+      "path": "models/codelocator_v2/line_localizer/model.safetensors",
+      "sha256": "9459bfa6b343fc749e5b7653df0f0def005d8781c89388d49466f83e6c0ec288",
+      "bytes": 498612824
+    },
+    "visionqa_v1": {
+      "path": "models/visionqa/atomblock_yolo11n/best.pt",
+      "sha256": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+      "bytes": 5464794
+    },
+    "atomblock_data_yaml": {
+      "path": "datasets/processed/visionqa_atomblock/data.yaml",
+      "sha256": "2edb86881c76d39b0d216f3383b11987135be798e65517acc9ffd2eb45a6fa85",
+      "bytes": 321
+    },
+    "v2_candidate": {
+      "path": "models/visionqa/visionqa_v2_mixed14/candidate.pt",
+      "sha256": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+      "bytes": 20009359
+    },
+    "frozen_webui_eval_manifest": {
+      "path": "reports\\visionqa\\webui_eval_manifest.json",
+      "recorded_canonical_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+      "calculated_canonical_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+      "unchanged": true
+    }
+  }
+}

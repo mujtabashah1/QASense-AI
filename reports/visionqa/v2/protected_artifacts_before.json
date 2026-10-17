@@ -1,0 +1,25 @@
+{
+  "captured_before_training": true,
+  "artifacts": {
+    "risknet": {
+      "path": "models/risknet/risknet_v1.joblib",
+      "sha256": "b32efa3e83707f01bdf29bd7dbcaebe4d484aa9f81f44bf890b9a739deac913c"
+    },
+    "codelocator_v2": {
+      "path": "models/codelocator_v2/line_localizer/model.safetensors",
+      "sha256": "9459bfa6b343fc749e5b7653df0f0def005d8781c89388d49466f83e6c0ec288"
+    },
+    "visionqa_v1": {
+      "path": "models/visionqa/atomblock_yolo11n/best.pt",
+      "sha256": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57"
+    },
+    "frozen_webui_eval_manifest": {
+      "path": "reports/visionqa/webui_eval_manifest.json",
+      "canonical_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45"
+    },
+    "atomblock_data_yaml": {
+      "path": "datasets/processed/visionqa_atomblock/data.yaml",
+      "sha256": "2edb86881c76d39b0d216f3383b11987135be798e65517acc9ffd2eb45a6fa85"
+    }
+  }
+}

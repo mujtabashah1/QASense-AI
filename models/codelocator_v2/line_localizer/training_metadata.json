@@ -1,0 +1,51 @@
+{
+  "task": "codelocator_v2_localizer",
+  "config": {
+    "physical_batch_size": 8,
+    "gradient_accumulation": 2,
+    "effective_batch_size": 16,
+    "gradient_checkpointing": false,
+    "mixed_precision": "fp16",
+    "max_length": 256,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 2,
+    "initialization": "models/codelocator/line_localizer (v1 epoch-2 validation-MRR-selected weights)",
+    "checkpoint_every_optimizer_steps": 500
+  },
+  "layer_policy": {
+    "encoder_layer_indexing": "zero-based",
+    "frozen_embeddings": true,
+    "frozen_encoder_layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "trained_encoder_layers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "trained_head": "classifier (dense and out_proj)",
+    "trainable_parameters": 28943618,
+    "total_parameters": 124647170,
+    "policy": "Only final four encoder layers and task head; no training dataset or split reduction"
+  },
+  "best_epoch": 1,
+  "best_validation_mrr": 0.5081639038098467,
+  "selection_metric": "debiased_validation_mrr",
+  "split_identity": {
+    "splits\\train_localization.jsonl": "5bcab03bd5f40e9de55a30e9af910917b7d2de48eaadcba867a6007951ce1f74",
+    "splits\\validation_localization.jsonl": "ca3538c5229740380ec086f7e58247e713c557faf8dc770911817c957c5ff049",
+    "splits\\test_localization.jsonl": "363a94ed8a7f901113629d28bcceb6555e4a2d3b65cacad73ef8999e79db93ba"
+  },
+  "initialization_statement": "CodeLocator v2 was initialized from the v1 epoch-2 model weights. This is a new v2 fine-tuning run on position-debiased localization data and is NOT an optimizer-level continuation of the interrupted v1 epoch 3."
+}

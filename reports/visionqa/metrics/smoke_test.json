@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-12T20:37:02.302174+00:00",
+  "updated_at": "2026-10-12T20:45:24.222625+00:00",
+  "configuration": {
+    "data": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\data.yaml",
+    "model": "models\\visionqa\\pretrained\\yolo11n.pt",
+    "epochs": 1,
+    "batch": 2,
+    "imgsz": 640,
+    "device": "0",
+    "workers": 2,
+    "project": "C:\\QASense-AI\\runs\\visionqa",
+    "name": "atomblock_yolo11n_smoke_b2",
+    "resume": null,
+    "seed": 42,
+    "patience": 10,
+    "max_det": 1500,
+    "save_period": 1,
+    "metrics_output": "C:\\QASense-AI\\reports\\visionqa\\metrics\\smoke_test.json",
+    "exist_ok": false
+  },
+  "environment": {
+    "python": "3.14.8",
+    "torch": "2.14.1+cu126",
+    "torch_cuda": "12.6",
+    "ultralytics": "8.4.176",
+    "gpu": "NVIDIA T1200 Laptop GPU",
+    "gpu_vram_bytes": 4294705152
+  },
+  "run_dir": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_smoke_b2",
+  "completed_epochs": 1,
+  "last_checkpoint": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_smoke_b2\\weights\\last.pt",
+  "best_checkpoint": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_smoke_b2\\weights\\best.pt",
+  "latest_metrics": {
+    "metrics/precision(B)": 0.429193157537113,
+    "metrics/recall(B)": 0.2552653849635654,
+    "metrics/mAP50(B)": 0.2122226652551587,
+    "metrics/mAP50-95(B)": 0.13815759993393478
+  },
+  "gpu": {
+    "sample_count": 241,
+    "mean_gpu_utilization_percent": 43.60995850622407,
+    "peak_gpu_utilization_percent": 88.0,
+    "peak_memory_used_mib": 1345.0,
+    "peak_temperature_c": 81.0
+  },
+  "torch_peak_allocated_mib": 696.49853515625,
+  "torch_peak_reserved_mib": 1262.0,
+  "finished_at": "2026-10-12T20:45:24.222616+00:00",
+  "runtime_seconds": 501.9195187999867,
+  "seconds_per_epoch": 501.9195187999867,
+  "results_csv": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_smoke_b2\\results.csv",
+  "epoch_metrics": [
+    {
+      "epoch": 1.0,
+      "time": 411.07,
+      "train/box_loss": 1.76867,
+      "train/cls_loss": 1.77094,
+      "train/dfl_loss": 1.19468,
+      "metrics/precision(B)": 0.42765,
+      "metrics/recall(B)": 0.25622,
+      "metrics/mAP50(B)": 0.21215,
+      "metrics/mAP50-95(B)": 0.13812,
+      "val/box_loss": 1.69453,
+      "val/cls_loss": 1.52979,
+      "val/dfl_loss": 1.0775,
+      "lr/pg0": 0.000556,
+      "lr/pg1": 0.000556,
+      "lr/pg2": 0.000556
+    }
+  ],
+  "result_metrics": {
+    "metrics/precision(B)": 0.429193157537113,
+    "metrics/recall(B)": 0.2552653849635654,
+    "metrics/mAP50(B)": 0.2122226652551587,
+    "metrics/mAP50-95(B)": 0.13815759993393478,
+    "fitness": 0.13815759993393478
+  }
+}

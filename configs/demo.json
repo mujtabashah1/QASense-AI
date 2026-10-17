@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "viewport": {"width": 1000, "height": 700},
+  "source_file": "tests/fixtures/CheckoutService.java",
+  "risk_metrics": {
+    "loc": 12, "v(g)": 3, "ev(g)": 1, "iv(g)": 2, "n": 44,
+    "v": 180, "l": 0.18, "d": 12, "i": 15, "e": 2160, "b": 0.06,
+    "t": 120, "lOCode": 9, "lOComment": 1, "lOBlank": 2,
+    "locCodeAndComment": 10, "uniq_Op": 9, "uniq_Opnd": 11,
+    "total_Op": 22, "total_Opnd": 22, "branchCount": 4
+  }
+}

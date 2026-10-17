@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-10-13T07:58:27.792225+00:00",
+  "counts": {
+    "low_confidence_correct": 70,
+    "visual_domain_shift": 2759,
+    "dense_layout_miss": 2946,
+    "wrong_semantic_class": 120,
+    "duplicate_detection": 4,
+    "missed_small_element": 2842,
+    "annotation_mismatch_or_questionable_screen": 4,
+    "responsive_only_miss": 28
+  },
+  "representative_screen_ids": {
+    "low_confidence_correct": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-70905822da4b-mobile",
+      "webui-train-715ddb782422-desktop",
+      "webui-train-dfc3b61b345f-mobile",
+      "webui-train-4874848f41d4-desktop",
+      "webui-train-4874848f41d4-mobile",
+      "webui-train-1d70cf16169b-desktop",
+      "webui-test-59bef58ea726-desktop",
+      "webui-train-99ebc18b01ef-desktop",
+      "webui-train-99ebc18b01ef-tablet",
+      "webui-train-99ebc18b01ef-mobile"
+    ],
+    "visual_domain_shift": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-70905822da4b-mobile",
+      "webui-validation-ab85a8cbaf09-desktop",
+      "webui-validation-ab85a8cbaf09-tablet",
+      "webui-validation-ab85a8cbaf09-mobile",
+      "webui-validation-d94f8ee958cf-desktop",
+      "webui-validation-d94f8ee958cf-tablet",
+      "webui-validation-d94f8ee958cf-mobile",
+      "webui-validation-edf8a619ac09-tablet",
+      "webui-validation-edf8a619ac09-mobile",
+      "webui-train-2372f8152c6e-desktop"
+    ],
+    "dense_layout_miss": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-d94f8ee958cf-tablet",
+      "webui-test-a29bb201fac5-tablet",
+      "webui-test-a7d711aa1744-desktop",
+      "webui-test-a7d711aa1744-tablet",
+      "webui-test-a7d711aa1744-mobile",
+      "webui-validation-4117da34032b-desktop",
+      "webui-validation-4117da34032b-tablet",
+      "webui-validation-4117da34032b-mobile",
+      "webui-train-9476f031a255-desktop",
+      "webui-train-9476f031a255-tablet"
+    ],
+    "wrong_semantic_class": [
+      "webui-validation-d94f8ee958cf-mobile",
+      "webui-validation-edf8a619ac09-desktop",
+      "webui-validation-edf8a619ac09-tablet",
+      "webui-validation-5ebfeae88108-desktop",
+      "webui-validation-5ebfeae88108-tablet",
+      "webui-validation-5ebfeae88108-mobile",
+      "webui-validation-6791e31efea6-desktop",
+      "webui-validation-6791e31efea6-tablet",
+      "webui-validation-6791e31efea6-mobile",
+      "webui-train-715ddb782422-desktop",
+      "webui-train-715ddb782422-tablet",
+      "webui-train-dfc3b61b345f-tablet"
+    ],
+    "missed_small_element": [
+      "webui-train-54680fa789ff-desktop",
+      "webui-train-54680fa789ff-tablet",
+      "webui-train-f33e3539052f-desktop",
+      "webui-train-f33e3539052f-tablet",
+      "webui-validation-5ebfeae88108-desktop",
+      "webui-validation-5ebfeae88108-tablet",
+      "webui-validation-5ebfeae88108-mobile",
+      "webui-validation-6791e31efea6-desktop",
+      "webui-validation-6791e31efea6-tablet",
+      "webui-validation-6791e31efea6-mobile",
+      "webui-validation-dd2795c85a00-desktop",
+      "webui-validation-dd2795c85a00-tablet"
+    ],
+    "duplicate_detection": [
+      "webui-train-9e3af50a6f8e-desktop",
+      "webui-train-321567d2cd48-mobile",
+      "webui-validation-79a1d486396c-tablet",
+      "webui-validation-c6502bdd1597-tablet"
+    ],
+    "annotation_mismatch_or_questionable_screen": [
+      "webui-train-0267fce6d64b-mobile",
+      "webui-train-527bd987c1f8-mobile",
+      "webui-train-96a0149c8bf5-desktop",
+      "webui-train-ede8f1dd6d7c-desktop"
+    ]
+  },
+  "responsive": {
+    "sample_groups": 133,
+    "complete_triplets": 133,
+    "mean_detection_class_jaccard": 0.3941699486812269,
+    "classes_present_and_detected_all_viewports": {
+      "image": 6,
+      "input": 5,
+      "button": 3,
+      "block-footer": 1
+    },
+    "newly_missing_by_viewport": {
+      "desktop": 4,
+      "tablet": 14,
+      "mobile": 26
+    },
+    "responsive_only_misses": 28,
+    "viewport_specific_false_positives": {
+      "desktop": 1176,
+      "tablet": 682,
+      "mobile": 286
+    }
+  },
+  "mapping_ambiguity": {
+    "icon": "svg/i are ambiguous and excluded",
+    "checkbox": "input type is absent; hinted inputs excluded",
+    "radio": "input type is absent; hinted inputs excluded"
+  },
+  "human_review_completed": 100,
+  "mapping_ambiguity_counts": {
+    "unmapped_svg": 1698,
+    "unmapped_i": 132,
+    "input_subtype_ambiguous": 120
+  },
+  "weak_class_evidence": {
+    "icon": {
+      "supported": false,
+      "reason": "WebUI svg/i tags are semantically ambiguous and excluded from scoring.",
+      "unmapped_svg_boxes": 1698,
+      "unmapped_i_boxes": 132
+    },
+    "checkbox": {
+      "supported": false,
+      "reason": "BBox schema omits input type; hinted checkbox/radio/switch inputs were excluded rather than relabeled.",
+      "ambiguous_input_boxes": 120
+    },
+    "radio": {
+      "supported": false,
+      "reason": "BBox schema omits input type; hinted checkbox/radio/switch inputs were excluded rather than relabeled.",
+      "ambiguous_input_boxes_shared": 120
+    },
+    "select": {
+      "ground_truth": 121,
+      "median_relative_area": 0.0030682881673177085,
+      "median_tp_relative_area": null,
+      "median_fn_relative_area": 0.0030682881673177085,
+      "mean_ground_truth_objects_on_containing_screen": 14.809917355371901,
+      "viewport_recall": {
+        "desktop": 0.0,
+        "tablet": 0.0,
+        "mobile": 0.0
+      }
+    },
+    "block-form": {
+      "ground_truth": 164,
+      "median_relative_area": 0.07844034830729166,
+      "median_tp_relative_area": 0.36988649425287357,
+      "median_fn_relative_area": 0.07745361328125,
+      "mean_ground_truth_objects_on_containing_screen": 32.25,
+      "viewport_recall": {
+        "desktop": 0.019230769230769232,
+        "tablet": 0.0,
+        "mobile": 0.020833333333333332
+      }
+    },
+    "block-table": {
+      "ground_truth": 164,
+      "median_relative_area": 0.09170114942528736,
+      "median_tp_relative_area": null,
+      "median_fn_relative_area": 0.09170114942528736,
+      "mean_ground_truth_objects_on_containing_screen": 22.902439024390244,
+      "viewport_recall": {
+        "desktop": 0.0,
+        "tablet": 0.0,
+        "mobile": 0.0
+      }
+    }
+  }
+}

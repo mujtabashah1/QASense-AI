@@ -1,0 +1,229 @@
+{
+  "rows": 63923,
+  "columns": 14,
+  "column_names": [
+    "bugType",
+    "fixCommitSHA1",
+    "fixCommitParentSHA1",
+    "bugFilePath",
+    "fixPatch",
+    "projectName",
+    "bugLineNum",
+    "bugNodeStartChar",
+    "bugNodeLength",
+    "fixLineNum",
+    "fixNodeStartChar",
+    "fixNodeLength",
+    "sourceBeforeFix",
+    "sourceAfterFix"
+  ],
+  "dtypes": {
+    "bugType": "str",
+    "fixCommitSHA1": "str",
+    "fixCommitParentSHA1": "str",
+    "bugFilePath": "str",
+    "fixPatch": "str",
+    "projectName": "str",
+    "bugLineNum": "int64",
+    "bugNodeStartChar": "int64",
+    "bugNodeLength": "int64",
+    "fixLineNum": "int64",
+    "fixNodeStartChar": "int64",
+    "fixNodeLength": "int64",
+    "sourceBeforeFix": "str",
+    "sourceAfterFix": "str"
+  },
+  "missing_values": {
+    "bugType": 0,
+    "fixCommitSHA1": 0,
+    "fixCommitParentSHA1": 0,
+    "bugFilePath": 0,
+    "fixPatch": 0,
+    "projectName": 0,
+    "bugLineNum": 0,
+    "bugNodeStartChar": 0,
+    "bugNodeLength": 0,
+    "fixLineNum": 0,
+    "fixNodeStartChar": 0,
+    "fixNodeLength": 0,
+    "sourceBeforeFix": 0,
+    "sourceAfterFix": 0
+  },
+  "null_percentages": {
+    "bugType": 0.0,
+    "fixCommitSHA1": 0.0,
+    "fixCommitParentSHA1": 0.0,
+    "bugFilePath": 0.0,
+    "fixPatch": 0.0,
+    "projectName": 0.0,
+    "bugLineNum": 0.0,
+    "bugNodeStartChar": 0.0,
+    "bugNodeLength": 0.0,
+    "fixLineNum": 0.0,
+    "fixNodeStartChar": 0.0,
+    "fixNodeLength": 0.0,
+    "sourceBeforeFix": 0.0,
+    "sourceAfterFix": 0.0
+  },
+  "empty_strings": {
+    "bugType": 0,
+    "fixCommitSHA1": 0,
+    "fixCommitParentSHA1": 0,
+    "bugFilePath": 0,
+    "fixPatch": 0,
+    "projectName": 0,
+    "bugLineNum": 0,
+    "bugNodeStartChar": 0,
+    "bugNodeLength": 0,
+    "fixLineNum": 0,
+    "fixNodeStartChar": 0,
+    "fixNodeLength": 0,
+    "sourceBeforeFix": 0,
+    "sourceAfterFix": 0
+  },
+  "exact_duplicate_rows": 815,
+  "duplicate_buggy_statements": 40147,
+  "duplicate_fixed_statements": 39869,
+  "duplicate_pairs": 39250,
+  "duplicate_patches": 37883,
+  "unique_projects": 634,
+  "repository_field": "projectName is the owner.repository identifier; no separate repository URL in primary schema",
+  "unique_repositories": 634,
+  "unique_commits": 24486,
+  "unique_files": 23274,
+  "unique_bug_types": 16,
+  "identical_buggy_fixed": 714,
+  "invalid_line_numbers": 0,
+  "line_number_distribution": {
+    "count": 63923.0,
+    "mean": 603.7494954867575,
+    "std": 2155.6244724239277,
+    "min": 2.0,
+    "25%": 82.0,
+    "50%": 188.0,
+    "75%": 486.0,
+    "max": 206871.0
+  },
+  "source_length_distributions": {
+    "sourceBeforeFix": {
+      "count": 63923.0,
+      "mean": 61.95358478169047,
+      "std": 1493.747417122697,
+      "min": 1.0,
+      "25%": 17.0,
+      "50%": 29.0,
+      "75%": 50.0,
+      "max": 261911.0
+    },
+    "sourceAfterFix": {
+      "count": 63923.0,
+      "mean": 66.73704300486523,
+      "std": 1493.9375333144612,
+      "min": 1.0,
+      "25%": 19.0,
+      "50%": 34.0,
+      "75%": 58.0,
+      "max": 261919.0
+    },
+    "fixPatch": {
+      "count": 63923.0,
+      "mean": 1887.9898940913286,
+      "std": 6717.507965612579,
+      "min": 330.0,
+      "25%": 723.0,
+      "50%": 917.0,
+      "75%": 1452.0,
+      "max": 708085.0
+    }
+  },
+  "unusable_source_records": 0,
+  "source_interpretation": "sourceBeforeFix/sourceAfterFix are AST code fragments, not complete files. fixPatch is a unified diff, excluded from predictive inputs.",
+  "bug_type_distribution": [
+    {
+      "bug_type": "CHANGE_IDENTIFIER",
+      "count": 22668,
+      "percentage": 35.46141451433756
+    },
+    {
+      "bug_type": "DIFFERENT_METHOD_SAME_ARGS",
+      "count": 10179,
+      "percentage": 15.92384587707085
+    },
+    {
+      "bug_type": "CHANGE_NUMERAL",
+      "count": 5447,
+      "percentage": 8.521189556184785
+    },
+    {
+      "bug_type": "OVERLOAD_METHOD_MORE_ARGS",
+      "count": 5100,
+      "percentage": 7.97834895108177
+    },
+    {
+      "bug_type": "CHANGE_MODIFIER",
+      "count": 5011,
+      "percentage": 7.839118939974657
+    },
+    {
+      "bug_type": "LESS_SPECIFIC_IF",
+      "count": 2813,
+      "percentage": 4.400606980273141
+    },
+    {
+      "bug_type": "MORE_SPECIFIC_IF",
+      "count": 2381,
+      "percentage": 3.724793892652097
+    },
+    {
+      "bug_type": "CHANGE_OPERATOR",
+      "count": 2241,
+      "percentage": 3.505780392034166
+    },
+    {
+      "bug_type": "SWAP_BOOLEAN_LITERAL",
+      "count": 1842,
+      "percentage": 2.881591915273063
+    },
+    {
+      "bug_type": "OVERLOAD_METHOD_DELETED_ARGS",
+      "count": 1588,
+      "percentage": 2.4842388498662453
+    },
+    {
+      "bug_type": "CHANGE_CALLER_IN_FUNCTION_CALL",
+      "count": 1504,
+      "percentage": 2.3528307494954865
+    },
+    {
+      "bug_type": "CHANGE_UNARY_OPERATOR",
+      "count": 1016,
+      "percentage": 1.5894122616272703
+    },
+    {
+      "bug_type": "CHANGE_OPERAND",
+      "count": 807,
+      "percentage": 1.2624563928476449
+    },
+    {
+      "bug_type": "SWAP_ARGUMENTS",
+      "count": 612,
+      "percentage": 0.9574018741298124
+    },
+    {
+      "bug_type": "DELETE_THROWS_EXCEPTION",
+      "count": 508,
+      "percentage": 0.7947061308136352
+    },
+    {
+      "bug_type": "ADD_THROWS_EXCEPTION",
+      "count": 206,
+      "percentage": 0.32226272233781267
+    }
+  ],
+  "rare_classes": {
+    "100": [],
+    "50": [],
+    "20": []
+  },
+  "malformed_records": 0
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "decided_at": "2026-10-17T19:26:25.933311+00:00",
+  "decision_code": "C",
+  "decision": "C. WEBUI IMPROVED BUT REMAINS EXPERIMENTAL",
+  "promoted": false,
+  "production_model": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+  "experimental_model": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt",
+  "experimental_threshold": 0.0625,
+  "reasons": [
+    "Overall F1, macro-F1, recall, and precision exceed the VisionQA v1 frozen baseline.",
+    "The calibrated threshold materially improves recall and F1 over v2 at 0.25.",
+    "Select remains unresolved with zero true positives.",
+    "Tiny-object and mobile recall remain weak.",
+    "Improvement is source-sensitive: only 47 of 133 groups gain true positives and the top ten groups contribute 67.2% of added true positives.",
+    "The scorable prediction count grows 10.68x, increasing false-positive operational load despite net F1 improvement."
+  ],
+  "atomblock_retention_map50_95": 0.9179,
+  "catastrophic_forgetting_gate": "passed previously",
+  "tradeoff_vs_v2_at_0_25": {
+    "precision_change": -0.1721219171275593,
+    "recall_change": 0.04511019283746556,
+    "f1_change": 0.051000780328444975,
+    "macro_f1_change": 0.04868373189916681,
+    "prediction_count_change": 2749,
+    "prediction_count_multiplier": 10.679577464788732,
+    "zero_prediction_screen_change": -170,
+    "zero_prediction_screen_reduction_fraction": 0.9444444444444444
+  },
+  "change_vs_v1": {
+    "precision": 0.025041711175650017,
+    "recall": 0.023415977961432508,
+    "f1": 0.026851520022141098,
+    "macro_f1": 0.05266529579202087
+  },
+  "unresolved_classes": [
+    "select"
+  ],
+  "next_single_milestone": "Run one select-focused label-quality and visual-separability audit on existing WebUI train/validation data; do not use the frozen evaluation set or retrain during that audit.",
+  "training_performed": false,
+  "playwright_regression_performed": false
+}

@@ -1,0 +1,779 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-17T19:17:09.937567+00:00",
+  "scope": "persisted WebUI validation predictions only",
+  "threshold_grid": {
+    "minimum": 0.005,
+    "maximum": 0.25,
+    "step": 0.0025,
+    "count": 99
+  },
+  "selection_metric": "macro-F1",
+  "tie_breakers": [
+    "overall F1",
+    "higher threshold"
+  ],
+  "threshold_stability": {
+    "mean": 0.0645,
+    "median": 0.0625,
+    "std": 0.0036742346141747702,
+    "variance": 1.3500000000000023e-05,
+    "min": 0.06,
+    "max": 0.07,
+    "range": 0.010000000000000009,
+    "rule": "stable when population std <= 0.01 and range <= 0.02",
+    "stable": true
+  },
+  "recommended_global_threshold": 0.0625,
+  "held_out_fold_summary": {
+    "precision": {
+      "mean": 0.19067802602639747,
+      "std": 0.013620502790707293,
+      "min": 0.1654054054054054,
+      "max": 0.20391836734693877
+    },
+    "recall": {
+      "mean": 0.114982072042615,
+      "std": 0.006574908013501876,
+      "min": 0.10772299800512966,
+      "max": 0.12419618005566753
+    },
+    "f1": {
+      "mean": 0.1432803778756914,
+      "std": 0.007573243288773233,
+      "min": 0.13131436978911232,
+      "max": 0.1519557150678265
+    },
+    "macro_f1": {
+      "mean": 0.10445916736895317,
+      "std": 0.005859636684678912,
+      "min": 0.09524637873649135,
+      "max": 0.11372646389591486
+    },
+    "prediction_count": {
+      "mean": 6295.6,
+      "std": 339.0926716990504,
+      "min": 5838,
+      "max": 6839
+    },
+    "zero_prediction_rate": {
+      "mean": 0.24340322634072012,
+      "std": 0.015223153851901958,
+      "min": 0.2231800766283525,
+      "max": 0.2612872238232469
+    }
+  },
+  "out_of_fold_aggregate": {
+    "precision": 0.1903551686892433,
+    "recall": 0.11500076769537848,
+    "f1": 0.14338015362159318,
+    "macro_f1": 0.10312067064686148,
+    "prediction_count": 31478,
+    "per_class": {
+      "button": {
+        "ground_truth": 8699,
+        "predictions": 2767,
+        "tp": 380,
+        "fp": 2387,
+        "fn": 8319,
+        "precision": 0.13733285146367907,
+        "recall": 0.04368318197493965,
+        "f1": 0.06628292342578057
+      },
+      "link": {
+        "ground_truth": 29837,
+        "predictions": 20348,
+        "tp": 4113,
+        "fp": 16235,
+        "fn": 25724,
+        "precision": 0.20213288775309612,
+        "recall": 0.13784897945503904,
+        "f1": 0.16391351997608847
+      },
+      "input": {
+        "ground_truth": 2610,
+        "predictions": 741,
+        "tp": 191,
+        "fp": 550,
+        "fn": 2419,
+        "precision": 0.25775978407557354,
+        "recall": 0.07318007662835249,
+        "f1": 0.11399582214264399
+      },
+      "image": {
+        "ground_truth": 7251,
+        "predictions": 3053,
+        "tp": 646,
+        "fp": 2407,
+        "fn": 6605,
+        "precision": 0.21159515230920406,
+        "recall": 0.08909115984002207,
+        "f1": 0.12538819875776397
+      },
+      "select": {
+        "ground_truth": 102,
+        "predictions": 11,
+        "tp": 0,
+        "fp": 11,
+        "fn": 102,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "block-nav": {
+        "ground_truth": 2139,
+        "predictions": 3536,
+        "tp": 535,
+        "fp": 3001,
+        "fn": 1604,
+        "precision": 0.15130090497737556,
+        "recall": 0.2501168770453483,
+        "f1": 0.18854625550660792
+      },
+      "block-sidebar": {
+        "ground_truth": 241,
+        "predictions": 77,
+        "tp": 18,
+        "fp": 59,
+        "fn": 223,
+        "precision": 0.23376623376623376,
+        "recall": 0.07468879668049792,
+        "f1": 0.11320754716981131
+      },
+      "block-footer": {
+        "ground_truth": 441,
+        "predictions": 62,
+        "tp": 8,
+        "fp": 54,
+        "fn": 433,
+        "precision": 0.12903225806451613,
+        "recall": 0.018140589569160998,
+        "f1": 0.03180914512922465
+      },
+      "block-form": {
+        "ground_truth": 558,
+        "predictions": 112,
+        "tp": 26,
+        "fp": 86,
+        "fn": 532,
+        "precision": 0.23214285714285715,
+        "recall": 0.04659498207885305,
+        "f1": 0.07761194029850747
+      },
+      "block-table": {
+        "ground_truth": 226,
+        "predictions": 771,
+        "tp": 75,
+        "fp": 696,
+        "fn": 151,
+        "precision": 0.09727626459143969,
+        "recall": 0.33185840707964603,
+        "f1": 0.15045135406218657
+      }
+    },
+    "images": 5214,
+    "zero_prediction_screens": 1269,
+    "zero_prediction_rate": 0.24338319907940162
+  },
+  "viewport_out_of_fold": {
+    "desktop": {
+      "precision": 0.1713328075709779,
+      "recall": 0.1488013698630137,
+      "f1": 0.15927419354838707,
+      "macro_f1": 0.1171822328795541,
+      "prediction_count": 15216,
+      "per_class": {
+        "button": {
+          "ground_truth": 2844,
+          "predictions": 947,
+          "tp": 115,
+          "fp": 832,
+          "fn": 2729,
+          "precision": 0.12143611404435058,
+          "recall": 0.04043600562587905,
+          "f1": 0.0606700079134793
+        },
+        "link": {
+          "ground_truth": 10209,
+          "predictions": 10473,
+          "tp": 1851,
+          "fp": 8622,
+          "fn": 8358,
+          "precision": 0.17674018905757663,
+          "recall": 0.18131060828680576,
+          "f1": 0.1789962286045837
+        },
+        "input": {
+          "ground_truth": 879,
+          "predictions": 384,
+          "tp": 102,
+          "fp": 282,
+          "fn": 777,
+          "precision": 0.265625,
+          "recall": 0.11604095563139932,
+          "f1": 0.16152019002375298
+        },
+        "image": {
+          "ground_truth": 2321,
+          "predictions": 1328,
+          "tp": 261,
+          "fp": 1067,
+          "fn": 2060,
+          "precision": 0.19653614457831325,
+          "recall": 0.11245152951314089,
+          "f1": 0.14305289120306933
+        },
+        "select": {
+          "ground_truth": 36,
+          "predictions": 7,
+          "tp": 0,
+          "fp": 7,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "block-nav": {
+          "ground_truth": 731,
+          "predictions": 1707,
+          "tp": 229,
+          "fp": 1478,
+          "fn": 502,
+          "precision": 0.1341534856473345,
+          "recall": 0.31326949384404923,
+          "f1": 0.18785890073831008
+        },
+        "block-sidebar": {
+          "ground_truth": 97,
+          "predictions": 43,
+          "tp": 8,
+          "fp": 35,
+          "fn": 89,
+          "precision": 0.18604651162790697,
+          "recall": 0.08247422680412371,
+          "f1": 0.1142857142857143
+        },
+        "block-footer": {
+          "ground_truth": 137,
+          "predictions": 52,
+          "tp": 7,
+          "fp": 45,
+          "fn": 130,
+          "precision": 0.1346153846153846,
+          "recall": 0.051094890510948905,
+          "f1": 0.07407407407407407
+        },
+        "block-form": {
+          "ground_truth": 192,
+          "predictions": 63,
+          "tp": 16,
+          "fp": 47,
+          "fn": 176,
+          "precision": 0.25396825396825395,
+          "recall": 0.08333333333333333,
+          "f1": 0.12549019607843137
+        },
+        "block-table": {
+          "ground_truth": 74,
+          "predictions": 212,
+          "tp": 18,
+          "fp": 194,
+          "fn": 56,
+          "precision": 0.08490566037735849,
+          "recall": 0.24324324324324326,
+          "f1": 0.12587412587412586
+        }
+      },
+      "images": 1738,
+      "zero_prediction_screens": 280,
+      "zero_prediction_rate": 0.1611047180667434
+    },
+    "tablet": {
+      "precision": 0.21195542046605875,
+      "recall": 0.10864146240132945,
+      "f1": 0.14365172011261415,
+      "macro_f1": 0.103338692026353,
+      "prediction_count": 9870,
+      "per_class": {
+        "button": {
+          "ground_truth": 3190,
+          "predictions": 926,
+          "tp": 133,
+          "fp": 793,
+          "fn": 3057,
+          "precision": 0.14362850971922247,
+          "recall": 0.041692789968652035,
+          "f1": 0.06462585034013606
+        },
+        "link": {
+          "ground_truth": 11067,
+          "predictions": 6356,
+          "tp": 1457,
+          "fp": 4899,
+          "fn": 9610,
+          "precision": 0.22923222152297043,
+          "recall": 0.13165266106442577,
+          "f1": 0.1672501865350399
+        },
+        "input": {
+          "ground_truth": 928,
+          "predictions": 238,
+          "tp": 62,
+          "fp": 176,
+          "fn": 866,
+          "precision": 0.2605042016806723,
+          "recall": 0.0668103448275862,
+          "f1": 0.10634648370497428
+        },
+        "image": {
+          "ground_truth": 2780,
+          "predictions": 1150,
+          "tp": 251,
+          "fp": 899,
+          "fn": 2529,
+          "precision": 0.2182608695652174,
+          "recall": 0.09028776978417266,
+          "f1": 0.127735368956743
+        },
+        "select": {
+          "ground_truth": 35,
+          "predictions": 4,
+          "tp": 0,
+          "fp": 4,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "block-nav": {
+          "ground_truth": 710,
+          "predictions": 838,
+          "tp": 145,
+          "fp": 693,
+          "fn": 565,
+          "precision": 0.1730310262529833,
+          "recall": 0.20422535211267606,
+          "f1": 0.18733850129198967
+        },
+        "block-sidebar": {
+          "ground_truth": 84,
+          "predictions": 34,
+          "tp": 10,
+          "fp": 24,
+          "fn": 74,
+          "precision": 0.29411764705882354,
+          "recall": 0.11904761904761904,
+          "f1": 0.16949152542372883
+        },
+        "block-footer": {
+          "ground_truth": 183,
+          "predictions": 10,
+          "tp": 1,
+          "fp": 9,
+          "fn": 182,
+          "precision": 0.1,
+          "recall": 0.00546448087431694,
+          "f1": 0.010362694300518133
+        },
+        "block-form": {
+          "ground_truth": 196,
+          "predictions": 30,
+          "tp": 6,
+          "fp": 24,
+          "fn": 190,
+          "precision": 0.2,
+          "recall": 0.030612244897959183,
+          "f1": 0.05309734513274336
+        },
+        "block-table": {
+          "ground_truth": 83,
+          "predictions": 284,
+          "tp": 27,
+          "fp": 257,
+          "fn": 56,
+          "precision": 0.09507042253521127,
+          "recall": 0.3253012048192771,
+          "f1": 0.14713896457765668
+        }
+      },
+      "images": 1738,
+      "zero_prediction_screens": 429,
+      "zero_prediction_rate": 0.2468354430379747
+    },
+    "mobile": {
+      "precision": 0.20228410513141426,
+      "recall": 0.08435542797494781,
+      "f1": 0.11906077348066299,
+      "macro_f1": 0.07717652384521859,
+      "prediction_count": 6392,
+      "per_class": {
+        "button": {
+          "ground_truth": 2665,
+          "predictions": 894,
+          "tp": 132,
+          "fp": 762,
+          "fn": 2533,
+          "precision": 0.1476510067114094,
+          "recall": 0.04953095684803002,
+          "f1": 0.07417813992694577
+        },
+        "link": {
+          "ground_truth": 8561,
+          "predictions": 3519,
+          "tp": 805,
+          "fp": 2714,
+          "fn": 7756,
+          "precision": 0.22875816993464052,
+          "recall": 0.09403107113654947,
+          "f1": 0.13327814569536425
+        },
+        "input": {
+          "ground_truth": 803,
+          "predictions": 119,
+          "tp": 27,
+          "fp": 92,
+          "fn": 776,
+          "precision": 0.226890756302521,
+          "recall": 0.033623910336239106,
+          "f1": 0.058568329718004346
+        },
+        "image": {
+          "ground_truth": 2150,
+          "predictions": 575,
+          "tp": 134,
+          "fp": 441,
+          "fn": 2016,
+          "precision": 0.23304347826086957,
+          "recall": 0.062325581395348835,
+          "f1": 0.09834862385321101
+        },
+        "select": {
+          "ground_truth": 31,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 31,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "block-nav": {
+          "ground_truth": 698,
+          "predictions": 991,
+          "tp": 161,
+          "fp": 830,
+          "fn": 537,
+          "precision": 0.16246215943491424,
+          "recall": 0.23065902578796563,
+          "f1": 0.1906453522794553
+        },
+        "block-sidebar": {
+          "ground_truth": 60,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 60,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "block-footer": {
+          "ground_truth": 121,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 121,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "block-form": {
+          "ground_truth": 170,
+          "predictions": 19,
+          "tp": 4,
+          "fp": 15,
+          "fn": 166,
+          "precision": 0.21052631578947367,
+          "recall": 0.023529411764705882,
+          "f1": 0.042328042328042326
+        },
+        "block-table": {
+          "ground_truth": 69,
+          "predictions": 275,
+          "tp": 30,
+          "fp": 245,
+          "fn": 39,
+          "precision": 0.10909090909090909,
+          "recall": 0.43478260869565216,
+          "f1": 0.1744186046511628
+        }
+      },
+      "images": 1738,
+      "zero_prediction_screens": 560,
+      "zero_prediction_rate": 0.3222094361334868
+    }
+  },
+  "object_size_out_of_fold": {
+    "definitions": {
+      "tiny": "area < 0.001",
+      "small": "0.001 <= area < 0.01",
+      "medium": "0.01 <= area < 0.1",
+      "large": "area >= 0.1"
+    },
+    "buckets": {
+      "tiny": {
+        "ground_truth": 8442,
+        "matched": 322,
+        "recall": 0.03814262023217247
+      },
+      "small": {
+        "ground_truth": 31259,
+        "matched": 3598,
+        "recall": 0.11510285037909082
+      },
+      "medium": {
+        "ground_truth": 9620,
+        "matched": 1510,
+        "recall": 0.15696465696465697
+      },
+      "large": {
+        "ground_truth": 2783,
+        "matched": 562,
+        "recall": 0.2019403521379806
+      }
+    }
+  },
+  "baseline_at_0_25": {
+    "precision": 0.43109776443109776,
+    "recall": 0.024796560724704438,
+    "f1": 0.04689570062249324,
+    "macro_f1": 0.050795816169178165,
+    "prediction_count": 2997,
+    "per_class": {
+      "button": {
+        "ground_truth": 8699,
+        "predictions": 255,
+        "tp": 85,
+        "fp": 170,
+        "fn": 8614,
+        "precision": 0.3333333333333333,
+        "recall": 0.009771238073341763,
+        "f1": 0.01898592807683717
+      },
+      "link": {
+        "ground_truth": 29837,
+        "predictions": 1738,
+        "tp": 846,
+        "fp": 892,
+        "fn": 28991,
+        "precision": 0.48676639815880324,
+        "recall": 0.028354057043268426,
+        "f1": 0.05358669833729217
+      },
+      "input": {
+        "ground_truth": 2610,
+        "predictions": 145,
+        "tp": 68,
+        "fp": 77,
+        "fn": 2542,
+        "precision": 0.4689655172413793,
+        "recall": 0.026053639846743294,
+        "f1": 0.04936479128856624
+      },
+      "image": {
+        "ground_truth": 7251,
+        "predictions": 645,
+        "tp": 226,
+        "fp": 419,
+        "fn": 7025,
+        "precision": 0.35038759689922483,
+        "recall": 0.031168114742794097,
+        "f1": 0.057244174265450865
+      },
+      "select": {
+        "ground_truth": 102,
+        "predictions": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 102,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "block-nav": {
+        "ground_truth": 2139,
+        "predictions": 85,
+        "tp": 14,
+        "fp": 71,
+        "fn": 2125,
+        "precision": 0.16470588235294117,
+        "recall": 0.0065451145395044414,
+        "f1": 0.012589928057553958
+      },
+      "block-sidebar": {
+        "ground_truth": 241,
+        "predictions": 31,
+        "tp": 15,
+        "fp": 16,
+        "fn": 226,
+        "precision": 0.4838709677419355,
+        "recall": 0.06224066390041494,
+        "f1": 0.11029411764705882
+      },
+      "block-footer": {
+        "ground_truth": 441,
+        "predictions": 13,
+        "tp": 4,
+        "fp": 9,
+        "fn": 437,
+        "precision": 0.3076923076923077,
+        "recall": 0.009070294784580499,
+        "f1": 0.01762114537444934
+      },
+      "block-form": {
+        "ground_truth": 558,
+        "predictions": 35,
+        "tp": 15,
+        "fp": 20,
+        "fn": 543,
+        "precision": 0.42857142857142855,
+        "recall": 0.026881720430107527,
+        "f1": 0.050590219224283306
+      },
+      "block-table": {
+        "ground_truth": 226,
+        "predictions": 50,
+        "tp": 19,
+        "fp": 31,
+        "fn": 207,
+        "precision": 0.38,
+        "recall": 0.084070796460177,
+        "f1": 0.13768115942028986
+      }
+    },
+    "images": 5214,
+    "zero_prediction_screens": 3895,
+    "zero_prediction_rate": 0.7470272343690065
+  },
+  "recommended_threshold_full_validation_diagnostic": {
+    "precision": 0.18646859652868866,
+    "recall": 0.11732304621526178,
+    "f1": 0.1440267649934619,
+    "macro_f1": 0.10433467177102078,
+    "prediction_count": 32783,
+    "per_class": {
+      "button": {
+        "ground_truth": 8699,
+        "predictions": 3003,
+        "tp": 390,
+        "fp": 2613,
+        "fn": 8309,
+        "precision": 0.12987012987012986,
+        "recall": 0.0448327393953328,
+        "f1": 0.06665527260297385
+      },
+      "link": {
+        "ground_truth": 29837,
+        "predictions": 21087,
+        "tp": 4178,
+        "fp": 16909,
+        "fn": 25659,
+        "precision": 0.1981315502442263,
+        "recall": 0.14002748265576298,
+        "f1": 0.16408766004241615
+      },
+      "input": {
+        "ground_truth": 2610,
+        "predictions": 756,
+        "tp": 191,
+        "fp": 565,
+        "fn": 2419,
+        "precision": 0.2526455026455027,
+        "recall": 0.07318007662835249,
+        "f1": 0.11348781937017234
+      },
+      "image": {
+        "ground_truth": 7251,
+        "predictions": 3123,
+        "tp": 657,
+        "fp": 2466,
+        "fn": 6594,
+        "precision": 0.21037463976945245,
+        "recall": 0.0906081919735209,
+        "f1": 0.12666281087333717
+      },
+      "select": {
+        "ground_truth": 102,
+        "predictions": 12,
+        "tp": 0,
+        "fp": 12,
+        "fn": 102,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "block-nav": {
+        "ground_truth": 2139,
+        "predictions": 3738,
+        "tp": 564,
+        "fp": 3174,
+        "fn": 1575,
+        "precision": 0.1508828250401284,
+        "recall": 0.26367461430575034,
+        "f1": 0.1919346605410924
+      },
+      "block-sidebar": {
+        "ground_truth": 241,
+        "predictions": 79,
+        "tp": 18,
+        "fp": 61,
+        "fn": 223,
+        "precision": 0.22784810126582278,
+        "recall": 0.07468879668049792,
+        "f1": 0.11249999999999999
+      },
+      "block-footer": {
+        "ground_truth": 441,
+        "predictions": 64,
+        "tp": 8,
+        "fp": 56,
+        "fn": 433,
+        "precision": 0.125,
+        "recall": 0.018140589569160998,
+        "f1": 0.031683168316831684
+      },
+      "block-form": {
+        "ground_truth": 558,
+        "predictions": 116,
+        "tp": 28,
+        "fp": 88,
+        "fn": 530,
+        "precision": 0.2413793103448276,
+        "recall": 0.05017921146953405,
+        "f1": 0.08308605341246292
+      },
+      "block-table": {
+        "ground_truth": 226,
+        "predictions": 805,
+        "tp": 79,
+        "fp": 726,
+        "fn": 147,
+        "precision": 0.09813664596273292,
+        "recall": 0.3495575221238938,
+        "f1": 0.15324927255092144
+      }
+    },
+    "threshold": 0.0625,
+    "zero_prediction_screens": 1230
+  },
+  "comparison_to_0_25": {
+    "precision_change": -0.24074259574185447,
+    "recall_change": 0.09020420697067405,
+    "f1_change": 0.09648445299909994,
+    "macro_f1_change": 0.052324854477683314,
+    "prediction_count_change": 28481,
+    "prediction_count_multiplier": 10.50316983650317,
+    "zero_prediction_screen_reduction": 2626,
+    "zero_prediction_rate_change": -0.5036440352896049
+  }
+}

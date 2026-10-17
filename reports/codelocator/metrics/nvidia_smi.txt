@@ -1,0 +1,1 @@
+NVIDIA T1200 Laptop GPU, 4096 MiB, 610.60, 7.5

@@ -1,0 +1,598 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:32:48.695493+00:00",
+  "audit_result": "PASS",
+  "manifest_integrity": {
+    "dataset": true,
+    "split": true
+  },
+  "manifest_sha256": {
+    "dataset": "442c0f3d250f513463ca6188127a31240fab173e781fe630ddc6ffa4a52ced56",
+    "split": "4bc01ed12f211408760ca1a67f2db901dc59d9b8bddf1fa5bc55702b37d9add3"
+  },
+  "counts": {
+    "candidate_groups": 9511,
+    "screens": 28533,
+    "valid_boxes": 274096,
+    "excluded_box_reason_counts": {
+      "ambiguous_or_unmapped": 1264695,
+      "outside_viewport": 2997144,
+      "duplicate_mapped_box": 5393,
+      "nonpositive_box": 15980,
+      "input_subtype_ambiguous": 2328
+    },
+    "decode_failures": 0
+  },
+  "distributions": {
+    "train": {
+      "groups": 7773,
+      "screens": 23319,
+      "labels": 23319,
+      "valid_boxes": 221992,
+      "viewports": {
+        "desktop": 7773,
+        "tablet": 7773,
+        "mobile": 7773
+      },
+      "negative_screens": 1353,
+      "negative_groups": 578,
+      "unique_sources": 35,
+      "classes": {
+        "button": {
+          "box_count": 35690,
+          "screen_count": 10321,
+          "group_count": 3732,
+          "percentage_of_boxes": 0.16077155933547155,
+          "viewport_box_counts": {
+            "desktop": 11479,
+            "tablet": 12896,
+            "mobile": 11315
+          }
+        },
+        "link": {
+          "box_count": 125627,
+          "screen_count": 15785,
+          "group_count": 5384,
+          "percentage_of_boxes": 0.5659077804605571,
+          "viewport_box_counts": {
+            "desktop": 43827,
+            "tablet": 45907,
+            "mobile": 35893
+          }
+        },
+        "input": {
+          "box_count": 13020,
+          "screen_count": 4237,
+          "group_count": 1544,
+          "percentage_of_boxes": 0.058650762189628454,
+          "viewport_box_counts": {
+            "desktop": 4468,
+            "tablet": 4699,
+            "mobile": 3853
+          }
+        },
+        "image": {
+          "box_count": 31502,
+          "screen_count": 9998,
+          "group_count": 3520,
+          "percentage_of_boxes": 0.14190601463115787,
+          "viewport_box_counts": {
+            "desktop": 10185,
+            "tablet": 12060,
+            "mobile": 9257
+          }
+        },
+        "select": {
+          "box_count": 715,
+          "screen_count": 468,
+          "group_count": 165,
+          "percentage_of_boxes": 0.00322083678691124,
+          "viewport_box_counts": {
+            "desktop": 240,
+            "tablet": 251,
+            "mobile": 224
+          }
+        },
+        "block-nav": {
+          "box_count": 9036,
+          "screen_count": 7948,
+          "group_count": 2874,
+          "percentage_of_boxes": 0.04070416951962233,
+          "viewport_box_counts": {
+            "desktop": 3103,
+            "tablet": 3001,
+            "mobile": 2932
+          }
+        },
+        "block-sidebar": {
+          "box_count": 923,
+          "screen_count": 693,
+          "group_count": 298,
+          "percentage_of_boxes": 0.0041578074885581465,
+          "viewport_box_counts": {
+            "desktop": 373,
+            "tablet": 335,
+            "mobile": 215
+          }
+        },
+        "block-footer": {
+          "box_count": 1946,
+          "screen_count": 1769,
+          "group_count": 734,
+          "percentage_of_boxes": 0.008766081660600382,
+          "viewport_box_counts": {
+            "desktop": 597,
+            "tablet": 800,
+            "mobile": 549
+          }
+        },
+        "block-form": {
+          "box_count": 2202,
+          "screen_count": 1972,
+          "group_count": 755,
+          "percentage_of_boxes": 0.009919276370319651,
+          "viewport_box_counts": {
+            "desktop": 765,
+            "tablet": 766,
+            "mobile": 671
+          }
+        },
+        "block-table": {
+          "box_count": 1331,
+          "screen_count": 1032,
+          "group_count": 362,
+          "percentage_of_boxes": 0.005995711557173231,
+          "viewport_box_counts": {
+            "desktop": 439,
+            "tablet": 477,
+            "mobile": 415
+          }
+        }
+      },
+      "sources": {
+        "adobe-spectrum": {
+          "group_count": 14,
+          "screen_count": 42
+        },
+        "audi-ui": {
+          "group_count": 30,
+          "screen_count": 90
+        },
+        "awwwards": {
+          "group_count": 318,
+          "screen_count": 954
+        },
+        "backstage": {
+          "group_count": 88,
+          "screen_count": 264
+        },
+        "bulma": {
+          "group_count": 9,
+          "screen_count": 27
+        },
+        "carbon": {
+          "group_count": 94,
+          "screen_count": 282
+        },
+        "chakra-ui-storybook": {
+          "group_count": 4,
+          "screen_count": 12
+        },
+        "codepen": {
+          "group_count": 1826,
+          "screen_count": 5478
+        },
+        "contentful-forma-36": {
+          "group_count": 52,
+          "screen_count": 156
+        },
+        "daisyui": {
+          "group_count": 6,
+          "screen_count": 18
+        },
+        "fluent-ui-react-v9": {
+          "group_count": 110,
+          "screen_count": 330
+        },
+        "frontend_mentor": {
+          "group_count": 270,
+          "screen_count": 810
+        },
+        "github": {
+          "group_count": 2906,
+          "screen_count": 8718
+        },
+        "glitch": {
+          "group_count": 14,
+          "screen_count": 42
+        },
+        "grafana-ui": {
+          "group_count": 29,
+          "screen_count": 87
+        },
+        "grommet": {
+          "group_count": 120,
+          "screen_count": 360
+        },
+        "jetbrains-ring-ui": {
+          "group_count": 24,
+          "screen_count": 72
+        },
+        "lapaninja": {
+          "group_count": 87,
+          "screen_count": 261
+        },
+        "mistica-web": {
+          "group_count": 28,
+          "screen_count": 84
+        },
+        "monday-vibe": {
+          "group_count": 32,
+          "screen_count": 96
+        },
+        "mui": {
+          "group_count": 1,
+          "screen_count": 3
+        },
+        "nextui": {
+          "group_count": 44,
+          "screen_count": 132
+        },
+        "onepagelove": {
+          "group_count": 435,
+          "screen_count": 1305
+        },
+        "orbit-kiwi": {
+          "group_count": 148,
+          "screen_count": 444
+        },
+        "primer-react": {
+          "group_count": 83,
+          "screen_count": 249
+        },
+        "sap-fundamental-styles": {
+          "group_count": 238,
+          "screen_count": 714
+        },
+        "siteinspire": {
+          "group_count": 17,
+          "screen_count": 51
+        },
+        "storybook-design-system": {
+          "group_count": 9,
+          "screen_count": 27
+        },
+        "tailwind-starter-kit": {
+          "group_count": 22,
+          "screen_count": 66
+        },
+        "three-drei": {
+          "group_count": 8,
+          "screen_count": 24
+        },
+        "w3schools": {
+          "group_count": 35,
+          "screen_count": 105
+        },
+        "wordpress-gutenberg": {
+          "group_count": 49,
+          "screen_count": 147
+        },
+        "wordpress_themes": {
+          "group_count": 535,
+          "screen_count": 1605
+        },
+        "workday-canvas": {
+          "group_count": 82,
+          "screen_count": 246
+        },
+        "zendesk-garden": {
+          "group_count": 6,
+          "screen_count": 18
+        }
+      }
+    },
+    "val": {
+      "groups": 1738,
+      "screens": 5214,
+      "labels": 5214,
+      "valid_boxes": 52104,
+      "viewports": {
+        "desktop": 1738,
+        "tablet": 1738,
+        "mobile": 1738
+      },
+      "negative_screens": 357,
+      "negative_groups": 145,
+      "unique_sources": 34,
+      "classes": {
+        "button": {
+          "box_count": 8699,
+          "screen_count": 2326,
+          "group_count": 845,
+          "percentage_of_boxes": 0.16695455243359436,
+          "viewport_box_counts": {
+            "desktop": 2844,
+            "tablet": 3190,
+            "mobile": 2665
+          }
+        },
+        "link": {
+          "box_count": 29837,
+          "screen_count": 3641,
+          "group_count": 1243,
+          "percentage_of_boxes": 0.5726431751880854,
+          "viewport_box_counts": {
+            "desktop": 10209,
+            "tablet": 11067,
+            "mobile": 8561
+          }
+        },
+        "input": {
+          "box_count": 2610,
+          "screen_count": 866,
+          "group_count": 312,
+          "percentage_of_boxes": 0.05009212344541686,
+          "viewport_box_counts": {
+            "desktop": 879,
+            "tablet": 928,
+            "mobile": 803
+          }
+        },
+        "image": {
+          "box_count": 7251,
+          "screen_count": 2312,
+          "group_count": 807,
+          "percentage_of_boxes": 0.139163979732842,
+          "viewport_box_counts": {
+            "desktop": 2321,
+            "tablet": 2780,
+            "mobile": 2150
+          }
+        },
+        "select": {
+          "box_count": 102,
+          "screen_count": 79,
+          "group_count": 29,
+          "percentage_of_boxes": 0.001957623215108245,
+          "viewport_box_counts": {
+            "desktop": 36,
+            "tablet": 35,
+            "mobile": 31
+          }
+        },
+        "block-nav": {
+          "box_count": 2139,
+          "screen_count": 1910,
+          "group_count": 692,
+          "percentage_of_boxes": 0.04105251036388761,
+          "viewport_box_counts": {
+            "desktop": 731,
+            "tablet": 710,
+            "mobile": 698
+          }
+        },
+        "block-sidebar": {
+          "box_count": 241,
+          "screen_count": 190,
+          "group_count": 79,
+          "percentage_of_boxes": 0.004625364655304775,
+          "viewport_box_counts": {
+            "desktop": 97,
+            "tablet": 84,
+            "mobile": 60
+          }
+        },
+        "block-footer": {
+          "box_count": 441,
+          "screen_count": 402,
+          "group_count": 167,
+          "percentage_of_boxes": 0.008463841547673883,
+          "viewport_box_counts": {
+            "desktop": 137,
+            "tablet": 183,
+            "mobile": 121
+          }
+        },
+        "block-form": {
+          "box_count": 558,
+          "screen_count": 464,
+          "group_count": 174,
+          "percentage_of_boxes": 0.010709350529709812,
+          "viewport_box_counts": {
+            "desktop": 192,
+            "tablet": 196,
+            "mobile": 170
+          }
+        },
+        "block-table": {
+          "box_count": 226,
+          "screen_count": 189,
+          "group_count": 69,
+          "percentage_of_boxes": 0.004337478888377092,
+          "viewport_box_counts": {
+            "desktop": 74,
+            "tablet": 83,
+            "mobile": 69
+          }
+        }
+      },
+      "sources": {
+        "adobe-spectrum": {
+          "group_count": 3,
+          "screen_count": 9
+        },
+        "audi-ui": {
+          "group_count": 7,
+          "screen_count": 21
+        },
+        "awwwards": {
+          "group_count": 77,
+          "screen_count": 231
+        },
+        "backstage": {
+          "group_count": 22,
+          "screen_count": 66
+        },
+        "bulma": {
+          "group_count": 2,
+          "screen_count": 6
+        },
+        "carbon": {
+          "group_count": 24,
+          "screen_count": 72
+        },
+        "chakra-ui-storybook": {
+          "group_count": 1,
+          "screen_count": 3
+        },
+        "codepen": {
+          "group_count": 283,
+          "screen_count": 849
+        },
+        "contentful-forma-36": {
+          "group_count": 13,
+          "screen_count": 39
+        },
+        "fluent-ui-react-v9": {
+          "group_count": 28,
+          "screen_count": 84
+        },
+        "frontend_mentor": {
+          "group_count": 67,
+          "screen_count": 201
+        },
+        "github": {
+          "group_count": 719,
+          "screen_count": 2157
+        },
+        "glitch": {
+          "group_count": 4,
+          "screen_count": 12
+        },
+        "grafana-ui": {
+          "group_count": 7,
+          "screen_count": 21
+        },
+        "grommet": {
+          "group_count": 30,
+          "screen_count": 90
+        },
+        "jetbrains-ring-ui": {
+          "group_count": 6,
+          "screen_count": 18
+        },
+        "lapaninja": {
+          "group_count": 22,
+          "screen_count": 66
+        },
+        "mistica-web": {
+          "group_count": 7,
+          "screen_count": 21
+        },
+        "monday-vibe": {
+          "group_count": 8,
+          "screen_count": 24
+        },
+        "mui": {
+          "group_count": 1,
+          "screen_count": 3
+        },
+        "nextui": {
+          "group_count": 11,
+          "screen_count": 33
+        },
+        "onepagelove": {
+          "group_count": 103,
+          "screen_count": 309
+        },
+        "orbit-kiwi": {
+          "group_count": 37,
+          "screen_count": 111
+        },
+        "primer-react": {
+          "group_count": 20,
+          "screen_count": 60
+        },
+        "sap-fundamental-styles": {
+          "group_count": 58,
+          "screen_count": 174
+        },
+        "siteinspire": {
+          "group_count": 4,
+          "screen_count": 12
+        },
+        "storybook-design-system": {
+          "group_count": 2,
+          "screen_count": 6
+        },
+        "tailwind-starter-kit": {
+          "group_count": 3,
+          "screen_count": 9
+        },
+        "three-drei": {
+          "group_count": 2,
+          "screen_count": 6
+        },
+        "w3schools": {
+          "group_count": 6,
+          "screen_count": 18
+        },
+        "wordpress-gutenberg": {
+          "group_count": 12,
+          "screen_count": 36
+        },
+        "wordpress_themes": {
+          "group_count": 127,
+          "screen_count": 381
+        },
+        "workday-canvas": {
+          "group_count": 20,
+          "screen_count": 60
+        },
+        "zendesk-garden": {
+          "group_count": 2,
+          "screen_count": 6
+        }
+      }
+    }
+  },
+  "leakage": {
+    "frozen_evaluation_groups": [],
+    "known_duplicate_groups": [],
+    "source_group_across_train_val": [],
+    "exact_image_hash_across_train_val": []
+  },
+  "integrity": {
+    "missing_images": [],
+    "missing_labels": [],
+    "orphan_labels": {
+      "train": [],
+      "val": []
+    },
+    "images_missing_labels": {
+      "train": [],
+      "val": []
+    },
+    "invalid_lines": [],
+    "corrupt_images": []
+  },
+  "extreme_source_domination": {
+    "train": [
+      {
+        "source": "github",
+        "group_count": 2906,
+        "screen_count": 8718,
+        "fraction_of_groups": 0.3738582271967065
+      }
+    ],
+    "val": [
+      {
+        "source": "github",
+        "group_count": 719,
+        "screen_count": 2157,
+        "fraction_of_groups": 0.41369390103567316
+      }
+    ]
+  }
+}

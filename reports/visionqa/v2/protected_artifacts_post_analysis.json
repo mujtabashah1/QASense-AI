@@ -1,0 +1,26 @@
+{
+  "verified_after_analysis": true,
+  "no_training_performed": true,
+  "artifacts": {
+    "models/risknet/risknet_v1.joblib": {
+      "expected": "b32efa3e83707f01bdf29bd7dbcaebe4d484aa9f81f44bf890b9a739deac913c",
+      "actual": "b32efa3e83707f01bdf29bd7dbcaebe4d484aa9f81f44bf890b9a739deac913c",
+      "unchanged": true
+    },
+    "models/codelocator_v2/line_localizer/model.safetensors": {
+      "expected": "9459bfa6b343fc749e5b7653df0f0def005d8781c89388d49466f83e6c0ec288",
+      "actual": "9459bfa6b343fc749e5b7653df0f0def005d8781c89388d49466f83e6c0ec288",
+      "unchanged": true
+    },
+    "models/visionqa/atomblock_yolo11n/best.pt": {
+      "expected": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+      "actual": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+      "unchanged": true
+    },
+    "models/visionqa/visionqa_v2_mixed14/candidate.pt": {
+      "expected": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+      "actual": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+      "unchanged": true
+    }
+  }
+}

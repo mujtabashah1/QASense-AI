@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T20:06:17.837696+00:00",
+  "result": "PASS",
+  "failures": [],
+  "partitions": {
+    "webui_train": {
+      "images": 23319,
+      "labels": 23319,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "invalid_lines": [],
+      "invalid_classes": [],
+      "invalid_boxes": [],
+      "class_counts": {
+        "0": 35690,
+        "1": 125627,
+        "2": 13020,
+        "3": 31502,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 715,
+        "8": 9036,
+        "9": 923,
+        "10": 1946,
+        "11": 2202,
+        "12": 1331,
+        "13": 0
+      }
+    },
+    "webui_val": {
+      "images": 5214,
+      "labels": 5214,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "invalid_lines": [],
+      "invalid_classes": [],
+      "invalid_boxes": [],
+      "class_counts": {
+        "0": 8699,
+        "1": 29837,
+        "2": 2610,
+        "3": 7251,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 102,
+        "8": 2139,
+        "9": 241,
+        "10": 441,
+        "11": 558,
+        "12": 226,
+        "13": 0
+      }
+    },
+    "atomblock_train": {
+      "images": 5420,
+      "labels": 5420,
+      "missing_labels": [],
+      "orphan_labels": [],
+      "invalid_lines": [],
+      "invalid_classes": [],
+      "invalid_boxes": [],
+      "class_counts": {
+        "0": 65221,
+        "1": 353446,
+        "2": 10631,
+        "3": 112979,
+        "4": 102474,
+        "5": 29780,
+        "6": 2609,
+        "7": 12203,
+        "8": 6384,
+        "9": 2027,
+        "10": 5085,
+        "11": 1256,
+        "12": 416,
+        "13": 55131
+      }
+    }
+  },
+  "mixed_train_images": 28739,
+  "webui_fraction": 0.8114061032047044,
+  "atomblock_fraction": 0.1885938967952956
+}

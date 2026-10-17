@@ -1,0 +1,150 @@
+{
+  "evaluated_at": "2026-10-13T01:00:42.120488+00:00",
+  "checkpoint": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+  "dataset": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\data.yaml",
+  "split": "test",
+  "configuration": {
+    "batch": 2,
+    "imgsz": 640,
+    "device": "0",
+    "workers": 2,
+    "max_det": 1500
+  },
+  "environment": {
+    "python": "3.14.8",
+    "torch": "2.14.1+cu126",
+    "torch_cuda": "12.6",
+    "ultralytics": "8.4.176",
+    "gpu": "NVIDIA T1200 Laptop GPU"
+  },
+  "runtime_seconds": 68.27241640002467,
+  "overall": {
+    "precision": 0.47382502683520494,
+    "recall": 0.4013196486286507,
+    "map50": 0.3775481936704068,
+    "map50_95": 0.2782520238296197
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "button",
+      "precision": 0.580872507865593,
+      "recall": 0.3687701096592028,
+      "ap50": 0.3873605612409874,
+      "ap50_95": 0.2588516879013223
+    },
+    {
+      "class_id": 1,
+      "class_name": "link",
+      "precision": 0.4428589089328259,
+      "recall": 0.32405584493019385,
+      "ap50": 0.28053832300204395,
+      "ap50_95": 0.12789521283401215
+    },
+    {
+      "class_id": 2,
+      "class_name": "input",
+      "precision": 0.50163641536642,
+      "recall": 0.3265968101821784,
+      "ap50": 0.3060443129405336,
+      "ap50_95": 0.18406214386059794
+    },
+    {
+      "class_id": 3,
+      "class_name": "image",
+      "precision": 0.8234869935084508,
+      "recall": 0.7524949108783079,
+      "ap50": 0.8018157757258315,
+      "ap50_95": 0.6533976942184058
+    },
+    {
+      "class_id": 4,
+      "class_name": "icon",
+      "precision": 0.47699277547449537,
+      "recall": 0.044883238005027505,
+      "ap50": 0.058762685312653704,
+      "ap50_95": 0.020560758077722105
+    },
+    {
+      "class_id": 5,
+      "class_name": "checkbox",
+      "precision": 0.20463974933058704,
+      "recall": 0.07891440501043841,
+      "ap50": 0.03930390435369769,
+      "ap50_95": 0.010000554309341136
+    },
+    {
+      "class_id": 6,
+      "class_name": "radio",
+      "precision": 0.19349393368657383,
+      "recall": 0.0014084507042253522,
+      "ap50": 0.01285457685275873,
+      "ap50_95": 0.004209126232937649
+    },
+    {
+      "class_id": 7,
+      "class_name": "select",
+      "precision": 0.4210795809304103,
+      "recall": 0.11793944871215545,
+      "ap50": 0.14766127961422576,
+      "ap50_95": 0.09514808788775496
+    },
+    {
+      "class_id": 8,
+      "class_name": "block-nav",
+      "precision": 0.5264843382127845,
+      "recall": 0.7544615384615385,
+      "ap50": 0.6683374744207331,
+      "ap50_95": 0.4546124667427819
+    },
+    {
+      "class_id": 9,
+      "class_name": "block-sidebar",
+      "precision": 0.5460484956635216,
+      "recall": 0.7335526315789473,
+      "ap50": 0.6426989869613862,
+      "ap50_95": 0.5146544330694616
+    },
+    {
+      "class_id": 10,
+      "class_name": "block-footer",
+      "precision": 0.7406302895418955,
+      "recall": 0.8405238828967643,
+      "ap50": 0.8794483960164836,
+      "ap50_95": 0.7804803778275342
+    },
+    {
+      "class_id": 11,
+      "class_name": "block-form",
+      "precision": 0.29325057337252797,
+      "recall": 0.22344322344322345,
+      "ap50": 0.19273500599786908,
+      "ap50_95": 0.1302454489561799
+    },
+    {
+      "class_id": 12,
+      "class_name": "block-table",
+      "precision": 0.3563960760736894,
+      "recall": 0.35714285714285715,
+      "ap50": 0.24329582262838678,
+      "ap50_95": 0.1717343011896861
+    },
+    {
+      "class_id": 13,
+      "class_name": "block",
+      "precision": 0.5256797377330936,
+      "recall": 0.6942877291960508,
+      "ap50": 0.6248176063181039,
+      "ap50_95": 0.48967604050693936
+    }
+  ],
+  "speed_ms_per_image": {
+    "preprocess": 0.8270997116814889,
+    "inference": 7.777925629895904,
+    "loss": 0.0031766019221140464,
+    "postprocess": 3.1427158380719806
+  },
+  "run_dir": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_test",
+  "confusion_matrix": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_test\\confusion_matrix.png",
+  "confusion_matrix_normalized": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_test\\confusion_matrix_normalized.png"
+}

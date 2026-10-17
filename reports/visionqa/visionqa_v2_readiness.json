@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T19:33:53.497139+00:00",
+  "training_ready": true,
+  "training_performed": false,
+  "conditions": {
+    "frozen_evaluation_leakage_zero": true,
+    "source_group_leakage_zero": true,
+    "known_and_observed_exact_duplicate_leakage_zero": true,
+    "annotations_valid": true,
+    "class_mapping_fixed": true,
+    "human_review_completed": true,
+    "train_validation_groups_sufficient": true,
+    "weak_classes_represented_in_both_splits": true
+  },
+  "weak_class_evidence": {
+    "select": {
+      "train_boxes": 715,
+      "train_groups": 165,
+      "val_boxes": 102,
+      "val_groups": 29
+    },
+    "block-nav": {
+      "train_boxes": 9036,
+      "train_groups": 2874,
+      "val_boxes": 2139,
+      "val_groups": 692
+    },
+    "block-sidebar": {
+      "train_boxes": 923,
+      "train_groups": 298,
+      "val_boxes": 241,
+      "val_groups": 79
+    },
+    "block-form": {
+      "train_boxes": 2202,
+      "train_groups": 755,
+      "val_boxes": 558,
+      "val_groups": 174
+    },
+    "block-table": {
+      "train_boxes": 1331,
+      "train_groups": 362,
+      "val_boxes": 226,
+      "val_groups": 69
+    }
+  },
+  "corpus": {
+    "path": "datasets/processed/visionqa_webui_v2",
+    "train_groups": 7773,
+    "validation_groups": 1738,
+    "train_screens": 23319,
+    "validation_screens": 5214,
+    "valid_boxes": 274096,
+    "dataset_manifest_sha256": "442c0f3d250f513463ca6188127a31240fab173e781fe630ddc6ffa4a52ced56",
+    "split_manifest_sha256": "4bc01ed12f211408760ca1a67f2db901dc59d9b8bddf1fa5bc55702b37d9add3"
+  },
+  "frozen_evaluation_manifest_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+  "decision": "Ready to run the separately authorized VisionQA v2 fine-tuning milestone.",
+  "exact_next_milestone": "Benchmark and run resumable YOLO11n fine-tuning from VisionQA v1 weights on this fixed corpus, selecting by corpus validation metrics and evaluating once on both the frozen WebUI slice and the original AtomBlock held-out domain."
+}

@@ -1,0 +1,8 @@
+{
+  "mean_ms": 24.333846364648814,
+  "median_ms": 19.361400045454502,
+  "p95_ms": 28.881200007162988,
+  "screens": 399,
+  "model_bytes": 20009359,
+  "checkpoint": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt"
+}

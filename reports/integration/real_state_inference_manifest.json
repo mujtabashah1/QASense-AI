@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\visionqa.json"
+    },
+    {
+      "image": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\viewport.png",
+      "output": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\visionqa.json"
+    }
+  ]
+}

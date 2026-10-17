@@ -1,0 +1,4824 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T07:42:19.160503+00:00",
+  "manifest": "C:\\QASense-AI\\reports\\integration\\real_state_manifest.json",
+  "state_count": 6,
+  "run_count": 12,
+  "repeatability": {
+    "desktop-default": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "65f7b196195edd4e2de179fa40e9357fbfe631c746c27bd2dd72a013b25cc2dd",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "65f7b196195edd4e2de179fa40e9357fbfe631c746c27bd2dd72a013b25cc2dd",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    },
+    "desktop-empty-email": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "684668df73a64bb0a8bf1e5b9d3e38e140526d2a9713b4704c6f1969c7243c46",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "684668df73a64bb0a8bf1e5b9d3e38e140526d2a9713b4704c6f1969c7243c46",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    },
+    "desktop-terms-unchecked": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 9,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 1,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 2,
+          "dom_count": 11,
+          "screenshot_sha256": "9dd10ec2e7881ea722527cd8a299e76dc5371e83ac3f29c9efd02a96a3602e1f",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 9,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 1,
+            "input": 2,
+            "link": 2
+          },
+          "matches": 7,
+          "conflicts": 2,
+          "dom_count": 11,
+          "screenshot_sha256": "9dd10ec2e7881ea722527cd8a299e76dc5371e83ac3f29c9efd02a96a3602e1f",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    },
+    "desktop-navigation-focus": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "image": 1,
+            "input": 2,
+            "link": 1
+          },
+          "matches": 6,
+          "conflicts": 4,
+          "dom_count": 11,
+          "screenshot_sha256": "001c6fbbc2ead85c656b3328b1136887767a74809fed00426d8ed90c6cff0256",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 10,
+          "classes": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "image": 1,
+            "input": 2,
+            "link": 1
+          },
+          "matches": 6,
+          "conflicts": 4,
+          "dom_count": 11,
+          "screenshot_sha256": "001c6fbbc2ead85c656b3328b1136887767a74809fed00426d8ed90c6cff0256",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    },
+    "tablet-default": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 8,
+          "classes": {
+            "block": 3,
+            "button": 1,
+            "icon": 2,
+            "input": 2
+          },
+          "matches": 6,
+          "conflicts": 1,
+          "dom_count": 11,
+          "screenshot_sha256": "ac372c0f26aa682188c89d5ff128e032cab85ab71514b15340f86fbb39018e35",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 8,
+          "classes": {
+            "block": 3,
+            "button": 1,
+            "icon": 2,
+            "input": 2
+          },
+          "matches": 6,
+          "conflicts": 1,
+          "dom_count": 11,
+          "screenshot_sha256": "ac372c0f26aa682188c89d5ff128e032cab85ab71514b15340f86fbb39018e35",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    },
+    "mobile-default": {
+      "stable": true,
+      "field_stability": {
+        "detections": true,
+        "classes": true,
+        "matches": true,
+        "conflicts": true,
+        "dom_count": true,
+        "screenshot_sha256": true,
+        "runtime_error_counts": true
+      },
+      "runs": [
+        {
+          "detections": 5,
+          "classes": {
+            "block": 4,
+            "icon": 1
+          },
+          "matches": 2,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "befbbc1773700ffdc81cbd8235aaf5fd48ab4aaec49c220844f3363aaa541198",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        },
+        {
+          "detections": 5,
+          "classes": {
+            "block": 4,
+            "icon": 1
+          },
+          "matches": 2,
+          "conflicts": 3,
+          "dom_count": 11,
+          "screenshot_sha256": "befbbc1773700ffdc81cbd8235aaf5fd48ab4aaec49c220844f3363aaa541198",
+          "runtime_error_counts": {
+            "page_error_count": 1,
+            "console_error_count": 2,
+            "request_failure_count": 1,
+            "http_error_count": 0,
+            "page_error_messages": [
+              "fixture page error"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "aggregate_review": {
+    "correct_detection": 56,
+    "semantic_conflicts": 32,
+    "wrong_class": 32,
+    "low_confidence_correct_detection": 14,
+    "missed_detection": 30,
+    "reviewed_elements": 132,
+    "correctly_detected_elements": 70,
+    "match_rate": 0.5303030303030303
+  },
+  "runs": [
+    {
+      "state_id": "desktop-default",
+      "repeat": 1,
+      "run_id": "real-state-desktop-default-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-default-r1-20261013",
+        "started_at": "2026-10-13T07:41:41.385991+00:00",
+        "finished_at": "2026-10-13T07:41:43.779274+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 26.30000001192093,
+          "load_event_ms": 50.10000002384186,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 348,
+            "first-contentful-paint": 348
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "low_confidence_correct_detection": 1,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9368514253672267,
+              "evidence": {
+                "iou": 0.9754823982931434,
+                "containment": 0.9987664964463976,
+                "center_score": 0.9994470028013364,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8063706159591675
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9368514253672267
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7340898780686409,
+              "evidence": {
+                "iou": 0.8228151867868796,
+                "containment": 0.9873396116630391,
+                "center_score": 0.9774724842008253,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.415466845035553
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7340898780686409
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7523451731893093,
+              "evidence": {
+                "iou": 0.79007985797205,
+                "containment": 1.0,
+                "center_score": 0.9738282260883628,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.48483431339263916
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7523451731893093
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.876832635109115,
+              "evidence": {
+                "iou": 0.9697985097059771,
+                "containment": 1.0,
+                "center_score": 0.9965303699488581,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6256838440895081
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.876832635109115
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.8137064063353436,
+              "evidence": {
+                "iou": 0.9458633988059497,
+                "containment": 0.9841461181640625,
+                "center_score": 0.9982315894111639,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.4907315969467163
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8137064063353436
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.30672673069728684,
+                  "containment": 1.0,
+                  "center_score": 0.9861946644809598,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.40388184785842896
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 9,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.26299155728495766,
+                  "containment": 1.0,
+                  "center_score": 0.9793059022347551,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.31300681829452515
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 7,
+              "score": 0.7558387192310988,
+              "evidence": {
+                "iou": 0.9076177507138381,
+                "containment": 0.9831598840583624,
+                "center_score": 0.9987092840069914,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.3925962746143341
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7558387192310988
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9379287164220041,
+              "evidence": {
+                "iou": 0.9226146160211064,
+                "containment": 0.9661327543712798,
+                "center_score": 0.9966952931012798,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9191474318504333
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9379287164220041
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 8,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.4062133940753284,
+                  "containment": 1.0,
+                  "center_score": 0.7655459865788913,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.3199690878391266
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 3590.051399951335
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:42.645209+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "65f7b196195edd4e2de179fa40e9357fbfe631c746c27bd2dd72a013b25cc2dd"
+      }
+    },
+    {
+      "state_id": "desktop-default",
+      "repeat": 2,
+      "run_id": "real-state-desktop-default-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-default-r2-20261013",
+        "started_at": "2026-10-13T07:41:43.785813+00:00",
+        "finished_at": "2026-10-13T07:41:46.101648+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 28.099999964237213,
+          "load_event_ms": 47.799999952316284,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 312,
+            "first-contentful-paint": 312
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-default-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "low_confidence_correct_detection": 1,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9368514253672267,
+              "evidence": {
+                "iou": 0.9754823982931434,
+                "containment": 0.9987664964463976,
+                "center_score": 0.9994470028013364,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8063706159591675
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9368514253672267
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7340898780686409,
+              "evidence": {
+                "iou": 0.8228151867868796,
+                "containment": 0.9873396116630391,
+                "center_score": 0.9774724842008253,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.415466845035553
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7340898780686409
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7523451731893093,
+              "evidence": {
+                "iou": 0.79007985797205,
+                "containment": 1.0,
+                "center_score": 0.9738282260883628,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.48483431339263916
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7523451731893093
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.876832635109115,
+              "evidence": {
+                "iou": 0.9697985097059771,
+                "containment": 1.0,
+                "center_score": 0.9965303699488581,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6256838440895081
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.876832635109115
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.8137064063353436,
+              "evidence": {
+                "iou": 0.9458633988059497,
+                "containment": 0.9841461181640625,
+                "center_score": 0.9982315894111639,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.4907315969467163
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8137064063353436
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.30672673069728684,
+                  "containment": 1.0,
+                  "center_score": 0.9861946644809598,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.40388184785842896
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 9,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.26299155728495766,
+                  "containment": 1.0,
+                  "center_score": 0.9793059022347551,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.31300681829452515
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 7,
+              "score": 0.7558387192310988,
+              "evidence": {
+                "iou": 0.9076177507138381,
+                "containment": 0.9831598840583624,
+                "center_score": 0.9987092840069914,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.3925962746143341
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7558387192310988
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9379287164220041,
+              "evidence": {
+                "iou": 0.9226146160211064,
+                "containment": 0.9661327543712798,
+                "center_score": 0.9966952931012798,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9191474318504333
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9379287164220041
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 8,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.4062133940753284,
+                  "containment": 1.0,
+                  "center_score": 0.7655459865788913,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.3199690878391266
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 55.4872999782674
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:44.997930+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "65f7b196195edd4e2de179fa40e9357fbfe631c746c27bd2dd72a013b25cc2dd"
+      }
+    },
+    {
+      "state_id": "desktop-empty-email",
+      "repeat": 1,
+      "run_id": "real-state-desktop-empty-email-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-empty-email-r1-20261013",
+        "started_at": "2026-10-13T07:41:46.108740+00:00",
+        "finished_at": "2026-10-13T07:41:48.425761+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "fill",
+            "selector": "#email",
+            "value": ""
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 25.19999998807907,
+          "load_event_ms": 41.19999998807907,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 288,
+            "first-contentful-paint": 288
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "low_confidence_correct_detection": 1,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9402814715316645,
+              "evidence": {
+                "iou": 0.976100686106938,
+                "containment": 0.9992092344495985,
+                "center_score": 0.999552099986534,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.816979706287384
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9402814715316645
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7364407136877266,
+              "evidence": {
+                "iou": 0.8253245752193314,
+                "containment": 0.9885508538978375,
+                "center_score": 0.9777229726826345,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.41823041439056396
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7364407136877266
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7531051359955084,
+              "evidence": {
+                "iou": 0.7931470617089589,
+                "containment": 1.0,
+                "center_score": 0.9738549259315353,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.4838181734085083
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7531051359955084
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8683946131220273,
+              "evidence": {
+                "iou": 0.9815297281087836,
+                "containment": 0.9916667938232422,
+                "center_score": 0.9997178849616368,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.5920574069023132
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8683946131220273
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.807952713574922,
+              "evidence": {
+                "iou": 0.9391209160880545,
+                "containment": 0.9705861063611222,
+                "center_score": 0.9976980659385379,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.488605797290802
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.807952713574922
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2951930045626116,
+                  "containment": 1.0,
+                  "center_score": 0.9910572005168479,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.4059286117553711
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 7,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2707535377390181,
+                  "containment": 1.0,
+                  "center_score": 0.9830407136372483,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.3626677989959717
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 8,
+              "score": 0.7347415581501575,
+              "evidence": {
+                "iou": 0.9056007333723658,
+                "containment": 0.9821722420547496,
+                "center_score": 0.9991742279174236,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.3520893156528473
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7347415581501575
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9387712093847469,
+              "evidence": {
+                "iou": 0.9216637216898173,
+                "containment": 0.9640401204427084,
+                "center_score": 0.9963193411264891,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.925940215587616
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9387712093847469
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 9,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40968842567192676,
+                  "containment": 1.0,
+                  "center_score": 0.7654596950840293,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.32998350262641907
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 29.121599975042045
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:47.245582+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "684668df73a64bb0a8bf1e5b9d3e38e140526d2a9713b4704c6f1969c7243c46"
+      }
+    },
+    {
+      "state_id": "desktop-empty-email",
+      "repeat": 2,
+      "run_id": "real-state-desktop-empty-email-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-empty-email-r2-20261013",
+        "started_at": "2026-10-13T07:41:48.432606+00:00",
+        "finished_at": "2026-10-13T07:41:50.911648+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "fill",
+            "selector": "#email",
+            "value": ""
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 27,
+          "load_event_ms": 43.60000002384186,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 300,
+            "first-contentful-paint": 300
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-empty-email-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "low_confidence_correct_detection": 1,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9402814715316645,
+              "evidence": {
+                "iou": 0.976100686106938,
+                "containment": 0.9992092344495985,
+                "center_score": 0.999552099986534,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.816979706287384
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9402814715316645
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7364407136877266,
+              "evidence": {
+                "iou": 0.8253245752193314,
+                "containment": 0.9885508538978375,
+                "center_score": 0.9777229726826345,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.41823041439056396
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7364407136877266
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7531051359955084,
+              "evidence": {
+                "iou": 0.7931470617089589,
+                "containment": 1.0,
+                "center_score": 0.9738549259315353,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.4838181734085083
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7531051359955084
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8683946131220273,
+              "evidence": {
+                "iou": 0.9815297281087836,
+                "containment": 0.9916667938232422,
+                "center_score": 0.9997178849616368,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.5920574069023132
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8683946131220273
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.807952713574922,
+              "evidence": {
+                "iou": 0.9391209160880545,
+                "containment": 0.9705861063611222,
+                "center_score": 0.9976980659385379,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.488605797290802
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.807952713574922
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2951930045626116,
+                  "containment": 1.0,
+                  "center_score": 0.9910572005168479,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.4059286117553711
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 7,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2707535377390181,
+                  "containment": 1.0,
+                  "center_score": 0.9830407136372483,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.3626677989959717
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 8,
+              "score": 0.7347415581501575,
+              "evidence": {
+                "iou": 0.9056007333723658,
+                "containment": 0.9821722420547496,
+                "center_score": 0.9991742279174236,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.3520893156528473
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7347415581501575
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9387712093847469,
+              "evidence": {
+                "iou": 0.9216637216898173,
+                "containment": 0.9640401204427084,
+                "center_score": 0.9963193411264891,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.925940215587616
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9387712093847469
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 9,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40968842567192676,
+                  "containment": 1.0,
+                  "center_score": 0.7654596950840293,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.32998350262641907
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 24.019000004045665
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:49.691988+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "684668df73a64bb0a8bf1e5b9d3e38e140526d2a9713b4704c6f1969c7243c46"
+      }
+    },
+    {
+      "state_id": "desktop-terms-unchecked",
+      "repeat": 1,
+      "run_id": "real-state-desktop-terms-unchecked-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-terms-unchecked-r1-20261013",
+        "started_at": "2026-10-13T07:41:50.922338+00:00",
+        "finished_at": "2026-10-13T07:41:53.324178+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "uncheck",
+            "selector": "#agree"
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 25.5,
+          "load_event_ms": 43.39999997615814,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 284,
+            "first-contentful-paint": 284
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "missed_detection": 2,
+          "semantic_conflicts": 2,
+          "wrong_class": 2,
+          "low_confidence_correct_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9374495332025028,
+              "evidence": {
+                "iou": 0.9757793467327505,
+                "containment": 0.9990964783562555,
+                "center_score": 0.9995310417168668,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8077380061149597
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9374495332025028
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7338064111609379,
+              "evidence": {
+                "iou": 0.8230328545729946,
+                "containment": 0.9875659639136598,
+                "center_score": 0.9774936454423911,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.414559930562973
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7338064111609379
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7520607506998294,
+              "evidence": {
+                "iou": 0.7896216317099852,
+                "containment": 1.0,
+                "center_score": 0.9738032448144716,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.4845527410507202
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7520607506998294
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8788484071042629,
+              "evidence": {
+                "iou": 0.9700119469774686,
+                "containment": 1.0,
+                "center_score": 0.996484345359335,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6312289834022522
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8788484071042629
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.8125080304245857,
+              "evidence": {
+                "iou": 0.9459560280444937,
+                "containment": 0.9843864440917969,
+                "center_score": 0.997938713188656,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.48775514960289
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8125080304245857
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 8,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.26329291897020796,
+                  "containment": 1.0,
+                  "center_score": 0.979992789503706,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.3020029664039612
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 6,
+              "score": 0.7548971256044185,
+              "evidence": {
+                "iou": 0.9078076009614221,
+                "containment": 0.9834678172814801,
+                "center_score": 0.998654316319411,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.39041659235954285
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7548971256044185
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9382422894707546,
+              "evidence": {
+                "iou": 0.9226081802270589,
+                "containment": 0.966156005859375,
+                "center_score": 0.9966513918093015,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9203957915306091
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9382422894707546
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 7,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40620334619764664,
+                  "containment": 1.0,
+                  "center_score": 0.7655512641369411,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.32140466570854187
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 9,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 1,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 32.57029998349026
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 2
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:52.105931+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "9dd10ec2e7881ea722527cd8a299e76dc5371e83ac3f29c9efd02a96a3602e1f"
+      }
+    },
+    {
+      "state_id": "desktop-terms-unchecked",
+      "repeat": 2,
+      "run_id": "real-state-desktop-terms-unchecked-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-terms-unchecked-r2-20261013",
+        "started_at": "2026-10-13T07:41:53.335105+00:00",
+        "finished_at": "2026-10-13T07:41:55.785648+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "uncheck",
+            "selector": "#agree"
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 24.100000023841858,
+          "load_event_ms": 40.40000003576279,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 284,
+            "first-contentful-paint": 284
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-terms-unchecked-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 6,
+          "missed_detection": 2,
+          "semantic_conflicts": 2,
+          "wrong_class": 2,
+          "low_confidence_correct_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 7,
+          "match_rate": 0.6363636363636364
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9374495332025028,
+              "evidence": {
+                "iou": 0.9757793467327505,
+                "containment": 0.9990964783562555,
+                "center_score": 0.9995310417168668,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8077380061149597
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9374495332025028
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 1,
+              "detection_index": 5,
+              "score": 0.7338064111609379,
+              "evidence": {
+                "iou": 0.8230328545729946,
+                "containment": 0.9875659639136598,
+                "center_score": 0.9774936454423911,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.414559930562973
+              },
+              "selector": "html > body > nav > a:nth-of-type(1)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7338064111609379
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 4,
+              "score": 0.7520607506998294,
+              "evidence": {
+                "iou": 0.7896216317099852,
+                "containment": 1.0,
+                "center_score": 0.9738032448144716,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.4845527410507202
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.7520607506998294
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8788484071042629,
+              "evidence": {
+                "iou": 0.9700119469774686,
+                "containment": 1.0,
+                "center_score": 0.996484345359335,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6312289834022522
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8788484071042629
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 3,
+              "score": 0.8125080304245857,
+              "evidence": {
+                "iou": 0.9459560280444937,
+                "containment": 0.9843864440917969,
+                "center_score": 0.997938713188656,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.48775514960289
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8125080304245857
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 8,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.26329291897020796,
+                  "containment": 1.0,
+                  "center_score": 0.979992789503706,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.3020029664039612
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 6,
+              "score": 0.7548971256044185,
+              "evidence": {
+                "iou": 0.9078076009614221,
+                "containment": 0.9834678172814801,
+                "center_score": 0.998654316319411,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.39041659235954285
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7548971256044185
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9382422894707546,
+              "evidence": {
+                "iou": 0.9226081802270589,
+                "containment": 0.966156005859375,
+                "center_score": 0.9966513918093015,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9203957915306091
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9382422894707546
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 7,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40620334619764664,
+                  "containment": 1.0,
+                  "center_score": 0.7655512641369411,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.32140466570854187
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 9,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 1,
+            "input": 2,
+            "link": 2
+          },
+          "inference_time_ms": 27.491599961649626
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 7,
+          "semantic_conflicts": 2
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:54.545084+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "9dd10ec2e7881ea722527cd8a299e76dc5371e83ac3f29c9efd02a96a3602e1f"
+      }
+    },
+    {
+      "state_id": "desktop-navigation-focus",
+      "repeat": 1,
+      "run_id": "real-state-desktop-navigation-focus-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-navigation-focus-r1-20261013",
+        "started_at": "2026-10-13T07:41:55.794107+00:00",
+        "finished_at": "2026-10-13T07:41:58.122352+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "focus",
+            "selector": "nav a:first-of-type"
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 28.5,
+          "load_event_ms": 48,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 320,
+            "first-contentful-paint": 320
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 4,
+          "semantic_conflicts": 4,
+          "wrong_class": 4,
+          "low_confidence_correct_detection": 2,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 6,
+          "match_rate": 0.5454545454545454
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9415168260277967,
+              "evidence": {
+                "iou": 0.9777205765485185,
+                "containment": 0.999710930718316,
+                "center_score": 0.9995584332192524,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8185296654701233
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9415168260277967
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 1,
+                "detection_index": 3,
+                "selector": "html > body > nav > a:nth-of-type(1)",
+                "tag": "a",
+                "role": "link",
+                "vision_class": "image",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7644574082408485,
+                  "containment": 1.0,
+                  "center_score": 0.9901031178289765,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "link"
+                  ],
+                  "detection_confidence": 0.6008467674255371
+                }
+              }
+            ]
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 6,
+              "score": 0.6958609823935513,
+              "evidence": {
+                "iou": 0.7357332877310451,
+                "containment": 1.0,
+                "center_score": 0.9788024690161895,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.394738107919693
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.6958609823935513
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8776386628399437,
+              "evidence": {
+                "iou": 0.9696118122796569,
+                "containment": 1.0,
+                "center_score": 0.9966249417048156,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.628165602684021
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8776386628399437
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 4,
+              "score": 0.8120215791704396,
+              "evidence": {
+                "iou": 0.9455249134587187,
+                "containment": 0.9839760462443033,
+                "center_score": 0.9981514295671855,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.4870772361755371
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8120215791704396
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 5,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.3085280613455198,
+                  "containment": 1.0,
+                  "center_score": 0.9861890721040867,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.40029850602149963
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 9,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2631349241882972,
+                  "containment": 1.0,
+                  "center_score": 0.9795497085859662,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.30980581045150757
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 7,
+              "score": 0.7414291764893359,
+              "evidence": {
+                "iou": 0.9045998304578521,
+                "containment": 0.9836675008208138,
+                "center_score": 0.9986221848071756,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.36544299125671387
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7414291764893359
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9382547241775924,
+              "evidence": {
+                "iou": 0.9225184149836373,
+                "containment": 0.9653647286551339,
+                "center_score": 0.9966889979430555,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9211868047714233
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9382547241775924
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 8,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40488387140665405,
+                  "containment": 1.0,
+                  "center_score": 0.7654710415375224,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.31827178597450256
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "image": 1,
+            "input": 2,
+            "link": 1
+          },
+          "inference_time_ms": 40.23750004125759
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 6,
+          "semantic_conflicts": 4
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:56.931114+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "001c6fbbc2ead85c656b3328b1136887767a74809fed00426d8ed90c6cff0256"
+      }
+    },
+    {
+      "state_id": "desktop-navigation-focus",
+      "repeat": 2,
+      "run_id": "real-state-desktop-navigation-focus-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-desktop-navigation-focus-r2-20261013",
+        "started_at": "2026-10-13T07:41:58.129986+00:00",
+        "finished_at": "2026-10-13T07:42:00.508557+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document_size": {
+          "width": 1440,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [
+          {
+            "action": "focus",
+            "selector": "nav a:first-of-type"
+          }
+        ],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 25.900000035762787,
+          "load_event_ms": 43.30000001192093,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 304,
+            "first-contentful-paint": 304
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-desktop-navigation-focus-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 4,
+          "semantic_conflicts": 4,
+          "wrong_class": 4,
+          "low_confidence_correct_detection": 2,
+          "missed_detection": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 6,
+          "match_rate": 0.5454545454545454
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.9415168260277967,
+              "evidence": {
+                "iou": 0.9777205765485185,
+                "containment": 0.999710930718316,
+                "center_score": 0.9995584332192524,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.8185296654701233
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block-nav",
+              "match_confidence": 0.9415168260277967
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 1,
+                "detection_index": 3,
+                "selector": "html > body > nav > a:nth-of-type(1)",
+                "tag": "a",
+                "role": "link",
+                "vision_class": "image",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7644574082408485,
+                  "containment": 1.0,
+                  "center_score": 0.9901031178289765,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "link"
+                  ],
+                  "detection_confidence": 0.6008467674255371
+                }
+              }
+            ]
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 2,
+              "detection_index": 6,
+              "score": 0.6958609823935513,
+              "evidence": {
+                "iou": 0.7357332877310451,
+                "containment": 1.0,
+                "center_score": 0.9788024690161895,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "link"
+                ],
+                "detection_confidence": 0.394738107919693
+              },
+              "selector": "html > body > nav > a:nth-of-type(2)",
+              "tag": "a",
+              "role": "link",
+              "vision_class": "link",
+              "match_confidence": 0.6958609823935513
+            }
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 2,
+              "score": 0.8776386628399437,
+              "evidence": {
+                "iou": 0.9696118122796569,
+                "containment": 1.0,
+                "center_score": 0.9966249417048156,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.628165602684021
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.8776386628399437
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 4,
+              "score": 0.8120215791704396,
+              "evidence": {
+                "iou": 0.9455249134587187,
+                "containment": 0.9839760462443033,
+                "center_score": 0.9981514295671855,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.4870772361755371
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.8120215791704396
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 5,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.3085280613455198,
+                  "containment": 1.0,
+                  "center_score": 0.9861890721040867,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.40029850602149963
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 9,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.2631349241882972,
+                  "containment": 1.0,
+                  "center_score": 0.9795497085859662,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.30980581045150757
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 7,
+              "score": 0.7414291764893359,
+              "evidence": {
+                "iou": 0.9045998304578521,
+                "containment": 0.9836675008208138,
+                "center_score": 0.9986221848071756,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.36544299125671387
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7414291764893359
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9382547241775924,
+              "evidence": {
+                "iou": 0.9225184149836373,
+                "containment": 0.9653647286551339,
+                "center_score": 0.9966889979430555,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.9211868047714233
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9382547241775924
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 10,
+                "detection_index": 8,
+                "selector": "html > body > main > table",
+                "tag": "table",
+                "role": "table",
+                "vision_class": "button",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.40488387140665405,
+                  "containment": 1.0,
+                  "center_score": 0.7654710415375224,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "block",
+                    "block-table"
+                  ],
+                  "detection_confidence": 0.31827178597450256
+                }
+              }
+            ]
+          }
+        ],
+        "visionqa": {
+          "detection_count": 10,
+          "counts_by_class": {
+            "block": 1,
+            "block-nav": 1,
+            "button": 2,
+            "icon": 2,
+            "image": 1,
+            "input": 2,
+            "link": 1
+          },
+          "inference_time_ms": 41.77650000201538
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 6,
+          "semantic_conflicts": 4
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:41:59.309870+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "001c6fbbc2ead85c656b3328b1136887767a74809fed00426d8ed90c6cff0256"
+      }
+    },
+    {
+      "state_id": "tablet-default",
+      "repeat": 1,
+      "run_id": "real-state-tablet-default-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-tablet-default-r1-20261013",
+        "started_at": "2026-10-13T07:42:00.517117+00:00",
+        "finished_at": "2026-10-13T07:42:02.673780+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "document_size": {
+          "width": 768,
+          "height": 1024
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 23.600000023841858,
+          "load_event_ms": 39.80000001192093,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 284,
+            "first-contentful-paint": 284
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 4,
+          "missed_detection": 4,
+          "low_confidence_correct_detection": 2,
+          "semantic_conflicts": 1,
+          "wrong_class": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 6,
+          "match_rate": 0.5454545454545454
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 2,
+              "score": 0.8610094203356226,
+              "evidence": {
+                "iou": 0.9822060911911564,
+                "containment": 1.0,
+                "center_score": 0.9979597192776054,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.5682424306869507
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block",
+              "match_confidence": 0.8610094203356226
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 1,
+              "score": 0.9180137127874862,
+              "evidence": {
+                "iou": 0.9791577364776272,
+                "containment": 0.9906361032039561,
+                "center_score": 0.9962770712952101,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.7447924613952637
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.9180137127874862
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 7,
+              "score": 0.7118158175522288,
+              "evidence": {
+                "iou": 0.9827868501356798,
+                "containment": 0.9977741332281204,
+                "center_score": 0.9961602578685577,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.26593017578125
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.7118158175522288
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.31949933541208614,
+                  "containment": 1.0,
+                  "center_score": 0.9972725760708829,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.3138638436794281
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 4,
+              "score": 0.7797854196752341,
+              "evidence": {
+                "iou": 0.9296424564449901,
+                "containment": 1.0,
+                "center_score": 0.9994229371857432,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.4206741750240326
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7797854196752341
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9025334262853426,
+              "evidence": {
+                "iou": 0.9432558183786977,
+                "containment": 0.9713322805172458,
+                "center_score": 0.9979765020966092,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.7543688416481018
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9025334262853426
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 10,
+              "detection_index": 5,
+              "score": 0.40251242219400674,
+              "evidence": {
+                "iou": 0.015648925100337732,
+                "containment": 1.0,
+                "center_score": 0.7627141813053155,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-table"
+                ],
+                "detection_confidence": 0.3550334870815277
+              },
+              "selector": "html > body > main > table",
+              "tag": "table",
+              "role": "table",
+              "vision_class": "block",
+              "match_confidence": 0.40251242219400674
+            }
+          }
+        ],
+        "visionqa": {
+          "detection_count": 8,
+          "counts_by_class": {
+            "block": 3,
+            "button": 1,
+            "icon": 2,
+            "input": 2
+          },
+          "inference_time_ms": 36.0907000140287
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 6,
+          "semantic_conflicts": 1
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:42:01.632391+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "ac372c0f26aa682188c89d5ff128e032cab85ab71514b15340f86fbb39018e35"
+      }
+    },
+    {
+      "state_id": "tablet-default",
+      "repeat": 2,
+      "run_id": "real-state-tablet-default-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-tablet-default-r2-20261013",
+        "started_at": "2026-10-13T07:42:02.681117+00:00",
+        "finished_at": "2026-10-13T07:42:04.947357+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "document_size": {
+          "width": 768,
+          "height": 1024
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 25.099999964237213,
+          "load_event_ms": 44.5,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 324,
+            "first-contentful-paint": 324
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-tablet-default-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 4,
+          "missed_detection": 4,
+          "low_confidence_correct_detection": 2,
+          "semantic_conflicts": 1,
+          "wrong_class": 1,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 6,
+          "match_rate": 0.5454545454545454
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 2,
+              "score": 0.8610094203356226,
+              "evidence": {
+                "iou": 0.9822060911911564,
+                "containment": 1.0,
+                "center_score": 0.9979597192776054,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.5682424306869507
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block",
+              "match_confidence": 0.8610094203356226
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 1,
+              "score": 0.9180137127874862,
+              "evidence": {
+                "iou": 0.9791577364776272,
+                "containment": 0.9906361032039561,
+                "center_score": 0.9962770712952101,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.7447924613952637
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.9180137127874862
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 4,
+              "detection_index": 7,
+              "score": 0.7118158175522288,
+              "evidence": {
+                "iou": 0.9827868501356798,
+                "containment": 0.9977741332281204,
+                "center_score": 0.9961602578685577,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input"
+                ],
+                "detection_confidence": 0.26593017578125
+              },
+              "selector": "#email",
+              "tag": "input",
+              "role": "textbox",
+              "vision_class": "input",
+              "match_confidence": 0.7118158175522288
+            }
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 5,
+                "detection_index": 6,
+                "selector": "#agree",
+                "tag": "input",
+                "role": "checkbox",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.31949933541208614,
+                  "containment": 1.0,
+                  "center_score": 0.9972725760708829,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "checkbox",
+                    "input"
+                  ],
+                  "detection_confidence": 0.3138638436794281
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 7,
+              "detection_index": 4,
+              "score": 0.7797854196752341,
+              "evidence": {
+                "iou": 0.9296424564449901,
+                "containment": 1.0,
+                "center_score": 0.9994229371857432,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "input",
+                  "select"
+                ],
+                "detection_confidence": 0.4206741750240326
+              },
+              "selector": "#country",
+              "tag": "select",
+              "role": "combobox",
+              "vision_class": "input",
+              "match_confidence": 0.7797854196752341
+            }
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 8,
+              "detection_index": 0,
+              "score": 0.9025334262853426,
+              "evidence": {
+                "iou": 0.9432558183786977,
+                "containment": 0.9713322805172458,
+                "center_score": 0.9979765020966092,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "button"
+                ],
+                "detection_confidence": 0.7543688416481018
+              },
+              "selector": "#submit",
+              "tag": "button",
+              "role": "button",
+              "vision_class": "button",
+              "match_confidence": 0.9025334262853426
+            }
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "low_confidence_correct_detection",
+            "evidence": {
+              "dom_index": 10,
+              "detection_index": 5,
+              "score": 0.40251242219400674,
+              "evidence": {
+                "iou": 0.015648925100337732,
+                "containment": 1.0,
+                "center_score": 0.7627141813053155,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-table"
+                ],
+                "detection_confidence": 0.3550334870815277
+              },
+              "selector": "html > body > main > table",
+              "tag": "table",
+              "role": "table",
+              "vision_class": "block",
+              "match_confidence": 0.40251242219400674
+            }
+          }
+        ],
+        "visionqa": {
+          "detection_count": 8,
+          "counts_by_class": {
+            "block": 3,
+            "button": 1,
+            "icon": 2,
+            "input": 2
+          },
+          "inference_time_ms": 31.724700005725026
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 6,
+          "semantic_conflicts": 1
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:42:03.801371+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "ac372c0f26aa682188c89d5ff128e032cab85ab71514b15340f86fbb39018e35"
+      }
+    },
+    {
+      "state_id": "mobile-default",
+      "repeat": 1,
+      "run_id": "real-state-mobile-default-r1-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-mobile-default-r1-20261013",
+        "started_at": "2026-10-13T07:42:04.958621+00:00",
+        "finished_at": "2026-10-13T07:42:07.206518+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document_size": {
+          "width": 502,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 27.600000023841858,
+          "load_event_ms": 45.89999997615814,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 304,
+            "first-contentful-paint": 304
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r1-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 2,
+          "missed_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 2,
+          "match_rate": 0.18181818181818182
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.7821472994233052,
+              "evidence": {
+                "iou": 0.9667238636516029,
+                "containment": 0.9871431150972773,
+                "center_score": 0.9974909314767902,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.4023187458515167
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block",
+              "match_confidence": 0.7821472994233052
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 0,
+              "score": 0.7919752486932434,
+              "evidence": {
+                "iou": 0.7563982014966841,
+                "containment": 1.0,
+                "center_score": 0.906878941166104,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6668299436569214
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.7919752486932434
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 4,
+                "detection_index": 3,
+                "selector": "#email",
+                "tag": "input",
+                "role": "textbox",
+                "vision_class": "block",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7711292854836367,
+                  "containment": 1.0,
+                  "center_score": 0.8974264171958565,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input"
+                  ],
+                  "detection_confidence": 0.36111676692962646
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 4,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.27197647363697125,
+                  "containment": 1.0,
+                  "center_score": 0.9939042198443668,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.26021042466163635
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 8,
+                "detection_index": 2,
+                "selector": "#submit",
+                "tag": "button",
+                "role": "button",
+                "vision_class": "block",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7769055657059557,
+                  "containment": 0.9938038427734615,
+                  "center_score": 0.8959447144522656,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "button"
+                  ],
+                  "detection_confidence": 0.38859233260154724
+                }
+              }
+            ]
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          }
+        ],
+        "visionqa": {
+          "detection_count": 5,
+          "counts_by_class": {
+            "block": 4,
+            "icon": 1
+          },
+          "inference_time_ms": 36.23149998020381
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 2,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:42:06.090250+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "befbbc1773700ffdc81cbd8235aaf5fd48ab4aaec49c220844f3363aaa541198"
+      }
+    },
+    {
+      "state_id": "mobile-default",
+      "repeat": 2,
+      "run_id": "real-state-mobile-default-r2-20261013",
+      "run_dir": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013",
+      "metadata": {
+        "schema_version": "1.0",
+        "run_id": "real-state-mobile-default-r2-20261013",
+        "started_at": "2026-10-13T07:42:07.214423+00:00",
+        "finished_at": "2026-10-13T07:42:09.419582+00:00",
+        "requested_url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+        "title": "QASense Runtime Fixture",
+        "navigation_status": 200,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document_size": {
+          "width": 502,
+          "height": 1018
+        },
+        "browser_channel": "msedge",
+        "headless": true,
+        "setup_actions": [],
+        "timing": {
+          "dns_ms": 0,
+          "connect_ms": 0,
+          "ttfb_ms": 0,
+          "dom_content_loaded_ms": 26.400000035762787,
+          "load_event_ms": 44.10000002384186,
+          "transfer_size_bytes": 2195,
+          "encoded_body_size_bytes": 1895,
+          "decoded_body_size_bytes": 1895,
+          "paints_ms": {
+            "first-paint": 324,
+            "first-contentful-paint": 324
+          }
+        },
+        "artifacts": {
+          "viewport_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\viewport.png",
+          "full_page_screenshot": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\full_page.png",
+          "dom": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\dom.json",
+          "console": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\console.json",
+          "network": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\network.json",
+          "errors": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\errors.json",
+          "trace": "C:\\QASense-AI\\runs\\playwright\\real-state-mobile-default-r2-20261013\\trace.zip"
+        }
+      },
+      "review": {
+        "counts": {
+          "correct_detection": 2,
+          "missed_detection": 6,
+          "semantic_conflicts": 3,
+          "wrong_class": 3,
+          "reviewed_elements": 11,
+          "correctly_detected_elements": 2,
+          "match_rate": 0.18181818181818182
+        },
+        "decisions": [
+          {
+            "selector": "html > body > nav",
+            "name": "primary navigation",
+            "classes": [
+              "block-nav",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 0,
+              "detection_index": 1,
+              "score": 0.7821472994233052,
+              "evidence": {
+                "iou": 0.9667238636516029,
+                "containment": 0.9871431150972773,
+                "center_score": 0.9974909314767902,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-nav"
+                ],
+                "detection_confidence": 0.4023187458515167
+              },
+              "selector": "html > body > nav",
+              "tag": "nav",
+              "role": "navigation",
+              "vision_class": "block",
+              "match_confidence": 0.7821472994233052
+            }
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(1)",
+            "name": "checkout link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > nav > a:nth-of-type(2)",
+            "name": "status link",
+            "classes": [
+              "link"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#form",
+            "name": "checkout form",
+            "classes": [
+              "block-form",
+              "block"
+            ],
+            "decision": "correct_detection",
+            "evidence": {
+              "dom_index": 3,
+              "detection_index": 0,
+              "score": 0.7919752486932434,
+              "evidence": {
+                "iou": 0.7563982014966841,
+                "containment": 1.0,
+                "center_score": 0.906878941166104,
+                "class_compatible": true,
+                "compatible_vision_classes": [
+                  "block",
+                  "block-form"
+                ],
+                "detection_confidence": 0.6668299436569214
+              },
+              "selector": "#form",
+              "tag": "form",
+              "role": "form",
+              "vision_class": "block",
+              "match_confidence": 0.7919752486932434
+            }
+          },
+          {
+            "selector": "#email",
+            "name": "email input",
+            "classes": [
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 4,
+                "detection_index": 3,
+                "selector": "#email",
+                "tag": "input",
+                "role": "textbox",
+                "vision_class": "block",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7711292854836367,
+                  "containment": 1.0,
+                  "center_score": 0.8974264171958565,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input"
+                  ],
+                  "detection_confidence": 0.36111676692962646
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#agree",
+            "name": "terms checkbox",
+            "classes": [
+              "checkbox",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#ship",
+            "name": "shipping radio",
+            "classes": [
+              "radio",
+              "input"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 6,
+                "detection_index": 4,
+                "selector": "#ship",
+                "tag": "input",
+                "role": "radio",
+                "vision_class": "icon",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.27197647363697125,
+                  "containment": 1.0,
+                  "center_score": 0.9939042198443668,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "input",
+                    "radio"
+                  ],
+                  "detection_confidence": 0.26021042466163635
+                }
+              }
+            ]
+          },
+          {
+            "selector": "#country",
+            "name": "country select",
+            "classes": [
+              "select",
+              "input"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "#submit",
+            "name": "submit button",
+            "classes": [
+              "button"
+            ],
+            "decision": "wrong_class",
+            "evidence": [
+              {
+                "dom_index": 8,
+                "detection_index": 2,
+                "selector": "#submit",
+                "tag": "button",
+                "role": "button",
+                "vision_class": "block",
+                "reason": "strong_geometry_but_incompatible_class",
+                "evidence": {
+                  "iou": 0.7769055657059557,
+                  "containment": 0.9938038427734615,
+                  "center_score": 0.8959447144522656,
+                  "class_compatible": false,
+                  "compatible_vision_classes": [
+                    "button"
+                  ],
+                  "detection_confidence": 0.38859233260154724
+                }
+              }
+            ]
+          },
+          {
+            "selector": "html > body > main > img",
+            "name": "product image",
+            "classes": [
+              "image"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          },
+          {
+            "selector": "html > body > main > table",
+            "name": "item table",
+            "classes": [
+              "block-table",
+              "block"
+            ],
+            "decision": "missed_detection",
+            "evidence": "no compatible or strong-overlap detection"
+          }
+        ],
+        "visionqa": {
+          "detection_count": 5,
+          "counts_by_class": {
+            "block": 4,
+            "icon": 1
+          },
+          "inference_time_ms": 17.52150000538677
+        },
+        "dom_count": 11,
+        "matching": {
+          "match_count": 2,
+          "semantic_conflicts": 3
+        },
+        "runtime_errors": {
+          "page_errors": [
+            {
+              "timestamp": "2026-10-13T07:42:08.352544+00:00",
+              "name": "Error",
+              "message": "fixture page error"
+            }
+          ],
+          "console_error_count": 2,
+          "request_failure_count": 1,
+          "http_error_count": 0
+        },
+        "screenshot_sha256": "befbbc1773700ffdc81cbd8235aaf5fd48ab4aaec49c220844f3363aaa541198"
+      }
+    }
+  ],
+  "limitation": "Existing local fixture fallback; this is broader state/viewport validation but not an external production application benchmark."
+}

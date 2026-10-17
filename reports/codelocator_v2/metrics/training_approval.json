@@ -1,0 +1,6 @@
+{
+  "approved": true,
+  "date": "2026-10-09",
+  "scope": "CodeLocator v2 GPU training on the existing position-debiased splits",
+  "authorization": "User approved the v2 pre-training debiasing review and instructed training to start automatically after throughput benchmarking."
+}

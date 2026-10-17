@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qasense.local/schemas/product-evidence-v1.json",
+  "title": "QASense Analysis Run",
+  "type": "object",
+  "required": ["schema_version", "run_id", "status", "target", "timing", "qa_score", "risk", "code", "runtime", "visual", "findings", "recommendations", "test_suggestions", "regression_priority", "artifacts", "errors"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["queued", "running", "completed", "partial", "failed"]},
+    "target": {"type": "object"}, "timing": {"type": "object"}, "qa_score": {"type": "integer", "minimum": 0, "maximum": 100},
+    "risk": {"type": "object"}, "code": {"type": "object"},
+    "runtime": {"type": "object"}, "visual": {"type": "object"},
+    "findings": {"type": "array", "items": {"$ref": "#/$defs/finding"}},
+    "recommendations": {"type": "array", "items": {"type": "object"}},
+    "test_suggestions": {"type": "array", "items": {"type": "object"}},
+    "regression_priority": {"type": "array", "items": {"type": "object"}},
+    "artifacts": {"type": "object"}, "errors": {"type": "array"}
+  },
+  "$defs": {"finding": {"type": "object", "required": ["id", "title", "category", "entity", "severity", "confidence", "evidence", "fusion_method"], "properties": {"severity": {"enum": ["critical", "high", "medium", "low", "info"]}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}, "evidence": {"type": "array", "minItems": 1}, "fusion_method": {"const": "deterministic_rules_v1"}}}}
+}

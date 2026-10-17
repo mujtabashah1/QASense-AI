@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "run_id": "portfolio-demo-final-20261017",
+  "status": "PASS",
+  "analysis_status": "completed",
+  "qa_score": 58,
+  "modalities": {"risknet": "available", "codelocator_v2": "available", "playwright_runtime": "available", "visionqa_v1": "available", "dom_vision_matching": "available", "visual_rules": "available"},
+  "outputs": {"findings": 10, "recommendations": 10, "test_suggestions": 10, "regression_priorities": 10},
+  "timing_ms": {"total": 138502.61, "playwright": 2486.43, "visionqa_process": 8899.09, "visionqa_inference": 3491.8752000667155, "fusion": 0.593, "recommendation_test_priority": 0.127},
+  "api_dashboard_verification": {"run_endpoint": "PASS", "model_status_endpoint": "PASS", "dashboard_route": "PASS", "annotated_artifact_route": "PASS"},
+  "errors": [],
+  "analysis_path": "runs/product/portfolio-demo-final-20261017/analysis.json",
+  "browser_artifact_path": "runs/playwright/portfolio-demo-final-20261017-browser"
+}

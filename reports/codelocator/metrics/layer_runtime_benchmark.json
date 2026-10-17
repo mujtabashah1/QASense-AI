@@ -1,0 +1,67 @@
+{
+  "final_four_bug_type": {
+    "steps_measured": 30,
+    "mean_seconds_per_optimizer_step": 0.437616796666407,
+    "peak_gpu_allocated_gb": 0.9146432876586914,
+    "layer_policy": {
+      "encoder_layer_indexing": "zero-based",
+      "frozen_embeddings": true,
+      "frozen_encoder_layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "trained_encoder_layers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "trained_head": "classifier (dense and out_proj)",
+      "trainable_parameters": 28952846,
+      "total_parameters": 124656398,
+      "policy": "Only final four encoder layers and task head; no training dataset or split reduction"
+    },
+    "note": "Temporary runtime benchmark; no weights saved, no evaluation results, no change to prepared data or splits."
+  },
+  "final_four_localizer": {
+    "steps_measured": 30,
+    "mean_seconds_per_optimizer_step": 3.7683578500006356,
+    "peak_gpu_allocated_gb": 0.9181509017944336,
+    "layer_policy": {
+      "encoder_layer_indexing": "zero-based",
+      "frozen_embeddings": true,
+      "frozen_encoder_layers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "trained_encoder_layers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "trained_head": "classifier (dense and out_proj)",
+      "trainable_parameters": 28943618,
+      "total_parameters": 124647170,
+      "policy": "Only final four encoder layers and task head; no training dataset or split reduction"
+    },
+    "note": "Temporary runtime benchmark; no weights saved, no evaluation results, no change to prepared data or splits."
+  },
+  "full_encoder_bug_type_observation": {
+    "steps_observed": 500,
+    "approximate_elapsed_seconds": 500
+  },
+  "planned_epochs": 3
+}

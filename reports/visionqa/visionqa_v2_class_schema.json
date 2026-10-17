@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-13T08:58:43.700907+00:00",
+  "classes": [
+    {
+      "v2_class_id": 0,
+      "class_name": "button",
+      "original_atomblock_class_id": 0,
+      "webui_source_labels": [
+        "button"
+      ],
+      "mapping_type": "exact",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 1,
+      "class_name": "link",
+      "original_atomblock_class_id": 1,
+      "webui_source_labels": [
+        "a"
+      ],
+      "mapping_type": "exact",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 2,
+      "class_name": "input",
+      "original_atomblock_class_id": 2,
+      "webui_source_labels": [
+        "input",
+        "textarea"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 3,
+      "class_name": "image",
+      "original_atomblock_class_id": 3,
+      "webui_source_labels": [
+        "img"
+      ],
+      "mapping_type": "exact",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 4,
+      "class_name": "select",
+      "original_atomblock_class_id": 7,
+      "webui_source_labels": [
+        "select"
+      ],
+      "mapping_type": "exact",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 5,
+      "class_name": "block-nav",
+      "original_atomblock_class_id": 8,
+      "webui_source_labels": [
+        "nav"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 6,
+      "class_name": "block-sidebar",
+      "original_atomblock_class_id": 9,
+      "webui_source_labels": [
+        "aside"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "medium"
+    },
+    {
+      "v2_class_id": 7,
+      "class_name": "block-footer",
+      "original_atomblock_class_id": 10,
+      "webui_source_labels": [
+        "footer"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 8,
+      "class_name": "block-form",
+      "original_atomblock_class_id": 11,
+      "webui_source_labels": [
+        "form"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "high"
+    },
+    {
+      "v2_class_id": 9,
+      "class_name": "block-table",
+      "original_atomblock_class_id": 12,
+      "webui_source_labels": [
+        "table"
+      ],
+      "mapping_type": "compatible",
+      "mapping_confidence": "high"
+    }
+  ],
+  "excluded_atomblock_classes": [
+    "icon",
+    "checkbox",
+    "radio",
+    "block"
+  ]
+}

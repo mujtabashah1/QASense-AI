@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "manifest_content_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+  "candidate_sha256": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+  "threshold": 0.0625,
+  "screens": 399,
+  "groups": 133,
+  "inference_manifest": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14\\frozen_inference_manifest_conf00625.json",
+  "inference_manifest_sha256": "2793bd5286518e89524f7ce023f77952edb3e560504a00010ddcb458df4cc85b",
+  "output_directory": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14\\frozen_webui_predictions_conf00625",
+  "output_directory_preexisting": false,
+  "original_predictions_preserved": true
+}

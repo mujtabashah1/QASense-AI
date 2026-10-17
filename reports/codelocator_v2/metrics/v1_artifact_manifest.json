@@ -1,0 +1,7 @@
+{
+  "models/codelocator/line_localizer/model.safetensors": {"sha256": "0e5463f1c7c80915a76297a896772b576771fe92d7b7678c4e3f4dd85e7270f8", "bytes": 498612824},
+  "models/codelocator/line_localizer/evaluation.json": {"sha256": "e1320b765a7baa908344043fc1b98c623061a24ad23a17f64827805d9113c067", "bytes": 3782},
+  "models/codelocator/bug_type_classifier/model.safetensors": {"sha256": "b8c07ba44e786179e269c4228829da2295da1ca570aca6b21d821e09c6c0da55", "bytes": 498649736},
+  "reports/codelocator/CODELOCATOR_MODEL_REPORT.md": {"sha256": "c9d823d864dff57e73785d778eefdf9fb0fb37ba7c6049429fc61270c9163920", "bytes": 15848},
+  "reports/codelocator/metrics/localization.json": {"sha256": "e1320b765a7baa908344043fc1b98c623061a24ad23a17f64827805d9113c067", "bytes": 3782}
+}

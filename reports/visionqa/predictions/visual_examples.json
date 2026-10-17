@@ -1,0 +1,84 @@
+{
+  "checkpoint": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+  "confidence": 0.25,
+  "iou_match_threshold": 0.5,
+  "legend": {
+    "green": "matched prediction",
+    "orange": "false-positive prediction",
+    "red": "unmatched ground-truth box (miss)"
+  },
+  "examples": {
+    "correct_detections": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00008-of-00011-555923175d587f8c_0e162c98-6aa4-4081-8260-faaf68046c2e.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\correct_detections.jpg",
+      "ground_truth_boxes": 368,
+      "predicted_boxes": 503,
+      "true_positives": 306,
+      "false_positives": 197,
+      "false_negatives": 62
+    },
+    "missed_detections": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00000-of-00011-26c55c12cbbcdc8e_e61a5537-8f4c-4d66-95de-6293e30790b3.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\missed_detections.jpg",
+      "ground_truth_boxes": 1287,
+      "predicted_boxes": 61,
+      "true_positives": 5,
+      "false_positives": 56,
+      "false_negatives": 1282
+    },
+    "false_positives": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00008-of-00011-555923175d587f8c_ec2d93b0-48ea-4301-9ffd-7b7d1a2d93e6.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\false_positives.jpg",
+      "ground_truth_boxes": 736,
+      "predicted_boxes": 397,
+      "true_positives": 2,
+      "false_positives": 395,
+      "false_negatives": 734
+    },
+    "dense_page": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00000-of-00011-26c55c12cbbcdc8e_e61a5537-8f4c-4d66-95de-6293e30790b3.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\dense_page.jpg",
+      "ground_truth_boxes": 1287,
+      "predicted_boxes": 61,
+      "true_positives": 5,
+      "false_positives": 56,
+      "false_negatives": 1282
+    },
+    "forms": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00003-of-00011-8e9c851b71133773_167ecfde-efc8-405b-81bf-466c825b2713.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\forms.jpg",
+      "ground_truth_boxes": 265,
+      "predicted_boxes": 66,
+      "true_positives": 60,
+      "false_positives": 6,
+      "false_negatives": 205
+    },
+    "navigation": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00001-of-00011-93dadb8d3ca8a3e9_f325eea2-5f9f-4d4e-8500-a925a4ee9b94.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\navigation.jpg",
+      "ground_truth_boxes": 593,
+      "predicted_boxes": 25,
+      "true_positives": 15,
+      "false_positives": 10,
+      "false_negatives": 578
+    },
+    "rare_classes": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00010-of-00011-4ec618cf686bc066_ea328181-41fe-45e2-a5d9-d942e2558df1.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\rare_classes.jpg",
+      "ground_truth_boxes": 188,
+      "predicted_boxes": 69,
+      "true_positives": 39,
+      "false_positives": 30,
+      "false_negatives": 149
+    },
+    "tables": {
+      "source": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\test\\images\\test_domain-00005-of-00011-f1164b95bfaed9de_99460cf6-e6c3-4837-94a5-1c752f08febd.png",
+      "annotated_image": "C:\\QASense-AI\\reports\\visionqa\\predictions\\tables.jpg",
+      "ground_truth_boxes": 130,
+      "predicted_boxes": 54,
+      "true_positives": 25,
+      "false_positives": 29,
+      "false_negatives": 105
+    }
+  }
+}

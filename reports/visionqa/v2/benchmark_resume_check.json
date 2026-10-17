@@ -1,0 +1,10 @@
+{
+  "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_benchmark\\weights\\epoch0.pt",
+  "epoch": 0,
+  "optimizer_state_present": true,
+  "scaler_state_present": true,
+  "train_args_present": true,
+  "train_results_present": true,
+  "stopper_state_present": true,
+  "resume_state_complete": true
+}

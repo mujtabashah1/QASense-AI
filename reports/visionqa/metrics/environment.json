@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-12T20:36:15.436699+00:00",
+  "project_root": "C:\\QASense-AI",
+  "python_executable": "C:\\QASense-AI\\.venv-visionqa\\Scripts\\python.exe",
+  "python_version": "3.14.8",
+  "virtual_environment": "C:\\QASense-AI\\.venv-visionqa",
+  "pip_version": "pip 26.2.1 from C:\\QASense-AI\\.venv-visionqa\\Lib\\site-packages\\pip (python 3.14)",
+  "torch_version": "2.14.1+cu126",
+  "torchvision_version": "0.29.1+cu126",
+  "torch_cuda_version": "12.6",
+  "ultralytics_version": "8.4.176",
+  "cuda_available": true,
+  "nvidia_smi": {
+    "name": "NVIDIA T1200 Laptop GPU",
+    "driver": "610.60",
+    "vram_mib": 4096,
+    "temperature_c_at_capture": 65
+  },
+  "pytorch_gpu": {
+    "name": "NVIDIA T1200 Laptop GPU",
+    "vram_bytes": 4294705152,
+    "compute_capability": "7.5"
+  }
+}

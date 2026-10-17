@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "experiment": "visionqa_v2_mixed14",
+  "architecture": "YOLO11n unified 14-class detector initialized from VisionQA v1",
+  "seed": 42,
+  "data": {
+    "webui_train_images": 23319,
+    "webui_validation_images": 5214,
+    "atomblock_rehearsal_images": 5420,
+    "mixed_train_images": 28739,
+    "frozen_webui_evaluation_images": 399,
+    "frozen_webui_evaluation_used_for_selection": false,
+    "atomblock_test_used_for_selection": false
+  },
+  "partial_label_strategy": {
+    "atomblock_supervised_class_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "webui_supervised_class_ids": [0, 1, 2, 3, 7, 8, 9, 10, 11, 12],
+    "webui_masked_class_ids": [4, 5, 6, 13],
+    "cross_image_augmentations_disabled": ["mosaic", "mixup", "cutmix", "copy_paste"]
+  },
+  "benchmark": {
+    "epochs": 1,
+    "batch": 2,
+    "frozen_module_indices": "0-10",
+    "purpose": "throughput, CUDA, source metadata, masked loss, validation, checkpoint and resume verification"
+  },
+  "main_experiment": {
+    "batch": 4,
+    "nominal_batch_size": 16,
+    "gradient_accumulation_steps": 4,
+    "imgsz": 640,
+    "optimizer": "AdamW",
+    "amp_requested": true,
+    "amp_fallback": "FP32 when Ultralytics safety check rejects AMP",
+    "stage_a": {
+      "epochs": 3,
+      "frozen_module_indices": "0-10",
+      "trained_modules": "neck and 14-class detection head (indices 11-23)",
+      "learning_rate": 0.0005
+    },
+    "stage_b": {
+      "maximum_epochs": 9,
+      "frozen_module_indices": "0-5",
+      "trained_modules": "later backbone, neck and 14-class detection head (indices 6-23)",
+      "learning_rate": 0.0001,
+      "early_stopping_patience": 4
+    },
+    "maximum_total_epochs": 12,
+    "checkpoint_period_epochs": 1,
+    "selection_metric": "WebUI validation supported-class macro-F1"
+  },
+  "predeclared_stop_rules": {
+    "loss": "stop on non-finite or repeatedly unstable loss",
+    "webui": "stop at early-stopping plateau",
+    "atomblock_overall": "major regression if mAP50-95 retains less than 75% of v1",
+    "old_classes": "major regression when AP50-95 loses at least 0.01 absolute and more than 50% relative; radio is reported but its 0.00421 baseline is below the absolute materiality floor"
+  },
+  "predeclared_promotion_gate": {
+    "webui_frozen_f1_minimum": 0.1,
+    "webui_frozen_macro_f1_minimum": 0.1,
+    "atomblock_map50_95_retention_minimum": 0.8,
+    "no_major_old_class_regression": true,
+    "playwright_contract_regression_required": true,
+    "automatic_promotion": false
+  },
+  "baselines": {
+    "webui_frozen": {"precision": 0.08805, "recall": 0.03564, "f1": 0.05074, "macro_f1": 0.04835},
+    "atomblock_test": {"precision": 0.47383, "recall": 0.40132, "map50": 0.37755, "map50_95": 0.27825}
+  }
+}

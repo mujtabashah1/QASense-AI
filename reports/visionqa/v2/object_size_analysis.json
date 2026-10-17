@@ -1,0 +1,432 @@
+{
+  "scope": "WebUI training-corpus validation only",
+  "size_definitions": "normalized box area",
+  "models": {
+    "visionqa_v1": {
+      "threshold": 0.25,
+      "bucket_definitions_normalized_area": {
+        "tiny": "area < 0.001",
+        "small": "0.001 <= area < 0.01",
+        "medium": "0.01 <= area < 0.1",
+        "large": "area >= 0.1"
+      },
+      "overall": {
+        "tiny": {
+          "ground_truth": 8442,
+          "matched": 125,
+          "recall": 0.014806917791992419
+        },
+        "small": {
+          "ground_truth": 31259,
+          "matched": 935,
+          "recall": 0.02991138552096996
+        },
+        "medium": {
+          "ground_truth": 9620,
+          "matched": 644,
+          "recall": 0.06694386694386695
+        },
+        "large": {
+          "ground_truth": 2783,
+          "matched": 411,
+          "recall": 0.14768235716852318
+        }
+      },
+      "per_class": {
+        "button": {
+          "tiny": {
+            "ground_truth": 1988,
+            "recall": 0.009054325955734407
+          },
+          "small": {
+            "ground_truth": 5982,
+            "recall": 0.05683717820127048
+          },
+          "medium": {
+            "ground_truth": 688,
+            "recall": 0.05232558139534884
+          },
+          "large": {
+            "ground_truth": 41,
+            "recall": 0.0
+          }
+        },
+        "link": {
+          "tiny": {
+            "ground_truth": 5026,
+            "recall": 0.014126541981695185
+          },
+          "small": {
+            "ground_truth": 19703,
+            "recall": 0.01954017154748008
+          },
+          "medium": {
+            "ground_truth": 4686,
+            "recall": 0.020913358941527956
+          },
+          "large": {
+            "ground_truth": 422,
+            "recall": 0.0
+          }
+        },
+        "input": {
+          "tiny": {
+            "ground_truth": 612,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 1232,
+            "recall": 0.04788961038961039
+          },
+          "medium": {
+            "ground_truth": 761,
+            "recall": 0.1011826544021025
+          },
+          "large": {
+            "ground_truth": 5,
+            "recall": 0.0
+          }
+        },
+        "image": {
+          "tiny": {
+            "ground_truth": 785,
+            "recall": 0.045859872611464965
+          },
+          "small": {
+            "ground_truth": 4032,
+            "recall": 0.037450396825396824
+          },
+          "medium": {
+            "ground_truth": 1482,
+            "recall": 0.21052631578947367
+          },
+          "large": {
+            "ground_truth": 952,
+            "recall": 0.375
+          }
+        },
+        "select": {
+          "tiny": {
+            "ground_truth": 8,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 75,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 19,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 0,
+            "recall": null
+          }
+        },
+        "block-nav": {
+          "tiny": {
+            "ground_truth": 11,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 147,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 1149,
+            "recall": 0.09399477806788512
+          },
+          "large": {
+            "ground_truth": 832,
+            "recall": 0.036057692307692304
+          }
+        },
+        "block-sidebar": {
+          "tiny": {
+            "ground_truth": 4,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 22,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 90,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 125,
+            "recall": 0.08
+          }
+        },
+        "block-footer": {
+          "tiny": {
+            "ground_truth": 0,
+            "recall": null
+          },
+          "small": {
+            "ground_truth": 14,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 327,
+            "recall": 0.027522935779816515
+          },
+          "large": {
+            "ground_truth": 100,
+            "recall": 0.02
+          }
+        },
+        "block-form": {
+          "tiny": {
+            "ground_truth": 8,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 42,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 357,
+            "recall": 0.011204481792717087
+          },
+          "large": {
+            "ground_truth": 151,
+            "recall": 0.06622516556291391
+          }
+        },
+        "block-table": {
+          "tiny": {
+            "ground_truth": 0,
+            "recall": null
+          },
+          "small": {
+            "ground_truth": 10,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 61,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 155,
+            "recall": 0.012903225806451613
+          }
+        }
+      }
+    },
+    "visionqa_v2": {
+      "threshold": 0.25,
+      "bucket_definitions_normalized_area": {
+        "tiny": "area < 0.001",
+        "small": "0.001 <= area < 0.01",
+        "medium": "0.01 <= area < 0.1",
+        "large": "area >= 0.1"
+      },
+      "overall": {
+        "tiny": {
+          "ground_truth": 8442,
+          "matched": 35,
+          "recall": 0.0041459369817578775
+        },
+        "small": {
+          "ground_truth": 31259,
+          "matched": 754,
+          "recall": 0.02412105313669663
+        },
+        "medium": {
+          "ground_truth": 9620,
+          "matched": 377,
+          "recall": 0.03918918918918919
+        },
+        "large": {
+          "ground_truth": 2783,
+          "matched": 126,
+          "recall": 0.04527488321954725
+        }
+      },
+      "per_class": {
+        "button": {
+          "tiny": {
+            "ground_truth": 1988,
+            "recall": 0.0005030181086519115
+          },
+          "small": {
+            "ground_truth": 5982,
+            "recall": 0.012704781009695755
+          },
+          "medium": {
+            "ground_truth": 688,
+            "recall": 0.011627906976744186
+          },
+          "large": {
+            "ground_truth": 41,
+            "recall": 0.0
+          }
+        },
+        "link": {
+          "tiny": {
+            "ground_truth": 5026,
+            "recall": 0.006565857540787903
+          },
+          "small": {
+            "ground_truth": 19703,
+            "recall": 0.032482363091914934
+          },
+          "medium": {
+            "ground_truth": 4686,
+            "recall": 0.03691848058045241
+          },
+          "large": {
+            "ground_truth": 422,
+            "recall": 0.0
+          }
+        },
+        "input": {
+          "tiny": {
+            "ground_truth": 612,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 1232,
+            "recall": 0.025162337662337664
+          },
+          "medium": {
+            "ground_truth": 761,
+            "recall": 0.04862023653088042
+          },
+          "large": {
+            "ground_truth": 5,
+            "recall": 0.0
+          }
+        },
+        "image": {
+          "tiny": {
+            "ground_truth": 785,
+            "recall": 0.0012738853503184713
+          },
+          "small": {
+            "ground_truth": 4032,
+            "recall": 0.001736111111111111
+          },
+          "medium": {
+            "ground_truth": 1482,
+            "recall": 0.09176788124156546
+          },
+          "large": {
+            "ground_truth": 952,
+            "recall": 0.0861344537815126
+          }
+        },
+        "select": {
+          "tiny": {
+            "ground_truth": 8,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 75,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 19,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 0,
+            "recall": null
+          }
+        },
+        "block-nav": {
+          "tiny": {
+            "ground_truth": 11,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 147,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 1149,
+            "recall": 0.010443864229765013
+          },
+          "large": {
+            "ground_truth": 832,
+            "recall": 0.002403846153846154
+          }
+        },
+        "block-sidebar": {
+          "tiny": {
+            "ground_truth": 4,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 22,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 90,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 125,
+            "recall": 0.12
+          }
+        },
+        "block-footer": {
+          "tiny": {
+            "ground_truth": 0,
+            "recall": null
+          },
+          "small": {
+            "ground_truth": 14,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 327,
+            "recall": 0.009174311926605505
+          },
+          "large": {
+            "ground_truth": 100,
+            "recall": 0.01
+          }
+        },
+        "block-form": {
+          "tiny": {
+            "ground_truth": 8,
+            "recall": 0.0
+          },
+          "small": {
+            "ground_truth": 42,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 357,
+            "recall": 0.022408963585434174
+          },
+          "large": {
+            "ground_truth": 151,
+            "recall": 0.046357615894039736
+          }
+        },
+        "block-table": {
+          "tiny": {
+            "ground_truth": 0,
+            "recall": null
+          },
+          "small": {
+            "ground_truth": 10,
+            "recall": 0.0
+          },
+          "medium": {
+            "ground_truth": 61,
+            "recall": 0.0
+          },
+          "large": {
+            "ground_truth": 155,
+            "recall": 0.12258064516129032
+          }
+        }
+      }
+    }
+  }
+}

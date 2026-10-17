@@ -1,0 +1,14 @@
+{
+  "status": "trained",
+  "stage": "report",
+  "completed": [
+    "processed_data_validation",
+    "baseline",
+    "codebert_bug_type",
+    "line_localizer"
+  ],
+  "recovery": {
+    "training_performed": false,
+    "checkpoint": "saved best after epoch 2"
+  }
+}

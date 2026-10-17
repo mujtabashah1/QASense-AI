@@ -1,0 +1,208 @@
+{
+  "architecture": "YOLO11n",
+  "class_count": 14,
+  "class_names": {
+    "0": "button",
+    "1": "link",
+    "2": "input",
+    "3": "image",
+    "4": "icon",
+    "5": "checkbox",
+    "6": "radio",
+    "7": "select",
+    "8": "block-nav",
+    "9": "block-sidebar",
+    "10": "block-footer",
+    "11": "block-form",
+    "12": "block-table",
+    "13": "block"
+  },
+  "total_parameters": 2608042,
+  "module_count": 24,
+  "modules": [
+    {
+      "index": 0,
+      "type": "Conv",
+      "parameters": 464
+    },
+    {
+      "index": 1,
+      "type": "Conv",
+      "parameters": 4672
+    },
+    {
+      "index": 2,
+      "type": "C3k2",
+      "parameters": 6640
+    },
+    {
+      "index": 3,
+      "type": "Conv",
+      "parameters": 36992
+    },
+    {
+      "index": 4,
+      "type": "C3k2",
+      "parameters": 26080
+    },
+    {
+      "index": 5,
+      "type": "Conv",
+      "parameters": 147712
+    },
+    {
+      "index": 6,
+      "type": "C3k2",
+      "parameters": 87040
+    },
+    {
+      "index": 7,
+      "type": "Conv",
+      "parameters": 295424
+    },
+    {
+      "index": 8,
+      "type": "C3k2",
+      "parameters": 346112
+    },
+    {
+      "index": 9,
+      "type": "SPPF",
+      "parameters": 164608
+    },
+    {
+      "index": 10,
+      "type": "C2PSA",
+      "parameters": 249728
+    },
+    {
+      "index": 11,
+      "type": "Upsample",
+      "parameters": 0
+    },
+    {
+      "index": 12,
+      "type": "Concat",
+      "parameters": 0
+    },
+    {
+      "index": 13,
+      "type": "C3k2",
+      "parameters": 111296
+    },
+    {
+      "index": 14,
+      "type": "Upsample",
+      "parameters": 0
+    },
+    {
+      "index": 15,
+      "type": "Concat",
+      "parameters": 0
+    },
+    {
+      "index": 16,
+      "type": "C3k2",
+      "parameters": 32096
+    },
+    {
+      "index": 17,
+      "type": "Conv",
+      "parameters": 36992
+    },
+    {
+      "index": 18,
+      "type": "Concat",
+      "parameters": 0
+    },
+    {
+      "index": 19,
+      "type": "C3k2",
+      "parameters": 86720
+    },
+    {
+      "index": 20,
+      "type": "Conv",
+      "parameters": 147712
+    },
+    {
+      "index": 21,
+      "type": "Concat",
+      "parameters": 0
+    },
+    {
+      "index": 22,
+      "type": "C3k2",
+      "parameters": 378880
+    },
+    {
+      "index": 23,
+      "type": "Detect",
+      "parameters": 448874
+    }
+  ],
+  "stage_a": {
+    "frozen_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "trained_indices": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "frozen_parameters": 1365472,
+    "trained_parameters": 1242570
+  },
+  "stage_b": {
+    "frozen_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "trained_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "frozen_parameters": 222560,
+    "trained_parameters": 2385482
+  }
+}

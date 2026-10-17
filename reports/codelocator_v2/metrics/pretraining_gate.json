@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "training_allowed": false,
+  "requires_user_review": true,
+  "decision": "STOP_BEFORE_GPU_TRAINING",
+  "failures": [],
+  "thresholds": {
+    "position_test_mrr_max": 0.75,
+    "middle_bucket_max": 0.4,
+    "single_bucket_max": 0.45
+  },
+  "counts": {
+    "train": {
+      "source_bugs": 5707,
+      "candidate_lines": 38810,
+      "positives": 5707,
+      "negatives": 33103,
+      "positive_negative_ratio": 0.17240129293417514,
+      "context_length_lines": {
+        "min": 5,
+        "max": 61,
+        "mean": 30.585287297088378
+      }
+    },
+    "validation": {
+      "source_bugs": 980,
+      "candidate_lines": 15975,
+      "positives": 980,
+      "negatives": 14995,
+      "positive_negative_ratio": 0.06535511837279093,
+      "context_length_lines": {
+        "min": 5,
+        "max": 61,
+        "mean": 35.39511737089202
+      }
+    },
+    "test": {
+      "source_bugs": 854,
+      "candidate_lines": 14381,
+      "positives": 854,
+      "negatives": 13527,
+      "positive_negative_ratio": 0.06313299327271384,
+      "context_length_lines": {
+        "min": 5,
+        "max": 61,
+        "mean": 37.464501773172934
+      }
+    }
+  },
+  "integrity": {
+    "repository_overlap": true,
+    "sample_id_overlap": true,
+    "model_input_overlap": true,
+    "duplicate_model_inputs_within_groups": false,
+    "one_positive_per_group": true,
+    "forbidden_predictive_fields_absent": true,
+    "excluded_groups": 2199,
+    "exclusion_reasons": {
+      "duplicate_model_input_within_candidate_group": 1689,
+      "exact_v2_model_input_overlaps_earlier_split": 510
+    }
+  },
+  "position_test": {
+    "samples": 854,
+    "top_1": 0.11358313817330211,
+    "top_3": 0.3044496487119438,
+    "top_5": 0.4812646370023419,
+    "mrr": 0.2826210522022098,
+    "mean_rank": 8.795081967213115,
+    "median_rank": 6.0
+  },
+  "random_test": {
+    "samples": 854.0,
+    "top_1": 0.08149882903981265,
+    "top_3": 0.26346604215456676,
+    "top_5": 0.4442622950819672,
+    "mrr": 0.2500222180887006,
+    "mean_rank": 8.98969555035129,
+    "median_rank": 6.3
+  }
+}

@@ -1,0 +1,55 @@
+# Local environments and tooling
+.venv/
+.venv-*/
+.tools/
+node_modules/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp*/
+.mypy_cache/
+.ruff_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Research data and generated runs stay in the local/archive copy
+datasets/
+runs/
+
+# Generated caches, logs, archives, and review imagery
+*.cache
+*.log
+*.tmp
+*.tar
+*.tar.gz
+*.zip
+reports/**/raw_predictions/
+reports/**/*.png
+reports/**/*.jpg
+reports/**/*.jpeg
+reports/product/runtime/
+reports/visionqa/webui_review.html
+
+# Model artifacts are opt-in. Only the selected inference assets and
+# CodeLocator v2 runtime support files are published.
+models/**
+!models/risknet/
+models/risknet/**
+!models/risknet/risknet_v1.joblib
+!models/codelocator_v2/
+models/codelocator_v2/**
+!models/codelocator_v2/line_localizer/
+!models/codelocator_v2/line_localizer/**
+!models/visionqa/
+models/visionqa/**
+!models/visionqa/atomblock_yolo11n/
+!models/visionqa/atomblock_yolo11n/best.pt
+!models/visionqa/visionqa_v2_mixed14/
+!models/visionqa/visionqa_v2_mixed14/candidate.pt

@@ -1,0 +1,5 @@
+# Install the CUDA packages from the official PyTorch CUDA 12.6 index first:
+# python -m pip install -r requirements-visionqa-torch.txt --index-url https://download.pytorch.org/whl/cu126
+# Then install this file from PyPI.
+ultralytics==8.4.176
+

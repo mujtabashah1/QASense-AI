@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-10-17T19:25:21.215238+00:00",
+  "counts": {
+    "low_confidence_correct": 303,
+    "visual_domain_shift": 2644,
+    "dense_layout_miss": 2893,
+    "wrong_semantic_class": 134,
+    "duplicate_detection": 68,
+    "missed_small_element": 2821
+  },
+  "representative_screen_ids": {
+    "low_confidence_correct": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-ab85a8cbaf09-mobile",
+      "webui-validation-d94f8ee958cf-desktop",
+      "webui-validation-d94f8ee958cf-tablet",
+      "webui-validation-d94f8ee958cf-mobile",
+      "webui-validation-edf8a619ac09-desktop",
+      "webui-validation-edf8a619ac09-mobile",
+      "webui-train-2372f8152c6e-tablet",
+      "webui-train-186ebbbc6b8a-desktop",
+      "webui-train-728ca85f151f-desktop",
+      "webui-train-728ca85f151f-mobile"
+    ],
+    "visual_domain_shift": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-70905822da4b-mobile",
+      "webui-validation-ab85a8cbaf09-desktop",
+      "webui-validation-ab85a8cbaf09-tablet",
+      "webui-validation-d94f8ee958cf-desktop",
+      "webui-validation-d94f8ee958cf-tablet",
+      "webui-validation-d94f8ee958cf-mobile",
+      "webui-validation-edf8a619ac09-tablet",
+      "webui-validation-edf8a619ac09-mobile",
+      "webui-train-2372f8152c6e-desktop",
+      "webui-train-2372f8152c6e-mobile"
+    ],
+    "dense_layout_miss": [
+      "webui-validation-70905822da4b-desktop",
+      "webui-validation-70905822da4b-tablet",
+      "webui-validation-d94f8ee958cf-tablet",
+      "webui-test-a29bb201fac5-tablet",
+      "webui-test-a7d711aa1744-desktop",
+      "webui-test-a7d711aa1744-tablet",
+      "webui-test-a7d711aa1744-mobile",
+      "webui-validation-4117da34032b-desktop",
+      "webui-validation-4117da34032b-tablet",
+      "webui-validation-4117da34032b-mobile",
+      "webui-train-9476f031a255-desktop",
+      "webui-train-9476f031a255-tablet"
+    ],
+    "missed_small_element": [
+      "webui-train-54680fa789ff-desktop",
+      "webui-train-54680fa789ff-tablet",
+      "webui-train-f33e3539052f-desktop",
+      "webui-train-f33e3539052f-tablet",
+      "webui-validation-5ebfeae88108-desktop",
+      "webui-validation-5ebfeae88108-tablet",
+      "webui-validation-5ebfeae88108-mobile",
+      "webui-validation-6791e31efea6-desktop",
+      "webui-validation-6791e31efea6-tablet",
+      "webui-validation-6791e31efea6-mobile",
+      "webui-validation-dd2795c85a00-desktop",
+      "webui-validation-dd2795c85a00-tablet"
+    ]
+  }
+}

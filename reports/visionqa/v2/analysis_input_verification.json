@@ -1,0 +1,54 @@
+{
+  "verified_at": "2026-10-17T18:50:51.925457+00:00",
+  "analysis_scope": "WebUI training-corpus validation only",
+  "validation_images": 5214,
+  "class_count": 14,
+  "class_names": [
+    "button",
+    "link",
+    "input",
+    "image",
+    "icon",
+    "checkbox",
+    "radio",
+    "select",
+    "block-nav",
+    "block-sidebar",
+    "block-footer",
+    "block-form",
+    "block-table",
+    "block"
+  ],
+  "v1_v2_class_schema_identical": true,
+  "v1": {
+    "path": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+    "sha256": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+    "expected_sha256": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+    "unchanged": true
+  },
+  "v2": {
+    "path": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt",
+    "sha256": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+    "expected_sha256": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+    "unchanged": true
+  },
+  "dataset_manifest": {
+    "physical_sha256": "a8ae3f5dbf3ce4adb20ced667969f222dfc025bd80b8afd27cf66004b6cc480a",
+    "recorded_content_sha256": "442c0f3d250f513463ca6188127a31240fab173e781fe630ddc6ffa4a52ced56",
+    "expected_content_sha256": "442c0f3d250f513463ca6188127a31240fab173e781fe630ddc6ffa4a52ced56",
+    "unchanged": true
+  },
+  "split_manifest": {
+    "physical_sha256": "89480276fe337692c087b48863455c064cd42a70ac87776432a662a108506347",
+    "recorded_content_sha256": "4bc01ed12f211408760ca1a67f2db901dc59d9b8bddf1fa5bc55702b37d9add3",
+    "expected_content_sha256": "4bc01ed12f211408760ca1a67f2db901dc59d9b8bddf1fa5bc55702b37d9add3",
+    "unchanged": true
+  },
+  "frozen_evaluation": {
+    "rerun": false,
+    "labels_inspected": false,
+    "recorded_content_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+    "expected_content_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+    "unchanged": true
+  }
+}

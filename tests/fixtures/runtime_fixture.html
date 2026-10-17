@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>QASense Runtime Fixture</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; color: #172033; }
+    nav { display: flex; gap: 24px; padding: 18px 28px; background: #eaf1ff; }
+    main { padding: 32px; min-height: 900px; }
+    form { width: 420px; display: grid; gap: 14px; padding: 24px; border: 1px solid #aac; }
+    input, select, button { height: 42px; font-size: 16px; }
+    button { background: #135bd8; color: white; border: 0; border-radius: 6px; }
+    img { width: 160px; height: 80px; margin-top: 24px; }
+    table { margin-top: 28px; border-collapse: collapse; }
+    td, th { border: 1px solid #777; padding: 8px 16px; }
+  </style>
+</head>
+<body>
+  <nav aria-label="Primary"><a href="#form">Checkout</a><a href="#status">Status</a></nav>
+  <main>
+    <form id="form" aria-label="Checkout form">
+      <label for="email">Email</label><input id="email" type="email" value="qa@example.com">
+      <label><input id="agree" type="checkbox" checked> Accept terms</label>
+      <label><input id="ship" type="radio" name="method" checked> Ship</label>
+      <select id="country" aria-label="Country"><option>United States</option></select>
+      <button id="submit" type="button">Submit order</button>
+    </form>
+    <img alt="Product preview" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='80'%3E%3Crect width='160' height='80' fill='%2388aaff'/%3E%3C/svg%3E">
+    <table><thead><tr><th>Item</th><th>Price</th></tr></thead><tbody><tr><td>Widget</td><td>$10</td></tr></tbody></table>
+  </main>
+  <script>
+    console.warn('fixture warning');
+    console.error('fixture console error');
+    fetch('http://127.0.0.1:9/qasense-intentional-failure').catch(() => {});
+    setTimeout(() => { throw new Error('fixture page error'); }, 25);
+  </script>
+</body>
+</html>

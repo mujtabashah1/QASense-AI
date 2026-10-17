@@ -1,0 +1,2020 @@
+{
+  "schema_version": "1.0",
+  "evaluated_at": "2026-10-17T19:25:21.215098+00:00",
+  "manifest_content_sha256": "674ae4c0907b8a1927383d7b0a1a02e285f93cb4ade1ec42becad198b2ec7d45",
+  "screen_count": 399,
+  "sample_group_count": 133,
+  "checkpoint": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt",
+  "checkpoint_sha256": "dd86b81d5faf5f018940564ddb344a8ea7caf328b7b567161937e40ab7f7866d",
+  "confidence_threshold": 0.0625,
+  "threshold_tuned_on_slice": false,
+  "evaluation_passes": 1,
+  "inference_settings": {
+    "imgsz": 640,
+    "nms_iou": 0.7,
+    "max_det": 1500,
+    "matching_iou": 0.5
+  },
+  "metrics": {
+    "iou_threshold": 0.5,
+    "tp": 343,
+    "fp": 2690,
+    "fn": 5465,
+    "precision": 0.11308935047807452,
+    "recall": 0.0590564738292011,
+    "f1": 0.07759303246239113,
+    "macro_f1": 0.10101846046747083,
+    "per_class": {
+      "block-footer": {
+        "ground_truth": 22,
+        "predictions": 13,
+        "tp": 3,
+        "fp": 10,
+        "fn": 19,
+        "precision": 0.23076923076923078,
+        "recall": 0.13636363636363635,
+        "f1": 0.1714285714285714,
+        "ap50": 0.10396039603960396
+      },
+      "block-form": {
+        "ground_truth": 164,
+        "predictions": 23,
+        "tp": 8,
+        "fp": 15,
+        "fn": 156,
+        "precision": 0.34782608695652173,
+        "recall": 0.04878048780487805,
+        "f1": 0.08556149732620322,
+        "ap50": 0.030133448127421438
+      },
+      "block-nav": {
+        "ground_truth": 242,
+        "predictions": 122,
+        "tp": 6,
+        "fp": 116,
+        "fn": 236,
+        "precision": 0.04918032786885246,
+        "recall": 0.024793388429752067,
+        "f1": 0.03296703296703297,
+        "ap50": 0.0036300686268448427
+      },
+      "block-sidebar": {
+        "ground_truth": 56,
+        "predictions": 17,
+        "tp": 8,
+        "fp": 9,
+        "fn": 48,
+        "precision": 0.47058823529411764,
+        "recall": 0.14285714285714285,
+        "f1": 0.2191780821917808,
+        "ap50": 0.11784082254379283
+      },
+      "block-table": {
+        "ground_truth": 164,
+        "predictions": 305,
+        "tp": 22,
+        "fp": 283,
+        "fn": 142,
+        "precision": 0.07213114754098361,
+        "recall": 0.13414634146341464,
+        "f1": 0.09381663113006397,
+        "ap50": 0.03259770008886566
+      },
+      "button": {
+        "ground_truth": 2463,
+        "predictions": 739,
+        "tp": 42,
+        "fp": 697,
+        "fn": 2421,
+        "precision": 0.056833558863328824,
+        "recall": 0.01705237515225335,
+        "f1": 0.02623360399750156,
+        "ap50": 0.008925240350121969
+      },
+      "image": {
+        "ground_truth": 428,
+        "predictions": 390,
+        "tp": 49,
+        "fp": 341,
+        "fn": 379,
+        "precision": 0.12564102564102564,
+        "recall": 0.11448598130841121,
+        "f1": 0.11980440097799512,
+        "ap50": 0.03189052223117411
+      },
+      "input": {
+        "ground_truth": 827,
+        "predictions": 199,
+        "tp": 86,
+        "fp": 113,
+        "fn": 741,
+        "precision": 0.4321608040201005,
+        "recall": 0.10399032648125756,
+        "f1": 0.1676413255360624,
+        "ap50": 0.05729077336176561
+      },
+      "link": {
+        "ground_truth": 1321,
+        "predictions": 1223,
+        "tp": 119,
+        "fp": 1104,
+        "fn": 1202,
+        "precision": 0.0973017170891251,
+        "recall": 0.09008327024981075,
+        "f1": 0.09355345911949685,
+        "ap50": 0.025435606522155187
+      },
+      "select": {
+        "ground_truth": 121,
+        "predictions": 2,
+        "tp": 0,
+        "fp": 2,
+        "fn": 121,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": 0.0
+      }
+    }
+  },
+  "prediction_count": 3033,
+  "zero_prediction_screens": 10,
+  "zero_prediction_rate": 0.02506265664160401,
+  "viewport_metrics": {
+    "desktop": {
+      "iou_threshold": 0.5,
+      "tp": 162,
+      "fp": 1393,
+      "fn": 1727,
+      "precision": 0.10418006430868167,
+      "recall": 0.08575966119640022,
+      "f1": 0.09407665505226481,
+      "macro_f1": 0.12139611085989363,
+      "per_class": {
+        "block-footer": {
+          "ground_truth": 7,
+          "predictions": 11,
+          "tp": 1,
+          "fp": 10,
+          "fn": 6,
+          "precision": 0.09090909090909091,
+          "recall": 0.14285714285714285,
+          "f1": 0.1111111111111111,
+          "ap50": 0.07425742574257425
+        },
+        "block-form": {
+          "ground_truth": 52,
+          "predictions": 14,
+          "tp": 4,
+          "fp": 10,
+          "fn": 48,
+          "precision": 0.2857142857142857,
+          "recall": 0.07692307692307693,
+          "f1": 0.12121212121212123,
+          "ap50": 0.06506364922206506
+        },
+        "block-nav": {
+          "ground_truth": 85,
+          "predictions": 84,
+          "tp": 4,
+          "fp": 80,
+          "fn": 81,
+          "precision": 0.047619047619047616,
+          "recall": 0.047058823529411764,
+          "f1": 0.047337278106508875,
+          "ap50": 0.004472342659102511
+        },
+        "block-sidebar": {
+          "ground_truth": 26,
+          "predictions": 13,
+          "tp": 8,
+          "fp": 5,
+          "fn": 18,
+          "precision": 0.6153846153846154,
+          "recall": 0.3076923076923077,
+          "f1": 0.4102564102564103,
+          "ap50": 0.265016501650165
+        },
+        "block-table": {
+          "ground_truth": 53,
+          "predictions": 70,
+          "tp": 2,
+          "fp": 68,
+          "fn": 51,
+          "precision": 0.02857142857142857,
+          "recall": 0.03773584905660377,
+          "f1": 0.03252032520325203,
+          "ap50": 0.0017983430996160843
+        },
+        "button": {
+          "ground_truth": 768,
+          "predictions": 387,
+          "tp": 18,
+          "fp": 369,
+          "fn": 750,
+          "precision": 0.046511627906976744,
+          "recall": 0.0234375,
+          "f1": 0.03116883116883117,
+          "ap50": 0.007485319960567486
+        },
+        "image": {
+          "ground_truth": 136,
+          "predictions": 198,
+          "tp": 20,
+          "fp": 178,
+          "fn": 116,
+          "precision": 0.10101010101010101,
+          "recall": 0.14705882352941177,
+          "f1": 0.11976047904191615,
+          "ap50": 0.043824296702548476
+        },
+        "input": {
+          "ground_truth": 267,
+          "predictions": 92,
+          "tp": 41,
+          "fp": 51,
+          "fn": 226,
+          "precision": 0.44565217391304346,
+          "recall": 0.15355805243445692,
+          "f1": 0.2284122562674095,
+          "ap50": 0.09624395399638414
+        },
+        "link": {
+          "ground_truth": 457,
+          "predictions": 684,
+          "tp": 64,
+          "fp": 620,
+          "fn": 393,
+          "precision": 0.0935672514619883,
+          "recall": 0.1400437636761488,
+          "f1": 0.11218229623137597,
+          "ap50": 0.030063227253426122
+        },
+        "select": {
+          "ground_truth": 38,
+          "predictions": 2,
+          "tp": 0,
+          "fp": 2,
+          "fn": 38,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        }
+      }
+    },
+    "tablet": {
+      "iou_threshold": 0.5,
+      "tp": 119,
+      "fp": 869,
+      "fn": 2051,
+      "precision": 0.12044534412955465,
+      "recall": 0.054838709677419356,
+      "f1": 0.0753641545281824,
+      "macro_f1": 0.07279372933568855,
+      "per_class": {
+        "block-footer": {
+          "ground_truth": 11,
+          "predictions": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 10,
+          "precision": 1.0,
+          "recall": 0.09090909090909091,
+          "f1": 0.16666666666666669,
+          "ap50": 0.09900990099009901
+        },
+        "block-form": {
+          "ground_truth": 64,
+          "predictions": 2,
+          "tp": 0,
+          "fp": 2,
+          "fn": 64,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        },
+        "block-nav": {
+          "ground_truth": 85,
+          "predictions": 19,
+          "tp": 1,
+          "fp": 18,
+          "fn": 84,
+          "precision": 0.05263157894736842,
+          "recall": 0.011764705882352941,
+          "f1": 0.01923076923076923,
+          "ap50": 0.0039603960396039604
+        },
+        "block-sidebar": {
+          "ground_truth": 15,
+          "predictions": 4,
+          "tp": 0,
+          "fp": 4,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        },
+        "block-table": {
+          "ground_truth": 59,
+          "predictions": 87,
+          "tp": 7,
+          "fp": 80,
+          "fn": 52,
+          "precision": 0.08045977011494253,
+          "recall": 0.11864406779661017,
+          "f1": 0.0958904109589041,
+          "ap50": 0.014089870525514088
+        },
+        "button": {
+          "ground_truth": 941,
+          "predictions": 299,
+          "tp": 13,
+          "fp": 286,
+          "fn": 928,
+          "precision": 0.043478260869565216,
+          "recall": 0.01381509032943677,
+          "f1": 0.020967741935483872,
+          "ap50": 0.012651265126512651
+        },
+        "image": {
+          "ground_truth": 176,
+          "predictions": 142,
+          "tp": 22,
+          "fp": 120,
+          "fn": 154,
+          "precision": 0.15492957746478872,
+          "recall": 0.125,
+          "f1": 0.1383647798742138,
+          "ap50": 0.06320713059619841
+        },
+        "input": {
+          "ground_truth": 301,
+          "predictions": 78,
+          "tp": 37,
+          "fp": 41,
+          "fn": 264,
+          "precision": 0.47435897435897434,
+          "recall": 0.12292358803986711,
+          "f1": 0.19525065963060684,
+          "ap50": 0.0820971132651902
+        },
+        "link": {
+          "ground_truth": 474,
+          "predictions": 356,
+          "tp": 38,
+          "fp": 318,
+          "fn": 436,
+          "precision": 0.10674157303370786,
+          "recall": 0.08016877637130802,
+          "f1": 0.09156626506024096,
+          "ap50": 0.033389069458024015
+        },
+        "select": {
+          "ground_truth": 44,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        }
+      }
+    },
+    "mobile": {
+      "iou_threshold": 0.5,
+      "tp": 62,
+      "fp": 428,
+      "fn": 1687,
+      "precision": 0.12653061224489795,
+      "recall": 0.03544882790165809,
+      "f1": 0.05538186690486824,
+      "macro_f1": 0.0923923758326143,
+      "per_class": {
+        "block-footer": {
+          "ground_truth": 4,
+          "predictions": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "ap50": 0.25742574257425743
+        },
+        "block-form": {
+          "ground_truth": 48,
+          "predictions": 7,
+          "tp": 4,
+          "fp": 3,
+          "fn": 44,
+          "precision": 0.5714285714285714,
+          "recall": 0.08333333333333333,
+          "f1": 0.14545454545454545,
+          "ap50": 0.05563413484205563
+        },
+        "block-nav": {
+          "ground_truth": 72,
+          "predictions": 19,
+          "tp": 1,
+          "fp": 18,
+          "fn": 71,
+          "precision": 0.05263157894736842,
+          "recall": 0.013888888888888888,
+          "f1": 0.021978021978021976,
+          "ap50": 0.009900990099009901
+        },
+        "block-sidebar": {
+          "ground_truth": 15,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        },
+        "block-table": {
+          "ground_truth": 52,
+          "predictions": 148,
+          "tp": 13,
+          "fp": 135,
+          "fn": 39,
+          "precision": 0.08783783783783784,
+          "recall": 0.25,
+          "f1": 0.13,
+          "ap50": 0.08628448683994516
+        },
+        "button": {
+          "ground_truth": 754,
+          "predictions": 53,
+          "tp": 11,
+          "fp": 42,
+          "fn": 743,
+          "precision": 0.20754716981132076,
+          "recall": 0.014588859416445624,
+          "f1": 0.027261462205700124,
+          "ap50": 0.013465346534653463
+        },
+        "image": {
+          "ground_truth": 116,
+          "predictions": 50,
+          "tp": 7,
+          "fp": 43,
+          "fn": 109,
+          "precision": 0.14,
+          "recall": 0.0603448275862069,
+          "f1": 0.08433734939759036,
+          "ap50": 0.05444055683763865
+        },
+        "input": {
+          "ground_truth": 259,
+          "predictions": 29,
+          "tp": 8,
+          "fp": 21,
+          "fn": 251,
+          "precision": 0.27586206896551724,
+          "recall": 0.03088803088803089,
+          "f1": 0.05555555555555555,
+          "ap50": 0.018658987338014164
+        },
+        "link": {
+          "ground_truth": 390,
+          "predictions": 183,
+          "tp": 17,
+          "fp": 166,
+          "fn": 373,
+          "precision": 0.09289617486338798,
+          "recall": 0.04358974358974359,
+          "f1": 0.059336823734729496,
+          "ap50": 0.015909904654247225
+        },
+        "select": {
+          "ground_truth": 39,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 39,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        }
+      }
+    }
+  },
+  "object_size_metrics": {
+    "definitions": {
+      "tiny": "area < 0.001",
+      "small": "0.001 <= area < 0.01",
+      "medium": "0.01 <= area < 0.1",
+      "large": "area >= 0.1"
+    },
+    "buckets": {
+      "tiny": {
+        "ground_truth": 1250,
+        "matched": 11,
+        "recall": 0.0088
+      },
+      "small": {
+        "ground_truth": 3170,
+        "matched": 198,
+        "recall": 0.062460567823343846
+      },
+      "medium": {
+        "ground_truth": 999,
+        "matched": 86,
+        "recall": 0.08608608608608609
+      },
+      "large": {
+        "ground_truth": 389,
+        "matched": 48,
+        "recall": 0.12339331619537275
+      }
+    }
+  },
+  "source_group_summary": {
+    "groups_total": 133,
+    "groups_tp_improved": 47,
+    "groups_tp_unchanged": 86,
+    "groups_tp_regressed": 0,
+    "added_true_positives": 262,
+    "top_10_groups_share_of_added_true_positives": 0.6717557251908397,
+    "groups": [
+      {
+        "source_sample_id": "0267fce6d64b",
+        "source": "tailwind-starter-kit",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 2,
+        "tp_change": 1,
+        "f1_at_0_25": 0.06451612903225806,
+        "f1_at_calibrated": 0.10526315789473684,
+        "f1_change": 0.040747028862478774
+      },
+      {
+        "source_sample_id": "03e56138c978",
+        "source": "nextui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "0d21646f035a",
+        "source": "shadcn",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "139b7e8df5c5",
+        "source": "github",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "186ebbbc6b8a",
+        "source": "backstage",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.04651162790697674,
+        "f1_change": 0.04651162790697674
+      },
+      {
+        "source_sample_id": "18bc1b981b9e",
+        "source": "primer-react",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.041666666666666664,
+        "f1_change": 0.041666666666666664
+      },
+      {
+        "source_sample_id": "1a44ce844045",
+        "source": "workday-canvas",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "1c9988c3ce41",
+        "source": "wordpress_themes",
+        "tp_at_0_25": 9,
+        "tp_at_calibrated": 31,
+        "tp_change": 22,
+        "f1_at_0_25": 0.19354838709677416,
+        "f1_at_calibrated": 0.389937106918239,
+        "f1_change": 0.19638871982146486
+      },
+      {
+        "source_sample_id": "1d70cf16169b",
+        "source": "fluent-ui-react-v9",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.12121212121212122,
+        "f1_change": 0.12121212121212122
+      },
+      {
+        "source_sample_id": "2022a5443b2b",
+        "source": "orbit-kiwi",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "228527b7f1f9",
+        "source": "sap-fundamental-styles",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2372f8152c6e",
+        "source": "audi-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.16666666666666666,
+        "f1_change": 0.16666666666666666
+      },
+      {
+        "source_sample_id": "26d129b831bc",
+        "source": "bulma",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "27e8479e4f0a",
+        "source": "nextui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2b308d3f57d2",
+        "source": "fluent-ui-react-v9",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2b90b193f569",
+        "source": "mistica-web",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.05,
+        "f1_change": 0.05
+      },
+      {
+        "source_sample_id": "2c19d43e05e0",
+        "source": "monday-vibe",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2df4e48d5cbf",
+        "source": "mistica-web",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2e1e49c5cdfb",
+        "source": "sap-fundamental-styles",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "2f44bcee8b20",
+        "source": "mistica-web",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "321567d2cd48",
+        "source": "tailadmin-free-tailwind-dashboard-template",
+        "tp_at_0_25": 5,
+        "tp_at_calibrated": 18,
+        "tp_change": 13,
+        "f1_at_0_25": 0.3448275862068966,
+        "f1_at_calibrated": 0.7346938775510204,
+        "f1_change": 0.38986629134412387
+      },
+      {
+        "source_sample_id": "375997bde21a",
+        "source": "grommet",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "3dbb4a767660",
+        "source": "workday-canvas",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "3f7f42026d94",
+        "source": "lapaninja",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "41133ba69b16",
+        "source": "monday-vibe",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "4117da34032b",
+        "source": "chakra-ui-storybook",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 1,
+        "tp_change": 0,
+        "f1_at_0_25": 0.030303030303030304,
+        "f1_at_calibrated": 0.024390243902439025,
+        "f1_change": -0.005912786400591279
+      },
+      {
+        "source_sample_id": "41202ca4ecd0",
+        "source": "zendesk-garden",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "46c4197fec2a",
+        "source": "mui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.2222222222222222,
+        "f1_change": 0.2222222222222222
+      },
+      {
+        "source_sample_id": "4765dcecf78f",
+        "source": "frontend_mentor",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "4874848f41d4",
+        "source": "daisyui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 9,
+        "tp_change": 9,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 1.0,
+        "f1_change": 1.0
+      },
+      {
+        "source_sample_id": "4b872df49c1a",
+        "source": "carbon",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "4f00033d95e1",
+        "source": "daisyui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "4f79a288cba6",
+        "source": "nextui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "50f41f59c3fd",
+        "source": "mui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.09523809523809523,
+        "f1_change": 0.09523809523809523
+      },
+      {
+        "source_sample_id": "527bd987c1f8",
+        "source": "volt-bootstrap-5-dashboard",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "54680fa789ff",
+        "source": "audi-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "5703e6d12f33",
+        "source": "audi-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "59bef58ea726",
+        "source": "glitch",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0392156862745098,
+        "f1_change": 0.0392156862745098
+      },
+      {
+        "source_sample_id": "5ebfeae88108",
+        "source": "awwwards",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "5eedcc8dda7e",
+        "source": "grommet",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "604bdcbbf97c",
+        "source": "grafana-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.04761904761904761,
+        "f1_change": 0.04761904761904761
+      },
+      {
+        "source_sample_id": "6791e31efea6",
+        "source": "awwwards",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "6d62e7bd777e",
+        "source": "w3schools",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "6e5685e47235",
+        "source": "chakra-ui-storybook",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "70905822da4b",
+        "source": "adobe-spectrum",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 5,
+        "tp_change": 5,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.072992700729927,
+        "f1_change": 0.072992700729927
+      },
+      {
+        "source_sample_id": "70e5c3de596b",
+        "source": "grafana-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.047619047619047616,
+        "f1_change": 0.047619047619047616
+      },
+      {
+        "source_sample_id": "715ddb782422",
+        "source": "codepen",
+        "tp_at_0_25": 6,
+        "tp_at_calibrated": 24,
+        "tp_change": 18,
+        "f1_at_0_25": 0.34285714285714286,
+        "f1_at_calibrated": 0.4948453608247423,
+        "f1_change": 0.15198821796759943
+      },
+      {
+        "source_sample_id": "728ca85f151f",
+        "source": "backstage",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.1,
+        "f1_change": 0.1
+      },
+      {
+        "source_sample_id": "738e5a23cd23",
+        "source": "github",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "77441ef480d7",
+        "source": "primer-react",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "79a1d486396c",
+        "source": "wordpress_themes",
+        "tp_at_0_25": 10,
+        "tp_at_calibrated": 27,
+        "tp_change": 17,
+        "f1_at_0_25": 0.2,
+        "f1_at_calibrated": 0.3176470588235294,
+        "f1_change": 0.11764705882352938
+      },
+      {
+        "source_sample_id": "7a47cf3704e8",
+        "source": "fluent-ui-react-v9",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 3,
+        "tp_change": 3,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.01904761904761905,
+        "f1_change": 0.01904761904761905
+      },
+      {
+        "source_sample_id": "7aa3784c456c",
+        "source": "codepen",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "7af69538ed54",
+        "source": "sap-fundamental-styles",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "7bc54d35ab60",
+        "source": "jetbrains-ring-ui",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 3,
+        "tp_change": 2,
+        "f1_at_0_25": 0.038461538461538464,
+        "f1_at_calibrated": 0.08823529411764706,
+        "f1_change": 0.0497737556561086
+      },
+      {
+        "source_sample_id": "80a2324ea7b2",
+        "source": "daisyui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "8157f50fc0d3",
+        "source": "mistica-web",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "82646e42a271",
+        "source": "primer-react",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 2,
+        "tp_change": 1,
+        "f1_at_0_25": 0.10526315789473684,
+        "f1_at_calibrated": 0.12903225806451615,
+        "f1_change": 0.023769100169779317
+      },
+      {
+        "source_sample_id": "87c1249b8cb1",
+        "source": "github",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.024691358024691357,
+        "f1_change": 0.024691358024691357
+      },
+      {
+        "source_sample_id": "895ffe57cd6d",
+        "source": "monday-vibe",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "8996b6f0c570",
+        "source": "bulma",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "8b018c1827ef",
+        "source": "primer-react",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "8ca8e63fcc5c",
+        "source": "lapaninja",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "8d65ee2649b8",
+        "source": "w3schools",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "94672d314138",
+        "source": "orbit-kiwi",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "9476f031a255",
+        "source": "contentful-forma-36",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "96a0149c8bf5",
+        "source": "mui",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 4,
+        "tp_change": 3,
+        "f1_at_0_25": 0.05714285714285715,
+        "f1_at_calibrated": 0.19047619047619047,
+        "f1_change": 0.1333333333333333
+      },
+      {
+        "source_sample_id": "99e861418182",
+        "source": "storybook-design-system",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "99ebc18b01ef",
+        "source": "jetbrains-ring-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 25,
+        "tp_change": 25,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.5681818181818181,
+        "f1_change": 0.5681818181818181
+      },
+      {
+        "source_sample_id": "9e3af50a6f8e",
+        "source": "siteinspire",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 6,
+        "tp_change": 6,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.20689655172413793,
+        "f1_change": 0.20689655172413793
+      },
+      {
+        "source_sample_id": "a185df0eb261",
+        "source": "grafana-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "a18739486a5a",
+        "source": "bulma",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "a29bb201fac5",
+        "source": "carbon",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "a7d711aa1744",
+        "source": "carbon",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "a88f8039d648",
+        "source": "tailwind-starter-kit",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 3,
+        "tp_change": 3,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.23076923076923078,
+        "f1_change": 0.23076923076923078
+      },
+      {
+        "source_sample_id": "a93e0d9bf599",
+        "source": "storybook-design-system",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ab85a8cbaf09",
+        "source": "adobe-spectrum",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.14285714285714288,
+        "f1_change": 0.14285714285714288
+      },
+      {
+        "source_sample_id": "aeb7741b8557",
+        "source": "backstage",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0784313725490196,
+        "f1_change": 0.0784313725490196
+      },
+      {
+        "source_sample_id": "af90d4f6ca1a",
+        "source": "lapaninja",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.01,
+        "f1_change": 0.01
+      },
+      {
+        "source_sample_id": "b07aed3b4ed8",
+        "source": "onepagelove",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 15,
+        "tp_change": 14,
+        "f1_at_0_25": 0.0392156862745098,
+        "f1_at_calibrated": 0.3157894736842105,
+        "f1_change": 0.27657378740970073
+      },
+      {
+        "source_sample_id": "b0de71e4cb32",
+        "source": "fluent-ui-react-v9",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "b0e0ee082e82",
+        "source": "zendesk-garden",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.09090909090909091,
+        "f1_change": 0.09090909090909091
+      },
+      {
+        "source_sample_id": "b0e659e93eda",
+        "source": "tailadmin-free-tailwind-dashboard-template",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "b1ad7679f3ed",
+        "source": "glitch",
+        "tp_at_0_25": 3,
+        "tp_at_calibrated": 7,
+        "tp_change": 4,
+        "f1_at_0_25": 0.11764705882352941,
+        "f1_at_calibrated": 0.15730337078651688,
+        "f1_change": 0.03965631196298747
+      },
+      {
+        "source_sample_id": "b2da3cafd2f8",
+        "source": "contentful-forma-36",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "b40d12a14563",
+        "source": "mui",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 2,
+        "tp_change": 1,
+        "f1_at_0_25": 0.15384615384615385,
+        "f1_at_calibrated": 0.2857142857142857,
+        "f1_change": 0.13186813186813184
+      },
+      {
+        "source_sample_id": "b6753fb3746a",
+        "source": "onepagelove",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "b723da4f8048",
+        "source": "carbon",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.03225806451612903,
+        "f1_change": 0.03225806451612903
+      },
+      {
+        "source_sample_id": "bb689a2220a4",
+        "source": "orbit-kiwi",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.13333333333333333,
+        "f1_change": 0.13333333333333333
+      },
+      {
+        "source_sample_id": "bca2271779d8",
+        "source": "w3schools",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 8,
+        "tp_change": 8,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.2962962962962963,
+        "f1_change": 0.2962962962962963
+      },
+      {
+        "source_sample_id": "be2a419028d6",
+        "source": "storybook-design-system",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "bebd54fb8518",
+        "source": "onepagelove",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 3,
+        "tp_change": 3,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.11999999999999998,
+        "f1_change": 0.11999999999999998
+      },
+      {
+        "source_sample_id": "c0ad3535544b",
+        "source": "orbit-kiwi",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "c2fa545d81fc",
+        "source": "glitch",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.07017543859649122,
+        "f1_change": 0.07017543859649122
+      },
+      {
+        "source_sample_id": "c312f28e8f7f",
+        "source": "wordpress-gutenberg",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "c6502bdd1597",
+        "source": "wordpress_themes",
+        "tp_at_0_25": 9,
+        "tp_at_calibrated": 27,
+        "tp_change": 18,
+        "f1_at_0_25": 0.24324324324324328,
+        "f1_at_calibrated": 0.4,
+        "f1_change": 0.15675675675675674
+      },
+      {
+        "source_sample_id": "cc91ef0078e1",
+        "source": "daisyui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ce50958cd098",
+        "source": "github",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "d22056be5cc0",
+        "source": "chakra-ui-storybook",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "d26698608811",
+        "source": "siteinspire",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "d535b51d77df",
+        "source": "lapaninja",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 12,
+        "tp_change": 11,
+        "f1_at_0_25": 0.047619047619047616,
+        "f1_at_calibrated": 0.28235294117647053,
+        "f1_change": 0.2347338935574229
+      },
+      {
+        "source_sample_id": "d8ecaae09580",
+        "source": "grommet",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "d94f8ee958cf",
+        "source": "adobe-spectrum",
+        "tp_at_0_25": 3,
+        "tp_at_calibrated": 6,
+        "tp_change": 3,
+        "f1_at_0_25": 0.0594059405940594,
+        "f1_at_calibrated": 0.07453416149068322,
+        "f1_change": 0.015128220896623815
+      },
+      {
+        "source_sample_id": "da7bfdcfd265",
+        "source": "wordpress-gutenberg",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "db52e5d3ad1d",
+        "source": "chakra-ui-storybook",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "dd2795c85a00",
+        "source": "awwwards",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ddc53bb0f416",
+        "source": "monday-vibe",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "de3fb7fc9d83",
+        "source": "grommet",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "dede14eb6820",
+        "source": "jetbrains-ring-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 27,
+        "tp_change": 27,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.6136363636363636,
+        "f1_change": 0.6136363636363636
+      },
+      {
+        "source_sample_id": "dfc3b61b345f",
+        "source": "codepen",
+        "tp_at_0_25": 6,
+        "tp_at_calibrated": 17,
+        "tp_change": 11,
+        "f1_at_0_25": 0.20689655172413793,
+        "f1_at_calibrated": 0.3269230769230769,
+        "f1_change": 0.120026525198939
+      },
+      {
+        "source_sample_id": "e00db1d6f639",
+        "source": "codepen",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "e2c67b43b661",
+        "source": "frontend_mentor",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "e3af2e78eb76",
+        "source": "backstage",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0655737704918033,
+        "f1_change": 0.0655737704918033
+      },
+      {
+        "source_sample_id": "e538736f0fb1",
+        "source": "frontend_mentor",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 1,
+        "tp_change": 1,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.015037593984962407,
+        "f1_change": 0.015037593984962407
+      },
+      {
+        "source_sample_id": "e7a5fcd0e0aa",
+        "source": "onepagelove",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 2,
+        "tp_change": 2,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.16666666666666666,
+        "f1_change": 0.16666666666666666
+      },
+      {
+        "source_sample_id": "e91a92b057f7",
+        "source": "workday-canvas",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ea0618e97764",
+        "source": "zendesk-garden",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ec2527c2a77b",
+        "source": "wordpress-gutenberg",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ede8f1dd6d7c",
+        "source": "shadcn",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "edf8a619ac09",
+        "source": "adobe-spectrum",
+        "tp_at_0_25": 21,
+        "tp_at_calibrated": 21,
+        "tp_change": 0,
+        "f1_at_0_25": 0.8076923076923077,
+        "f1_at_calibrated": 0.8076923076923077,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f0780df6a92a",
+        "source": "glitch",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f08fc02e347e",
+        "source": "grafana-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f1dd72170ae9",
+        "source": "nextui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f33e3539052f",
+        "source": "audi-ui",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f3a5f60fbb0a",
+        "source": "jetbrains-ring-ui",
+        "tp_at_0_25": 1,
+        "tp_at_calibrated": 4,
+        "tp_change": 3,
+        "f1_at_0_25": 0.02105263157894737,
+        "f1_at_calibrated": 0.07766990291262137,
+        "f1_change": 0.056617271333673995
+      },
+      {
+        "source_sample_id": "f41b87f7b128",
+        "source": "bulma",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f55f778407ff",
+        "source": "awwwards",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "f965bb2ce6c7",
+        "source": "volt-bootstrap-5-dashboard",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "fb736555a431",
+        "source": "tailwind-starter-kit",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "fecc919a03bb",
+        "source": "siteinspire",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ff42b1c5323d",
+        "source": "frontend_mentor",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ffae2c937d9b",
+        "source": "contentful-forma-36",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      },
+      {
+        "source_sample_id": "ffbec8c01ead",
+        "source": "contentful-forma-36",
+        "tp_at_0_25": 0,
+        "tp_at_calibrated": 0,
+        "tp_change": 0,
+        "f1_at_0_25": 0.0,
+        "f1_at_calibrated": 0.0,
+        "f1_change": 0.0
+      }
+    ]
+  },
+  "baseline_at_0_25_recomputed_from_persisted_predictions": {
+    "confidence_threshold": 0.25,
+    "metrics": {
+      "iou_threshold": 0.5,
+      "tp": 81,
+      "fp": 203,
+      "fn": 5727,
+      "precision": 0.2852112676056338,
+      "recall": 0.013946280991735538,
+      "f1": 0.026592252133946157,
+      "macro_f1": 0.05233472856830402,
+      "per_class": {
+        "block-footer": {
+          "ground_truth": 22,
+          "predictions": 3,
+          "tp": 2,
+          "fp": 1,
+          "fn": 20,
+          "precision": 0.6666666666666666,
+          "recall": 0.09090909090909091,
+          "f1": 0.16,
+          "ap50": 0.066006600660066
+        },
+        "block-form": {
+          "ground_truth": 164,
+          "predictions": 3,
+          "tp": 3,
+          "fp": 0,
+          "fn": 161,
+          "precision": 1.0,
+          "recall": 0.018292682926829267,
+          "f1": 0.03592814371257485,
+          "ap50": 0.019801980198019802
+        },
+        "block-nav": {
+          "ground_truth": 242,
+          "predictions": 11,
+          "tp": 0,
+          "fp": 11,
+          "fn": 242,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        },
+        "block-sidebar": {
+          "ground_truth": 56,
+          "predictions": 6,
+          "tp": 4,
+          "fp": 2,
+          "fn": 52,
+          "precision": 0.6666666666666666,
+          "recall": 0.07142857142857142,
+          "f1": 0.12903225806451613,
+          "ap50": 0.07920792079207921
+        },
+        "block-table": {
+          "ground_truth": 164,
+          "predictions": 12,
+          "tp": 4,
+          "fp": 8,
+          "fn": 160,
+          "precision": 0.3333333333333333,
+          "recall": 0.024390243902439025,
+          "f1": 0.04545454545454545,
+          "ap50": 0.020102010201020103
+        },
+        "button": {
+          "ground_truth": 2463,
+          "predictions": 46,
+          "tp": 17,
+          "fp": 29,
+          "fn": 2446,
+          "precision": 0.3695652173913043,
+          "recall": 0.006902151847340642,
+          "f1": 0.013551215623754482,
+          "ap50": 0.0066006600660066
+        },
+        "image": {
+          "ground_truth": 428,
+          "predictions": 135,
+          "tp": 28,
+          "fp": 107,
+          "fn": 400,
+          "precision": 0.2074074074074074,
+          "recall": 0.06542056074766354,
+          "f1": 0.0994671403197158,
+          "ap50": 0.024082355406469847
+        },
+        "input": {
+          "ground_truth": 827,
+          "predictions": 16,
+          "tp": 7,
+          "fp": 9,
+          "fn": 820,
+          "precision": 0.4375,
+          "recall": 0.008464328899637243,
+          "f1": 0.016607354685646503,
+          "ap50": 0.00456968773800457
+        },
+        "link": {
+          "ground_truth": 1321,
+          "predictions": 52,
+          "tp": 16,
+          "fp": 36,
+          "fn": 1305,
+          "precision": 0.3076923076923077,
+          "recall": 0.012112036336109008,
+          "f1": 0.02330662782228696,
+          "ap50": 0.014101410141014101
+        },
+        "select": {
+          "ground_truth": 121,
+          "predictions": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 121,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0
+        }
+      }
+    },
+    "prediction_count": 284,
+    "zero_prediction_screens": 180,
+    "zero_prediction_rate": 0.45112781954887216
+  },
+  "responsive_consistency": {
+    "complete_triplets": 133,
+    "mean_detection_class_jaccard": 0.38698830409356727,
+    "responsive_only_misses": 60
+  },
+  "runtime": {
+    "mean_ms": 100.4106709293036,
+    "median_ms": 79.21869994606823,
+    "p95_ms": 104.12729997187853,
+    "screens": 399
+  }
+}

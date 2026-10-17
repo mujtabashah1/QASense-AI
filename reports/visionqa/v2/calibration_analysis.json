@@ -1,0 +1,177 @@
+{
+  "scope": "WebUI training-corpus validation only",
+  "models": {
+    "visionqa_v1": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 691214,
+          "mean_confidence": 0.009766975417733192,
+          "empirical_precision": 0.007333474233746529
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 21216,
+          "mean_confidence": 0.14191526174545288,
+          "empirical_precision": 0.04171380028128624
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 9276,
+          "mean_confidence": 0.24500922858715057,
+          "empirical_precision": 0.05702889338135719
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 5253,
+          "mean_confidence": 0.34584203362464905,
+          "empirical_precision": 0.08242908865213394
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 3296,
+          "mean_confidence": 0.44582778215408325,
+          "empirical_precision": 0.09314320236444473
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 2238,
+          "mean_confidence": 0.5475984811782837,
+          "empirical_precision": 0.09562108665704727
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 1762,
+          "mean_confidence": 0.6489492654800415,
+          "empirical_precision": 0.0970488116145134
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 1640,
+          "mean_confidence": 0.7500343918800354,
+          "empirical_precision": 0.11646341532468796
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 1768,
+          "mean_confidence": 0.8501483798027039,
+          "empirical_precision": 0.1391402781009674
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 1182,
+          "mean_confidence": 0.937119722366333,
+          "empirical_precision": 0.2656514346599579
+        }
+      ],
+      "ece": 0.01782725024624392,
+      "definition": "Detection ECE over supported-class post-NMS predictions at confidence >=0.001; correctness is class-correct IoU>=0.5 one-to-one match.",
+      "conditional_ece": {
+        "confidence_ge_0.1": {
+          "count": 47631,
+          "ece": 0.2412190510549418
+        },
+        "confidence_ge_0.2": {
+          "count": 26415,
+          "ece": 0.3544815602640232
+        }
+      }
+    },
+    "visionqa_v2": {
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4101489,
+          "mean_confidence": 0.003957611508667469,
+          "empirical_precision": 0.004003667738288641
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 12056,
+          "mean_confidence": 0.13598328828811646,
+          "empirical_precision": 0.20471134781837463
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 2936,
+          "mean_confidence": 0.24199159443378448,
+          "empirical_precision": 0.3136920928955078
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 1085,
+          "mean_confidence": 0.3438684642314911,
+          "empirical_precision": 0.42580646276474
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 499,
+          "mean_confidence": 0.4426042139530182,
+          "empirical_precision": 0.531062126159668
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 188,
+          "mean_confidence": 0.5399919748306274,
+          "empirical_precision": 0.585106372833252
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 61,
+          "mean_confidence": 0.638855516910553,
+          "empirical_precision": 0.5245901346206665
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 20,
+          "mean_confidence": 0.7242482900619507,
+          "empirical_precision": 0.75
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 13,
+          "mean_confidence": 0.8409786224365234,
+          "empirical_precision": 0.692307710647583
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_confidence": null,
+          "empirical_precision": null
+        }
+      ],
+      "ece": 0.0003348284994316919,
+      "definition": "Detection ECE over supported-class post-NMS predictions at confidence >=0.001; correctness is class-correct IoU>=0.5 one-to-one match.",
+      "conditional_ece": {
+        "confidence_ge_0.1": {
+          "count": 16858,
+          "ece": 0.07059205285183885
+        },
+        "confidence_ge_0.2": {
+          "count": 4802,
+          "ece": 0.07527183283621547
+        }
+      }
+    }
+  }
+}

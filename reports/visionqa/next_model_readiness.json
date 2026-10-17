@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T07:59:42.889698+00:00",
+  "decision": "B",
+  "new_model_justified": true,
+  "training_performed": false,
+  "recommendation": "Prepare targeted VisionQA fine-tuning on a new curated WebUI-derived training/validation corpus; preserve the 399-screen evaluation slice as evaluation-only.",
+  "evidence": {
+    "full_slice_precision": 0.0880476393024245,
+    "full_slice_recall": 0.035640495867768594,
+    "full_slice_f1": 0.05074151244025003,
+    "human_reviewed_precision": 0.10861423220973783,
+    "human_reviewed_recall": 0.02289774970390841,
+    "human_reviewed_f1": 0.03782197587218781,
+    "systematic_zero_recall_classes": [
+      "block-sidebar",
+      "block-table",
+      "select"
+    ],
+    "mapped_ground_truth_boxes": 5808
+  },
+  "supported_training_targets": [
+    "button",
+    "link",
+    "input",
+    "image",
+    "select",
+    "block-nav",
+    "block-sidebar",
+    "block-footer",
+    "block-form",
+    "block-table"
+  ],
+  "excluded_targets": {
+    "icon": "ambiguous svg/i semantics",
+    "checkbox": "input type absent",
+    "radio": "input type absent",
+    "block": "generic containers incompatible"
+  },
+  "controlled_dataset": {
+    "current": "pilot_v2",
+    "changed": false,
+    "reason": "Observed failures are element-detection domain/taxonomy transfer failures, not visual-defect mutation failures."
+  },
+  "exact_next_milestone": "Create a separate source-grouped, human-reviewed WebUI-derived training/validation corpus for the supported classes, excluding every source sample and exact-image group in webui_eval_manifest.json; benchmark a targeted fine-tune plan without touching the fixed evaluation slice."
+}

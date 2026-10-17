@@ -1,0 +1,1156 @@
+{
+  "status": "completed",
+  "stage": "stage_b",
+  "started_at": "2026-10-17T11:37:23.042790+00:00",
+  "configuration": {
+    "stage": "stage_b",
+    "model": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_a-2\\weights\\epoch2.pt",
+    "data": "C:\\QASense-AI\\datasets\\processed\\visionqa_v2_mixed14\\data.yaml",
+    "epochs": 9,
+    "freeze": 6,
+    "lr0": 0.0001,
+    "batch": 4,
+    "imgsz": 640,
+    "workers": 2,
+    "device": "0",
+    "patience": 4,
+    "project": "C:\\QASense-AI\\runs\\visionqa",
+    "name": "visionqa_v2_mixed14_stage_b",
+    "status": "C:\\QASense-AI\\reports\\visionqa\\v2\\stage_b_training_status.json",
+    "resume": null,
+    "seed": 42,
+    "nc": 14,
+    "amp": true,
+    "save_period": 1,
+    "mosaic": 0.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "webui_supported_class_ids": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "webui_masked_class_ids": [
+      4,
+      5,
+      6,
+      13
+    ]
+  },
+  "environment": {
+    "python": "3.14.8",
+    "torch": "2.14.1+cu126",
+    "torch_cuda": "12.6",
+    "ultralytics": "8.4.176",
+    "gpu": "NVIDIA T1200 Laptop GPU",
+    "vram_bytes": 4294705152
+  },
+  "epoch_history": [
+    {
+      "epoch_index": 0,
+      "epoch_number": 1,
+      "webui_supported_macro_f1": 0.06714348615090404,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.10671462099590501,
+          "recall": 0.017818140016093803,
+          "f1": 0.03053744321120789,
+          "ap50": 0.009035850724733379,
+          "ap50_95": 0.005986327790644376
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.17881321308086545,
+          "recall": 0.07024834936488253,
+          "f1": 0.1008693026753014,
+          "ap50": 0.03349152632627905,
+          "ap50_95": 0.016315957364477586
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.35310720496949843,
+          "recall": 0.03295019157088123,
+          "f1": 0.06027575253353002,
+          "ap50": 0.02885927773772457,
+          "ap50_95": 0.021137150494077182
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.156965934661146,
+          "recall": 0.11157081781823197,
+          "f1": 0.1304314403004639,
+          "ap50": 0.04694944070449074,
+          "ap50_95": 0.030654124023653518
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0001154678287048995,
+          "ap50_95": 9.907472524593897e-05
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.14456534317968878,
+          "recall": 0.2136512388966807,
+          "f1": 0.17244631442147756,
+          "ap50": 0.06657661806963676,
+          "ap50_95": 0.02781007662457744
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.16131816077783998,
+          "recall": 0.04149377593360996,
+          "f1": 0.06600893148474983,
+          "ap50": 0.02384058196309019,
+          "ap50_95": 0.017154722987713436
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.0028923154909060687,
+          "recall": 0.0045351473922902496,
+          "f1": 0.0035320478237431665,
+          "ap50": 0.00091227638734358,
+          "ap50_95": 0.0004383809106156586
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.19010151947587345,
+          "recall": 0.026881720430107527,
+          "f1": 0.04710277072186174,
+          "ap50": 0.015625234774018327,
+          "ap50_95": 0.007612904885613657
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.03252133146214104,
+          "recall": 0.40707964601769914,
+          "f1": 0.06023085833670494,
+          "ap50": 0.04988799026682971,
+          "ap50_95": 0.02054909475295839
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.1327,
+        "metrics/recall(B)": 0.09262,
+        "metrics/mAP50(B)": 0.02753,
+        "metrics/mAP50-95(B)": 0.01478,
+        "val/box_loss": 2.69246,
+        "val/cls_loss": 3.41175,
+        "val/dfl_loss": 1.77837
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch0.pt",
+      "epoch_runtime_seconds": 971.681342124939
+    },
+    {
+      "epoch_index": 1,
+      "epoch_number": 2,
+      "webui_supported_macro_f1": 0.0847216473380969,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.10229453532795527,
+          "recall": 0.035636280032187606,
+          "f1": 0.05285833622010057,
+          "ap50": 0.01669372492996133,
+          "ap50_95": 0.010652244530806347
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.17054859172152964,
+          "recall": 0.10222207326473841,
+          "f1": 0.127827753318223,
+          "ap50": 0.04230827062377013,
+          "ap50_95": 0.023165400093125323
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.24526433274789639,
+          "recall": 0.06206896551724138,
+          "f1": 0.0990670617070929,
+          "ap50": 0.03822437139033862,
+          "ap50_95": 0.029311090852373444
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.19094416715885354,
+          "recall": 0.10757136946628051,
+          "f1": 0.13761511903261417,
+          "ap50": 0.04282237367195956,
+          "ap50_95": 0.0277231476847443
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0005857854209545746,
+          "ap50_95": 0.00047806691243008133
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.1405725708585234,
+          "recall": 0.1753155680224404,
+          "f1": 0.156033462957744,
+          "ap50": 0.06395921657326603,
+          "ap50_95": 0.027214089500363116
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.10524162129839842,
+          "recall": 0.06224066390041494,
+          "f1": 0.0782209100119775,
+          "ap50": 0.03423181718285101,
+          "ap50_95": 0.024911203342862974
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.05254166268856431,
+          "recall": 0.0022675736961451248,
+          "f1": 0.004347518780522772,
+          "ap50": 0.002440164202145019,
+          "ap50_95": 0.0014498855241427062
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.14298452327325473,
+          "recall": 0.03046594982078853,
+          "f1": 0.05022943130089334,
+          "ap50": 0.023689474205501684,
+          "ap50_95": 0.01102249879003558
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.09054845806170646,
+          "recall": 0.3185840707964602,
+          "f1": 0.14101688005180074,
+          "ap50": 0.07707913507358478,
+          "ap50_95": 0.03357917388811396
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.12409,
+        "metrics/recall(B)": 0.08964,
+        "metrics/mAP50(B)": 0.0342,
+        "metrics/mAP50-95(B)": 0.01895,
+        "val/box_loss": 2.49744,
+        "val/cls_loss": 3.21627,
+        "val/dfl_loss": 1.69694
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch1.pt",
+      "epoch_runtime_seconds": 905.7554023265839
+    },
+    {
+      "epoch_index": 2,
+      "epoch_number": 3,
+      "webui_supported_macro_f1": 0.09254219416821517,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.09275471286105633,
+          "recall": 0.05195999540177032,
+          "f1": 0.06660738927794284,
+          "ap50": 0.018305146291606497,
+          "ap50_95": 0.011174091456940496
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.182833951272707,
+          "recall": 0.11582933941079868,
+          "f1": 0.14181545880190344,
+          "ap50": 0.050566150996946495,
+          "ap50_95": 0.027223002550964003
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.2214403288719968,
+          "recall": 0.07586206896551724,
+          "f1": 0.11300898763564919,
+          "ap50": 0.03722553215012166,
+          "ap50_95": 0.02747046343257878
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.19178154919374615,
+          "recall": 0.11791477037649979,
+          "f1": 0.14603904474557794,
+          "ap50": 0.04898645667459918,
+          "ap50_95": 0.03242000438600937
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0007182380311698254,
+          "ap50_95": 0.0006066760389910186
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.171605225276101,
+          "recall": 0.19027582982702199,
+          "f1": 0.1804588893594247,
+          "ap50": 0.07266682516632254,
+          "ap50_95": 0.030097076878921082
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.1290093148567935,
+          "recall": 0.07468879668049792,
+          "f1": 0.09460618377373017,
+          "ap50": 0.04877663240989969,
+          "ap50_95": 0.03721796495994843
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.11979664471927688,
+          "recall": 0.009070294784580499,
+          "f1": 0.01686376484133039,
+          "ap50": 0.008905407159943493,
+          "ap50_95": 0.007295887687190456
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.17782374394185357,
+          "recall": 0.04121863799283154,
+          "f1": 0.06692451445542458,
+          "ap50": 0.03354004322458042,
+          "ap50_95": 0.013609136467644858
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.05641564469573176,
+          "recall": 0.40707964601769914,
+          "f1": 0.09909770879116846,
+          "ap50": 0.10042941250748944,
+          "ap50_95": 0.03977750993667578
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.13435,
+        "metrics/recall(B)": 0.10839,
+        "metrics/mAP50(B)": 0.04201,
+        "metrics/mAP50-95(B)": 0.02269,
+        "val/box_loss": 2.47416,
+        "val/cls_loss": 3.1475,
+        "val/dfl_loss": 1.6727
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch2.pt",
+      "epoch_runtime_seconds": 910.5048022270203
+    },
+    {
+      "epoch_index": 3,
+      "epoch_number": 4,
+      "webui_supported_macro_f1": 0.1032688655483144,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.11841813820788667,
+          "recall": 0.04080928842395678,
+          "f1": 0.06070009493938745,
+          "ap50": 0.020254563637404334,
+          "ap50_95": 0.012644387862833003
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.2008018426890548,
+          "recall": 0.11991822234138821,
+          "f1": 0.15016085766795323,
+          "ap50": 0.05575057724458732,
+          "ap50_95": 0.03025004024599847
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.2380825223204383,
+          "recall": 0.0735632183908046,
+          "f1": 0.1123975995598144,
+          "ap50": 0.042101803796027085,
+          "ap50_95": 0.030242055866836943
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.19579789484816865,
+          "recall": 0.10881257757550683,
+          "f1": 0.13988536541615865,
+          "ap50": 0.05343672808328724,
+          "ap50_95": 0.03627346529598156
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.00045904140493838207,
+          "ap50_95": 0.00039234521163100655
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.16102796019993557,
+          "recall": 0.2028985507246377,
+          "f1": 0.17955460110727228,
+          "ap50": 0.07356449492559111,
+          "ap50_95": 0.03095157572797076
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.15666911651503743,
+          "recall": 0.0912863070539419,
+          "f1": 0.11535738859999463,
+          "ap50": 0.04758873329108573,
+          "ap50_95": 0.034885989975784085
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.11239790138105063,
+          "recall": 0.011337868480725623,
+          "f1": 0.02059796653451924,
+          "ap50": 0.010794608923731724,
+          "ap50_95": 0.005032230270771701
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.16465597020586906,
+          "recall": 0.053763440860215055,
+          "f1": 0.08105938454129615,
+          "ap50": 0.03195923022365348,
+          "ap50_95": 0.01370188633087142
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.11591148179305628,
+          "recall": 0.3407079646017699,
+          "f1": 0.1729753971167479,
+          "ap50": 0.10562907688221884,
+          "ap50_95": 0.04645118500244146
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.14638,
+        "metrics/recall(B)": 0.10431,
+        "metrics/mAP50(B)": 0.04415,
+        "metrics/mAP50-95(B)": 0.02408,
+        "val/box_loss": 2.42672,
+        "val/cls_loss": 3.09484,
+        "val/dfl_loss": 1.6509
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch3.pt",
+      "epoch_runtime_seconds": 928.5644931793213
+    },
+    {
+      "epoch_index": 4,
+      "epoch_number": 5,
+      "webui_supported_macro_f1": 0.10303305924247774,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.13076496816561542,
+          "recall": 0.04138406713415335,
+          "f1": 0.06287094449222885,
+          "ap50": 0.020595300691059963,
+          "ap50_95": 0.01331077666764904
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.20261167405823033,
+          "recall": 0.13137747703221478,
+          "f1": 0.15939805510530103,
+          "ap50": 0.06103248484552136,
+          "ap50_95": 0.03319876019726268
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.2483796054787279,
+          "recall": 0.07126436781609195,
+          "f1": 0.11075206818635006,
+          "ap50": 0.04233555499354676,
+          "ap50_95": 0.02984841078770594
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.19984752941276782,
+          "recall": 0.11377741001241208,
+          "f1": 0.1450020801001293,
+          "ap50": 0.05684115027629734,
+          "ap50_95": 0.03867392544417937
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0005342475504584284,
+          "ap50_95": 0.000471694995892398
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.17003256388332488,
+          "recall": 0.22206638616175783,
+          "f1": 0.19259687885951637,
+          "ap50": 0.07866324658695915,
+          "ap50_95": 0.032295778358443966
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.17531888384561367,
+          "recall": 0.08380667877267903,
+          "f1": 0.11340365830967804,
+          "ap50": 0.05935106322032647,
+          "ap50_95": 0.04555126531502691
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.1353971704064002,
+          "recall": 0.011337868480725623,
+          "f1": 0.02092363654070423,
+          "ap50": 0.00882779238003529,
+          "ap50_95": 0.005726381320417604
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.20728384856909254,
+          "recall": 0.05017921146953405,
+          "f1": 0.08079869842304273,
+          "ap50": 0.03585267225315878,
+          "ap50_95": 0.016478129473370566
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.09144697718709298,
+          "recall": 0.34513274336283184,
+          "f1": 0.14458457240782682,
+          "ap50": 0.1041143468212618,
+          "ap50_95": 0.04365359070795597
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.15611,
+        "metrics/recall(B)": 0.10703,
+        "metrics/mAP50(B)": 0.04681,
+        "metrics/mAP50-95(B)": 0.02592,
+        "val/box_loss": 2.40135,
+        "val/cls_loss": 3.06655,
+        "val/dfl_loss": 1.62987
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch4.pt",
+      "epoch_runtime_seconds": 926.5106511116028
+    },
+    {
+      "epoch_index": 5,
+      "epoch_number": 6,
+      "webui_supported_macro_f1": 0.10814736186806921,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.13611369677512655,
+          "recall": 0.04230371307046787,
+          "f1": 0.06454655718092528,
+          "ap50": 0.01914215735524702,
+          "ap50_95": 0.012116636689687998
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.21288494497932084,
+          "recall": 0.13127442362955258,
+          "f1": 0.16240353162275542,
+          "ap50": 0.0645650010877209,
+          "ap50_95": 0.035126945859048214
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.24831550045183115,
+          "recall": 0.0735632183908046,
+          "f1": 0.11350167824229812,
+          "ap50": 0.0447609397828712,
+          "ap50_95": 0.03262423959123006
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.20284310264332014,
+          "recall": 0.11322576196386705,
+          "f1": 0.1453294989017565,
+          "ap50": 0.05616500766233748,
+          "ap50_95": 0.03733580882579106
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0006773039342149697,
+          "ap50_95": 0.0006196524218104747
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.16989791788120884,
+          "recall": 0.22393641888733054,
+          "f1": 0.19320982329223316,
+          "ap50": 0.08196385983470725,
+          "ap50_95": 0.03408139096834763
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.20513208176340844,
+          "recall": 0.08713692946058091,
+          "f1": 0.12231594217849871,
+          "ap50": 0.0662708180860892,
+          "ap50_95": 0.048409601612597816
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.13452193451659022,
+          "recall": 0.018140589569160998,
+          "f1": 0.03196995748274519,
+          "ap50": 0.008399598124374526,
+          "ap50_95": 0.006278994528420222
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.18948790900838958,
+          "recall": 0.05197132616487455,
+          "f1": 0.08157019064777947,
+          "ap50": 0.03614989556065336,
+          "ap50_95": 0.01672227789140932
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.10982420107618915,
+          "recall": 0.34513274336283184,
+          "f1": 0.16662643913170022,
+          "ap50": 0.11470769537832626,
+          "ap50_95": 0.04971918327001158
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.1609,
+        "metrics/recall(B)": 0.10867,
+        "metrics/mAP50(B)": 0.04928,
+        "metrics/mAP50-95(B)": 0.0273,
+        "val/box_loss": 2.38681,
+        "val/cls_loss": 3.04977,
+        "val/dfl_loss": 1.61977
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch5.pt",
+      "epoch_runtime_seconds": 925.517468214035
+    },
+    {
+      "epoch_index": 6,
+      "epoch_number": 7,
+      "webui_supported_macro_f1": 0.11072930539196382,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.14494564324827855,
+          "recall": 0.041499022876192664,
+          "f1": 0.06452426545631577,
+          "ap50": 0.021525325502491657,
+          "ap50_95": 0.014155405174688837
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.21913577921603108,
+          "recall": 0.1307772229111506,
+          "f1": 0.16380053597395255,
+          "ap50": 0.06769097863792854,
+          "ap50_95": 0.03688352702706223
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.2573969499055901,
+          "recall": 0.07088122605363985,
+          "f1": 0.11115336155664157,
+          "ap50": 0.04434295694185812,
+          "ap50_95": 0.03221344656157156
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.20518227800718591,
+          "recall": 0.11184664184250448,
+          "f1": 0.14477511245081018,
+          "ap50": 0.05687427372385064,
+          "ap50_95": 0.03782953677843141
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0006497336553148999,
+          "ap50_95": 0.0005794998973170484
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.1719806402139179,
+          "recall": 0.2211313697989715,
+          "f1": 0.1934833512115837,
+          "ap50": 0.08391857330460498,
+          "ap50_95": 0.03526360183765136
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.18282681650015598,
+          "recall": 0.08713692946058091,
+          "f1": 0.1180230134693244,
+          "ap50": 0.07245491512004845,
+          "ap50_95": 0.05288094829030047
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.17667540751808902,
+          "recall": 0.022675736961451247,
+          "f1": 0.040192847439093175,
+          "ap50": 0.01069115051588478,
+          "ap50_95": 0.008454815689754371
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.2150838871722754,
+          "recall": 0.05734767025089606,
+          "f1": 0.09055162298013186,
+          "ap50": 0.03655396193551265,
+          "ap50_95": 0.016512039551157355
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.12486624685464617,
+          "recall": 0.3274336283185841,
+          "f1": 0.18078894338178506,
+          "ap50": 0.10307310050577989,
+          "ap50_95": 0.0460590570154604
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.16981,
+        "metrics/recall(B)": 0.10707,
+        "metrics/mAP50(B)": 0.04978,
+        "metrics/mAP50-95(B)": 0.02808,
+        "val/box_loss": 2.38039,
+        "val/cls_loss": 3.03796,
+        "val/dfl_loss": 1.61539
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch6.pt",
+      "epoch_runtime_seconds": 912.7424483299255
+    },
+    {
+      "epoch_index": 7,
+      "epoch_number": 8,
+      "webui_supported_macro_f1": 0.11294210595122801,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.1441441820214308,
+          "recall": 0.041728934360271294,
+          "f1": 0.06472138873095708,
+          "ap50": 0.022205414863799563,
+          "ap50_95": 0.014386048359955578
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.22243209805446712,
+          "recall": 0.13228541743472869,
+          "f1": 0.1659039751755022,
+          "ap50": 0.07030544372139186,
+          "ap50_95": 0.03831374345002039
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.2573171355717653,
+          "recall": 0.07126436781609195,
+          "f1": 0.11161640448837964,
+          "ap50": 0.04484812671222627,
+          "ap50_95": 0.032334174549333475
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.20643763321918274,
+          "recall": 0.11322576196386705,
+          "f1": 0.1462416946793331,
+          "ap50": 0.057479978409378144,
+          "ap50_95": 0.03861120072459061
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0006689122205794918,
+          "ap50_95": 0.0006069459818405117
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.1731650472308824,
+          "recall": 0.23576925420860806,
+          "f1": 0.1996750768859856,
+          "ap50": 0.08396956093837632,
+          "ap50_95": 0.03508943971296533
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.17704296235201666,
+          "recall": 0.0912863070539419,
+          "f1": 0.12046094157961271,
+          "ap50": 0.07474016507977874,
+          "ap50_95": 0.054902725174790126
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.1730001036273318,
+          "recall": 0.024943310657596373,
+          "f1": 0.04360029197396208,
+          "ap50": 0.011552520275710488,
+          "ap50_95": 0.009247592932087685
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.21975918611074735,
+          "recall": 0.06208797929106855,
+          "f1": 0.09682129516409357,
+          "ap50": 0.03991573970087685,
+          "ap50_95": 0.018422477619843673
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.1287966866281928,
+          "recall": 0.3008849557522124,
+          "f1": 0.1803799908344542,
+          "ap50": 0.09944586809647052,
+          "ap50_95": 0.04491508602227047
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.17021,
+        "metrics/recall(B)": 0.10735,
+        "metrics/mAP50(B)": 0.05051,
+        "metrics/mAP50-95(B)": 0.02868,
+        "val/box_loss": 2.37489,
+        "val/cls_loss": 3.02976,
+        "val/dfl_loss": 1.61334
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch7.pt",
+      "epoch_runtime_seconds": 927.1269800662994
+    },
+    {
+      "epoch_index": 8,
+      "epoch_number": 9,
+      "webui_supported_macro_f1": 0.11465490504345474,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "button",
+          "precision": 0.1454450936011787,
+          "recall": 0.04356822623290033,
+          "f1": 0.06705119774674206,
+          "ap50": 0.022474935541097817,
+          "ap50_95": 0.014628412426232829
+        },
+        {
+          "class_id": 1,
+          "class_name": "link",
+          "precision": 0.22111956950158235,
+          "recall": 0.13436337433388076,
+          "f1": 0.1671549760949389,
+          "ap50": 0.07221172206765217,
+          "ap50_95": 0.039366913536925466
+        },
+        {
+          "class_id": 2,
+          "class_name": "input",
+          "precision": 0.25294118991828723,
+          "recall": 0.07164750957854406,
+          "f1": 0.1116650478317452,
+          "ap50": 0.04505751138704787,
+          "ap50_95": 0.03242474166956404
+        },
+        {
+          "class_id": 3,
+          "class_name": "image",
+          "precision": 0.20747133507749263,
+          "recall": 0.11419114604882086,
+          "f1": 0.14730589307041037,
+          "ap50": 0.058070675568352714,
+          "ap50_95": 0.03907533054384724
+        },
+        {
+          "class_id": 7,
+          "class_name": "select",
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "ap50": 0.0006152666065076571,
+          "ap50_95": 0.0005602726333203016
+        },
+        {
+          "class_id": 8,
+          "class_name": "block-nav",
+          "precision": 0.17427426675170868,
+          "recall": 0.24123422159887797,
+          "f1": 0.20235888441870534,
+          "ap50": 0.08396301626386943,
+          "ap50_95": 0.03504499667922092
+        },
+        {
+          "class_id": 9,
+          "class_name": "block-sidebar",
+          "precision": 0.1856839747778718,
+          "recall": 0.0995850622406639,
+          "f1": 0.12964148074820142,
+          "ap50": 0.07607695051268869,
+          "ap50_95": 0.05595339848873655
+        },
+        {
+          "class_id": 10,
+          "class_name": "block-footer",
+          "precision": 0.16083749819355145,
+          "recall": 0.024943310657596373,
+          "f1": 0.043188741696637986,
+          "ap50": 0.012342331130355695,
+          "ap50_95": 0.009775358019775787
+        },
+        {
+          "class_id": 11,
+          "class_name": "block-form",
+          "precision": 0.22535851245025906,
+          "recall": 0.06451612903225806,
+          "f1": 0.10031411366927409,
+          "ap50": 0.04024083712166495,
+          "ap50_95": 0.018500355675896547
+        },
+        {
+          "class_id": 12,
+          "class_name": "block-table",
+          "precision": 0.1287444480383474,
+          "recall": 0.28761061946902655,
+          "f1": 0.177868715157892,
+          "ap50": 0.0993317573408545,
+          "ap50_95": 0.04608635866068251
+        }
+      ],
+      "metrics": {
+        "metrics/precision(B)": 0.17019,
+        "metrics/recall(B)": 0.10817,
+        "metrics/mAP50(B)": 0.05104,
+        "metrics/mAP50-95(B)": 0.02914,
+        "val/box_loss": 2.37113,
+        "val/cls_loss": 3.0231,
+        "val/dfl_loss": 1.61016
+      },
+      "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch8.pt",
+      "epoch_runtime_seconds": 925.1584742069244
+    }
+  ],
+  "resume_events": [],
+  "updated_at": "2026-10-17T13:56:25.854218+00:00",
+  "completed_epochs": 9,
+  "latest_macro_f1": 0.11465490504345474,
+  "last_checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\last.pt",
+  "ultralytics_best_checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\best.pt",
+  "gpu": {
+    "sample_count": 3792,
+    "mean_gpu_utilization_percent": 62.539556962025316,
+    "peak_gpu_utilization_percent": 99.0,
+    "peak_memory_used_mib": 2291.0,
+    "peak_temperature_c": 76.0
+  },
+  "torch_peak_allocated_mib": 1078.31298828125,
+  "torch_peak_reserved_mib": 1660.0,
+  "finished_at": "2026-10-17T13:57:33.367740+00:00",
+  "runtime_seconds": 8410.322172599961,
+  "selected_by": "WebUI validation supported-class macro-F1",
+  "selected_epoch": {
+    "epoch_index": 8,
+    "epoch_number": 9,
+    "webui_supported_macro_f1": 0.11465490504345474,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "button",
+        "precision": 0.1454450936011787,
+        "recall": 0.04356822623290033,
+        "f1": 0.06705119774674206,
+        "ap50": 0.022474935541097817,
+        "ap50_95": 0.014628412426232829
+      },
+      {
+        "class_id": 1,
+        "class_name": "link",
+        "precision": 0.22111956950158235,
+        "recall": 0.13436337433388076,
+        "f1": 0.1671549760949389,
+        "ap50": 0.07221172206765217,
+        "ap50_95": 0.039366913536925466
+      },
+      {
+        "class_id": 2,
+        "class_name": "input",
+        "precision": 0.25294118991828723,
+        "recall": 0.07164750957854406,
+        "f1": 0.1116650478317452,
+        "ap50": 0.04505751138704787,
+        "ap50_95": 0.03242474166956404
+      },
+      {
+        "class_id": 3,
+        "class_name": "image",
+        "precision": 0.20747133507749263,
+        "recall": 0.11419114604882086,
+        "f1": 0.14730589307041037,
+        "ap50": 0.058070675568352714,
+        "ap50_95": 0.03907533054384724
+      },
+      {
+        "class_id": 7,
+        "class_name": "select",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "ap50": 0.0006152666065076571,
+        "ap50_95": 0.0005602726333203016
+      },
+      {
+        "class_id": 8,
+        "class_name": "block-nav",
+        "precision": 0.17427426675170868,
+        "recall": 0.24123422159887797,
+        "f1": 0.20235888441870534,
+        "ap50": 0.08396301626386943,
+        "ap50_95": 0.03504499667922092
+      },
+      {
+        "class_id": 9,
+        "class_name": "block-sidebar",
+        "precision": 0.1856839747778718,
+        "recall": 0.0995850622406639,
+        "f1": 0.12964148074820142,
+        "ap50": 0.07607695051268869,
+        "ap50_95": 0.05595339848873655
+      },
+      {
+        "class_id": 10,
+        "class_name": "block-footer",
+        "precision": 0.16083749819355145,
+        "recall": 0.024943310657596373,
+        "f1": 0.043188741696637986,
+        "ap50": 0.012342331130355695,
+        "ap50_95": 0.009775358019775787
+      },
+      {
+        "class_id": 11,
+        "class_name": "block-form",
+        "precision": 0.22535851245025906,
+        "recall": 0.06451612903225806,
+        "f1": 0.10031411366927409,
+        "ap50": 0.04024083712166495,
+        "ap50_95": 0.018500355675896547
+      },
+      {
+        "class_id": 12,
+        "class_name": "block-table",
+        "precision": 0.1287444480383474,
+        "recall": 0.28761061946902655,
+        "f1": 0.177868715157892,
+        "ap50": 0.0993317573408545,
+        "ap50_95": 0.04608635866068251
+      }
+    ],
+    "metrics": {
+      "metrics/precision(B)": 0.17019,
+      "metrics/recall(B)": 0.10817,
+      "metrics/mAP50(B)": 0.05104,
+      "metrics/mAP50-95(B)": 0.02914,
+      "val/box_loss": 2.37113,
+      "val/cls_loss": 3.0231,
+      "val/dfl_loss": 1.61016
+    },
+    "checkpoint": "C:\\QASense-AI\\runs\\visionqa\\visionqa_v2_mixed14_stage_b\\weights\\epoch8.pt",
+    "epoch_runtime_seconds": 925.1584742069244
+  }
+}

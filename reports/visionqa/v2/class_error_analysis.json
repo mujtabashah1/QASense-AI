@@ -1,0 +1,390 @@
+{
+  "scope": "WebUI training-corpus validation only",
+  "models": {
+    "visionqa_v1": {
+      "threshold": 0.25,
+      "miss_categories": {
+        "no_nearby_prediction": 39614,
+        "correct_class_below_confidence_threshold": 6266,
+        "correct_class_localization_below_iou_0_5": 1446,
+        "nearby_incompatible_or_duplicate_prediction": 1982,
+        "wrong_class_overlap": 681
+      },
+      "per_class_miss_categories": {
+        "link": {
+          "no_nearby_prediction": 22811,
+          "correct_class_below_confidence_threshold": 4695,
+          "nearby_incompatible_or_duplicate_prediction": 1022,
+          "wrong_class_overlap": 429,
+          "correct_class_localization_below_iou_0_5": 326
+        },
+        "button": {
+          "no_nearby_prediction": 7170,
+          "correct_class_below_confidence_threshold": 429,
+          "correct_class_localization_below_iou_0_5": 462,
+          "wrong_class_overlap": 41,
+          "nearby_incompatible_or_duplicate_prediction": 203
+        },
+        "image": {
+          "correct_class_below_confidence_threshold": 672,
+          "no_nearby_prediction": 5135,
+          "nearby_incompatible_or_duplicate_prediction": 127,
+          "wrong_class_overlap": 55,
+          "correct_class_localization_below_iou_0_5": 406
+        },
+        "block-nav": {
+          "no_nearby_prediction": 1276,
+          "nearby_incompatible_or_duplicate_prediction": 301,
+          "correct_class_localization_below_iou_0_5": 202,
+          "wrong_class_overlap": 70,
+          "correct_class_below_confidence_threshold": 152
+        },
+        "block-sidebar": {
+          "wrong_class_overlap": 13,
+          "no_nearby_prediction": 139,
+          "nearby_incompatible_or_duplicate_prediction": 35,
+          "correct_class_below_confidence_threshold": 25,
+          "correct_class_localization_below_iou_0_5": 19
+        },
+        "block-form": {
+          "nearby_incompatible_or_duplicate_prediction": 102,
+          "no_nearby_prediction": 387,
+          "wrong_class_overlap": 13,
+          "correct_class_below_confidence_threshold": 37,
+          "correct_class_localization_below_iou_0_5": 5
+        },
+        "input": {
+          "nearby_incompatible_or_duplicate_prediction": 115,
+          "no_nearby_prediction": 2085,
+          "correct_class_below_confidence_threshold": 209,
+          "wrong_class_overlap": 43,
+          "correct_class_localization_below_iou_0_5": 22
+        },
+        "block-footer": {
+          "no_nearby_prediction": 345,
+          "nearby_incompatible_or_duplicate_prediction": 42,
+          "wrong_class_overlap": 10,
+          "correct_class_below_confidence_threshold": 31,
+          "correct_class_localization_below_iou_0_5": 2
+        },
+        "block-table": {
+          "nearby_incompatible_or_duplicate_prediction": 34,
+          "no_nearby_prediction": 177,
+          "correct_class_below_confidence_threshold": 7,
+          "wrong_class_overlap": 4,
+          "correct_class_localization_below_iou_0_5": 2
+        },
+        "select": {
+          "no_nearby_prediction": 89,
+          "wrong_class_overlap": 3,
+          "correct_class_below_confidence_threshold": 9,
+          "nearby_incompatible_or_duplicate_prediction": 1
+        }
+      },
+      "wrong_class_pairs": [
+        {
+          "pair": "link -> button",
+          "count": 284
+        },
+        {
+          "pair": "link -> image",
+          "count": 117
+        },
+        {
+          "pair": "block-nav -> image",
+          "count": 47
+        },
+        {
+          "pair": "image -> button",
+          "count": 45
+        },
+        {
+          "pair": "input -> button",
+          "count": 34
+        },
+        {
+          "pair": "button -> image",
+          "count": 33
+        },
+        {
+          "pair": "block-nav -> button",
+          "count": 12
+        },
+        {
+          "pair": "link -> input",
+          "count": 11
+        },
+        {
+          "pair": "block-nav -> block-sidebar",
+          "count": 10
+        },
+        {
+          "pair": "block-sidebar -> image",
+          "count": 8
+        },
+        {
+          "pair": "link -> block-nav",
+          "count": 8
+        },
+        {
+          "pair": "button -> link",
+          "count": 8
+        },
+        {
+          "pair": "block-footer -> image",
+          "count": 7
+        },
+        {
+          "pair": "image -> link",
+          "count": 6
+        },
+        {
+          "pair": "link -> select",
+          "count": 6
+        },
+        {
+          "pair": "block-form -> input",
+          "count": 5
+        },
+        {
+          "pair": "input -> link",
+          "count": 5
+        },
+        {
+          "pair": "input -> image",
+          "count": 4
+        },
+        {
+          "pair": "block-table -> image",
+          "count": 3
+        },
+        {
+          "pair": "block-form -> button",
+          "count": 3
+        },
+        {
+          "pair": "block-footer -> button",
+          "count": 2
+        },
+        {
+          "pair": "block-form -> image",
+          "count": 2
+        },
+        {
+          "pair": "image -> select",
+          "count": 2
+        },
+        {
+          "pair": "block-form -> block-nav",
+          "count": 2
+        },
+        {
+          "pair": "block-sidebar -> block-nav",
+          "count": 2
+        },
+        {
+          "pair": "link -> block-footer",
+          "count": 2
+        },
+        {
+          "pair": "block-sidebar -> button",
+          "count": 2
+        },
+        {
+          "pair": "image -> block-form",
+          "count": 1
+        },
+        {
+          "pair": "link -> block-table",
+          "count": 1
+        },
+        {
+          "pair": "block-footer -> link",
+          "count": 1
+        },
+        {
+          "pair": "block-table -> block-footer",
+          "count": 1
+        },
+        {
+          "pair": "block-nav -> link",
+          "count": 1
+        },
+        {
+          "pair": "block-form -> link",
+          "count": 1
+        },
+        {
+          "pair": "select -> link",
+          "count": 1
+        },
+        {
+          "pair": "block-sidebar -> link",
+          "count": 1
+        },
+        {
+          "pair": "image -> input",
+          "count": 1
+        },
+        {
+          "pair": "select -> button",
+          "count": 1
+        },
+        {
+          "pair": "select -> input",
+          "count": 1
+        }
+      ]
+    },
+    "visionqa_v2": {
+      "threshold": 0.25,
+      "miss_categories": {
+        "correct_class_below_confidence_threshold": 19443,
+        "no_nearby_prediction": 30980,
+        "wrong_class_overlap": 91,
+        "nearby_incompatible_or_duplicate_prediction": 162,
+        "correct_class_localization_below_iou_0_5": 136
+      },
+      "per_class_miss_categories": {
+        "link": {
+          "correct_class_below_confidence_threshold": 13789,
+          "no_nearby_prediction": 15055,
+          "correct_class_localization_below_iou_0_5": 93,
+          "nearby_incompatible_or_duplicate_prediction": 43,
+          "wrong_class_overlap": 11
+        },
+        "button": {
+          "no_nearby_prediction": 6225,
+          "correct_class_below_confidence_threshold": 2331,
+          "wrong_class_overlap": 32,
+          "nearby_incompatible_or_duplicate_prediction": 20,
+          "correct_class_localization_below_iou_0_5": 6
+        },
+        "image": {
+          "no_nearby_prediction": 5509,
+          "correct_class_below_confidence_threshold": 1454,
+          "nearby_incompatible_or_duplicate_prediction": 28,
+          "wrong_class_overlap": 14,
+          "correct_class_localization_below_iou_0_5": 20
+        },
+        "block-nav": {
+          "no_nearby_prediction": 928,
+          "correct_class_below_confidence_threshold": 1153,
+          "wrong_class_overlap": 15,
+          "nearby_incompatible_or_duplicate_prediction": 26,
+          "correct_class_localization_below_iou_0_5": 3
+        },
+        "block-sidebar": {
+          "no_nearby_prediction": 206,
+          "correct_class_localization_below_iou_0_5": 5,
+          "wrong_class_overlap": 3,
+          "nearby_incompatible_or_duplicate_prediction": 5,
+          "correct_class_below_confidence_threshold": 7
+        },
+        "block-form": {
+          "nearby_incompatible_or_duplicate_prediction": 17,
+          "no_nearby_prediction": 464,
+          "correct_class_below_confidence_threshold": 52,
+          "wrong_class_overlap": 7,
+          "correct_class_localization_below_iou_0_5": 3
+        },
+        "input": {
+          "nearby_incompatible_or_duplicate_prediction": 9,
+          "no_nearby_prediction": 1970,
+          "correct_class_below_confidence_threshold": 554,
+          "wrong_class_overlap": 5,
+          "correct_class_localization_below_iou_0_5": 4
+        },
+        "block-footer": {
+          "no_nearby_prediction": 413,
+          "nearby_incompatible_or_duplicate_prediction": 14,
+          "correct_class_below_confidence_threshold": 8,
+          "wrong_class_overlap": 2
+        },
+        "block-table": {
+          "no_nearby_prediction": 110,
+          "correct_class_below_confidence_threshold": 95,
+          "correct_class_localization_below_iou_0_5": 2
+        },
+        "select": {
+          "no_nearby_prediction": 100,
+          "wrong_class_overlap": 2
+        }
+      },
+      "wrong_class_pairs": [
+        {
+          "pair": "button -> link",
+          "count": 32
+        },
+        {
+          "pair": "image -> link",
+          "count": 11
+        },
+        {
+          "pair": "block-nav -> button",
+          "count": 8
+        },
+        {
+          "pair": "link -> image",
+          "count": 6
+        },
+        {
+          "pair": "block-nav -> link",
+          "count": 5
+        },
+        {
+          "pair": "block-form -> link",
+          "count": 5
+        },
+        {
+          "pair": "link -> button",
+          "count": 5
+        },
+        {
+          "pair": "input -> link",
+          "count": 4
+        },
+        {
+          "pair": "image -> button",
+          "count": 3
+        },
+        {
+          "pair": "block-footer -> link",
+          "count": 2
+        },
+        {
+          "pair": "block-sidebar -> image",
+          "count": 2
+        },
+        {
+          "pair": "block-form -> input",
+          "count": 2
+        },
+        {
+          "pair": "input -> button",
+          "count": 1
+        },
+        {
+          "pair": "block-nav -> block-sidebar",
+          "count": 1
+        },
+        {
+          "pair": "select -> link",
+          "count": 1
+        },
+        {
+          "pair": "select -> input",
+          "count": 1
+        },
+        {
+          "pair": "block-sidebar -> block-form",
+          "count": 1
+        },
+        {
+          "pair": "block-nav -> image",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

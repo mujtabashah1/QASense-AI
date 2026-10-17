@@ -1,0 +1,12 @@
+﻿{
+    "pid":  2572,
+    "status":  "started",
+    "detached":  true,
+    "started_utc":  "2026-10-12T21:28:00.8126893Z",
+    "project_root":  "C:\\QASense-AI",
+    "checkpoint":  "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\last.pt",
+    "metrics_output":  "C:\\QASense-AI\\reports\\visionqa\\metrics\\training_status.json",
+    "stdout_log":  "C:\\QASense-AI\\runs\\visionqa\\process_logs\\main_resume_20261012_142800.stdout.log",
+    "stderr_log":  "C:\\QASense-AI\\runs\\visionqa\\process_logs\\main_resume_20261012_142800.stderr.log",
+    "resume_command":  ".\\.venv-visionqa\\Scripts\\python.exe scripts\\train_visionqa_yolo.py --resume runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\last.pt --device 0 --workers 2 --metrics-output reports\\visionqa\\metrics\\training_status.json"
+}

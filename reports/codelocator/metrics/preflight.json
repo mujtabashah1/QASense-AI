@@ -1,0 +1,9 @@
+{
+  "pretrained_weights_loaded": true,
+  "tokenizer_loaded": true,
+  "cpu_forward_shape": [
+    2,
+    14
+  ],
+  "classification_head": "new random initialization; this is a compatibility check, not a trained classifier or evaluation"
+}

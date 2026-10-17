@@ -1,0 +1,116 @@
+{
+  "classes": [
+    {
+      "class_name": "button",
+      "v1_ap50_95": 0.2588516879013223,
+      "v2_ap50_95": 0.24836004878007487,
+      "absolute_change": -0.010491639121247426,
+      "relative_change": -0.04053146883572565,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "link",
+      "v1_ap50_95": 0.12789521283401215,
+      "v2_ap50_95": 0.12622266982278374,
+      "absolute_change": -0.0016725430112284057,
+      "relative_change": -0.01307744812465423,
+      "classification": "stable"
+    },
+    {
+      "class_name": "input",
+      "v1_ap50_95": 0.18406214386059794,
+      "v2_ap50_95": 0.16771404406120466,
+      "absolute_change": -0.01634809979939328,
+      "relative_change": -0.08881837110283113,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "image",
+      "v1_ap50_95": 0.6533976942184058,
+      "v2_ap50_95": 0.6427776103019455,
+      "absolute_change": -0.010620083916460299,
+      "relative_change": -0.016253629314018383,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "icon",
+      "v1_ap50_95": 0.020560758077722105,
+      "v2_ap50_95": 0.02123257278793503,
+      "absolute_change": 0.0006718147102129264,
+      "relative_change": 0.03267460799224363,
+      "classification": "stable"
+    },
+    {
+      "class_name": "checkbox",
+      "v1_ap50_95": 0.010000554309341136,
+      "v2_ap50_95": 0.009781512034080888,
+      "absolute_change": -0.00021904227526024778,
+      "relative_change": -0.02190301342153092,
+      "classification": "stable"
+    },
+    {
+      "class_name": "radio",
+      "v1_ap50_95": 0.004209126232937649,
+      "v2_ap50_95": 0.0017480515833032339,
+      "absolute_change": -0.002461074649634415,
+      "relative_change": -0.5846996534282538,
+      "classification": "stable"
+    },
+    {
+      "class_name": "select",
+      "v1_ap50_95": 0.09514808788775496,
+      "v2_ap50_95": 0.08101324174465296,
+      "absolute_change": -0.014134846143101995,
+      "relative_change": -0.14855628165409587,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "block-nav",
+      "v1_ap50_95": 0.4546124667427819,
+      "v2_ap50_95": 0.3990744042683583,
+      "absolute_change": -0.05553806247442361,
+      "relative_change": -0.12216572693737159,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "block-sidebar",
+      "v1_ap50_95": 0.5146544330694616,
+      "v2_ap50_95": 0.3841847682334681,
+      "absolute_change": -0.13046966483599348,
+      "relative_change": -0.25350926068557605,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "block-footer",
+      "v1_ap50_95": 0.7804803778275342,
+      "v2_ap50_95": 0.7569393811783377,
+      "absolute_change": -0.02354099664919651,
+      "relative_change": -0.030162188977412647,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "block-form",
+      "v1_ap50_95": 0.1302454489561799,
+      "v2_ap50_95": 0.09513997420299264,
+      "absolute_change": -0.03510547475318726,
+      "relative_change": -0.2695332162047231,
+      "classification": "minor regression"
+    },
+    {
+      "class_name": "block-table",
+      "v1_ap50_95": 0.1717343011896861,
+      "v2_ap50_95": 0.17838825213703163,
+      "absolute_change": 0.006653950947345527,
+      "relative_change": 0.038745614016829535,
+      "classification": "improved"
+    },
+    {
+      "class_name": "block",
+      "v1_ap50_95": 0.48967604050693936,
+      "v2_ap50_95": 0.46320155895758564,
+      "absolute_change": -0.026474481549353723,
+      "relative_change": -0.05406529901268172,
+      "classification": "minor regression"
+    }
+  ]
+}

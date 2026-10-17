@@ -1,0 +1,49 @@
+{
+  "captured_at": "2026-10-13T01:00:43.154284+00:00",
+  "dataset": "C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock",
+  "dataset_modified": false,
+  "splits": {
+    "train": {
+      "cache_exists": true,
+      "loader_results": [
+        5420,
+        0,
+        8,
+        2,
+        5422
+      ],
+      "duplicate_rows_removed_in_memory": 1974,
+      "files_with_duplicate_rows": 159,
+      "corrupt_files_excluded": [
+        "train: C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\train\\images\\test_website-00000-of-00004-e0bfff7049abbef8_4daec45b-d13f-4d5d-b8de-b3e4eaf60fad.png: ignoring corrupt image/label: Truncated File Read",
+        "train: C:\\QASense-AI\\datasets\\processed\\visionqa_atomblock\\train\\images\\train-00003-of-00027-b2bcc4d20fbfb47d_608512bb-519f-407a-a619-1eeffcb9d896.png: ignoring corrupt image/label: Truncated File Read"
+      ]
+    },
+    "val": {
+      "cache_exists": true,
+      "loader_results": [
+        1388,
+        0,
+        3,
+        0,
+        1388
+      ],
+      "duplicate_rows_removed_in_memory": 711,
+      "files_with_duplicate_rows": 48,
+      "corrupt_files_excluded": []
+    },
+    "test": {
+      "cache_exists": true,
+      "loader_results": [
+        1389,
+        0,
+        4,
+        0,
+        1389
+      ],
+      "duplicate_rows_removed_in_memory": 876,
+      "files_with_duplicate_rows": 56,
+      "corrupt_files_excluded": []
+    }
+  }
+}

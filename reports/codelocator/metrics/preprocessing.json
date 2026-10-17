@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "raw_rows": 63923,
+  "cleaning": {
+    "original_rows": 63923,
+    "retained": 62394,
+    "dropped": 1529,
+    "reasons": {
+      "exact_standardized_duplicate": 815,
+      "identical_buggy_fixed_code": 714
+    }
+  },
+  "context": {
+    "alternate_rows": 16899,
+    "schemas": [
+      {
+        "file": "train-00000-of-00002.parquet",
+        "columns": [
+          "identifier",
+          "condition",
+          "bug",
+          "fix",
+          "post_conditional",
+          "bugType",
+          "buggy_commit",
+          "repository_url",
+          "bug_timestamp",
+          "num_commits_til_fix",
+          "originating_commit"
+        ],
+        "rows": 8450
+      },
+      {
+        "file": "train-00001-of-00002.parquet",
+        "columns": [
+          "identifier",
+          "condition",
+          "bug",
+          "fix",
+          "post_conditional",
+          "bugType",
+          "buggy_commit",
+          "repository_url",
+          "bug_timestamp",
+          "num_commits_til_fix",
+          "originating_commit"
+        ],
+        "rows": 8449
+      }
+    ],
+    "index_entries": 12620,
+    "ambiguous_source_keys": 481,
+    "outcomes": {
+      "verified_full_source_join": 12505,
+      "no_unique_context_join": 48060,
+      "line_number_mismatch": 1821,
+      "character_offset_mismatch": 8
+    },
+    "verified_samples": 12505,
+    "genuine_context_available": true,
+    "localization_scientifically_supported": true,
+    "decision": "Only complete pre-fix sources reconstructed from condition + bug + post_conditional, joined by repository, parent commit, category and exact buggy/fixed fragments, with matching line and character offset. Patches are never predictive inputs. No fabricated context."
+  },
+  "splits": {
+    "strategy": "Repository-exclusive GroupShuffleSplit; deterministic seeds 42..121 search balances proportions and label coverage without looking at model performance. Purge evaluation overlaps against train, then validation; all exclusions documented.",
+    "seed": 74,
+    "requested_seed": 42,
+    "pre_purge_sizes": {
+      "train": 44157,
+      "validation": 9551,
+      "test": 8686
+    },
+    "sizes": {
+      "train": 44157,
+      "validation": 7165,
+      "test": 7004
+    },
+    "repositories": {
+      "train": 443,
+      "validation": 88,
+      "test": 89
+    },
+    "split_exclusions": 4068,
+    "project_overlap": 0,
+    "duplicate_leakage": 0,
+    "validated": true
+  },
+  "bug_classes": 14,
+  "clean_repositories": 634,
+  "raw_sha256": {
+    "sstubsLarge\\train-00000-of-00001.parquet": "31fc3073d97fbbb381b40e56d45dc5a6cd347914cb34b6eb86b00f49dff34a5d",
+    "sstub_input_no_comments\\train-00000-of-00002.parquet": "887fbc04a11b3bf654b1d260d4165c60d9f334bff418e21e00b4ff137c0e681e",
+    "sstub_input_no_comments\\train-00001-of-00002.parquet": "1c4ebd35d5a962fe0136ecc6ba6994c6409189bd89f4e756c1b1f12885e68358"
+  },
+  "processed_sha256": {
+    "splits\\test.jsonl": "f676dac66876e60b16d77af29dcd9399a43d201184736c28b6d9e18af05aa90a",
+    "splits\\test_localization.jsonl": "3a5e4eab3190e729492f56de533057a8a0c03d684f7a214e60c7ce3388ca9cc9",
+    "splits\\train.jsonl": "f060d650ee3e62566ac75a1ffda0af916969d555134215df3417046b482ea8de",
+    "splits\\train_localization.jsonl": "a3a648c7b3aa156d0d6443cb35d8def2ad5f2fdf8b5310ebfbdd0f30180f7d0b",
+    "splits\\validation.jsonl": "a49bbef7fd7d958a8de6b63f7b7197cd0622cb698ce7ca311cba855d056940ea",
+    "splits\\validation_localization.jsonl": "291b8e45a3bc82a681f95a73d4b0ade255fd5f5b7a12c272190bc8ffc4da04bf"
+  },
+  "training_config": {
+    "pretrained_model": "microsoft/codebert-base",
+    "max_length": 256,
+    "batch_size": 2,
+    "gradient_accumulation": 8,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "early_stopping_patience": 2,
+    "candidate_radius": 3,
+    "source_radius": 15,
+    "negative_lines_per_sample": 6
+  },
+  "data_quality_gate_passed": true,
+  "predictive_fields": [
+    "buggy_statement"
+  ],
+  "localization_predictive_fields": [
+    "candidate_line",
+    "context"
+  ],
+  "excluded_predictive_fields": [
+    "fixed_statement",
+    "fixed_code",
+    "patch",
+    "buggy_line_number",
+    "bug_type",
+    "repository",
+    "commit"
+  ],
+  "buggy_fragments_with_conflicting_categories": 6538,
+  "localization_split_counts": {
+    "train": {
+      "source_samples": 8352,
+      "candidate_lines": 58461
+    },
+    "validation": {
+      "source_samples": 1983,
+      "candidate_lines": 42268
+    },
+    "test": {
+      "source_samples": 1679,
+      "candidate_lines": 34782
+    }
+  },
+  "localization_split_exclusions": 25
+}

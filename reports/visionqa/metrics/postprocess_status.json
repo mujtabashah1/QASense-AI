@@ -1,0 +1,19 @@
+﻿{
+    "status":  "completed",
+    "updated_utc":  "2026-10-13T01:02:26.9388699Z",
+    "training_pid":  2572,
+    "current_step":  "",
+    "completed_steps":  [
+                            "live_snapshot",
+                            "progress_review",
+                            "promote",
+                            "test_evaluation",
+                            "loader_summary",
+                            "visual_examples",
+                            "foundation_check",
+                            "inference_sample",
+                            "final_report"
+                        ],
+    "log":  "C:\\QASense-AI\\runs\\visionqa\\process_logs\\postprocess.log",
+    "error":  ""
+}

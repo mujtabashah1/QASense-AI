@@ -1,0 +1,18 @@
+{
+  "decision": "KEEP V2 AS EXPERIMENTAL",
+  "automatic_promotion": false,
+  "candidate": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt",
+  "promoted_model": null,
+  "current_stable_model": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+  "rollback_model": "C:\\QASense-AI\\models\\visionqa\\atomblock_yolo11n\\best.pt",
+  "gates": {
+    "webui_f1": 0.026592252133946157,
+    "webui_macro_f1": 0.05233472856830402,
+    "atomblock_map50_95": 0.2554127207209825,
+    "catastrophic_forgetting": false,
+    "playwright_regression": {
+      "passed": null,
+      "reason": "metric gates did not pass"
+    }
+  }
+}

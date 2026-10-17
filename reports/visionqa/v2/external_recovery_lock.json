@@ -1,0 +1,8 @@
+﻿{
+    "process_ids":  [
+                        16828
+                    ],
+    "note":  "Persistent original controller PID; prevents recovery task from duplicating stage subprocess transitions.",
+    "mode":  "persistent_controller",
+    "started_at":  "2026-10-17T04:42:22.4288338-07:00"
+}

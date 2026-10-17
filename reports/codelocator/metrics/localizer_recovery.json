@@ -1,0 +1,18 @@
+{
+  "recovery_mode": "evaluate_saved_best_checkpoint_only",
+  "training_performed": false,
+  "checkpoint_sha256": "0e5463f1c7c80915a76297a896772b576771fe92d7b7678c4e3f4dd85e7270f8",
+  "selected_after_completed_epoch": 2,
+  "selection_metric": "validation MRR",
+  "best_validation_score_at_save": 0.5136246338449586,
+  "evaluation_splits": {
+    "validation": {
+      "candidate_lines": 42268,
+      "sha256": "291b8e45a3bc82a681f95a73d4b0ade255fd5f5b7a12c272190bc8ffc4da04bf"
+    },
+    "test": {
+      "candidate_lines": 34782,
+      "sha256": "3a5e4eab3190e729492f56de533057a8a0c03d684f7a214e60c7ce3388ca9cc9"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qasense.local/schemas/multimodal-evidence-v1.json",
+  "title": "QASense Multimodal Finding",
+  "type": "object",
+  "required": ["schema_version", "title", "severity", "risk", "code", "runtime", "visual", "recommendations", "fusion_method"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "title": {"type": "string", "minLength": 1},
+    "severity": {"enum": ["info", "low", "medium", "high", "critical"]},
+    "risk": {"type": ["object", "null"]},
+    "code": {"type": ["object", "null"]},
+    "runtime": {"type": ["object", "null"]},
+    "visual": {"type": ["object", "null"]},
+    "recommendations": {"type": "array", "items": {"type": "string"}},
+    "fusion_method": {"const": "deterministic_evidence_normalization"}
+  },
+  "additionalProperties": false
+}

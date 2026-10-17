@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-10-13T06:40:50.569073+00:00",
+  "status": "completed",
+  "run_dir": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2",
+  "detached_from_codex": true,
+  "launcher_pid": 2572,
+  "cuda_process_ids": [],
+  "log_paths": {
+    "stdout": "C:\\QASense-AI\\runs\\visionqa\\process_logs\\main_resume_20261012_142800.stdout.log",
+    "stderr": "C:\\QASense-AI\\runs\\visionqa\\process_logs\\main_resume_20261012_142800.stderr.log"
+  },
+  "last_console_progress": "30/30      1.59G      1.075     0.9804     0.9063        185        640: 100% \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 2710/2710 7.3it/s 6:13",
+  "dataset": {
+    "configured_training_pairs": 5422,
+    "decodable_training_images_per_epoch": 5420,
+    "validation_pairs_per_epoch": 1388,
+    "held_out_test_pairs": 1389
+  },
+  "training": {
+    "completed_epochs": 30,
+    "target_epochs": 30,
+    "remaining_epochs_at_maximum": 0,
+    "decodable_image_presentations_completed": 162600,
+    "maximum_decodable_image_presentations": 162600,
+    "typical_completed_epoch_seconds": 432.0499999999997,
+    "latest_completed_epoch_seconds": 417.6999999999989,
+    "benchmark_reference_epoch_seconds": 438.352,
+    "timer_reset_detected_at_epochs": [
+      3
+    ],
+    "estimated_remaining_training_seconds": {
+      "at_benchmark_pace": 0.0,
+      "at_latest_observed_pace": 0.0
+    },
+    "early_stopping_patience": 10,
+    "batch": 2,
+    "imgsz": 640,
+    "device": "0"
+  },
+  "latest_epoch": {
+    "epoch": 30.0,
+    "time": 12617.9,
+    "train/box_loss": 1.07474,
+    "train/cls_loss": 0.98043,
+    "train/dfl_loss": 0.9063,
+    "metrics/precision(B)": 0.48715,
+    "metrics/recall(B)": 0.40259,
+    "metrics/mAP50(B)": 0.3912,
+    "metrics/mAP50-95(B)": 0.28991,
+    "val/box_loss": 1.22127,
+    "val/cls_loss": 1.09128,
+    "val/dfl_loss": 0.89474,
+    "lr/pg0": 2.3908e-05,
+    "lr/pg1": 2.3908e-05,
+    "lr/pg2": 2.3908e-05
+  },
+  "best_validation_epoch": {
+    "epoch": 28.0,
+    "time": 11784.1,
+    "train/box_loss": 1.08332,
+    "train/cls_loss": 0.99398,
+    "train/dfl_loss": 0.90843,
+    "metrics/precision(B)": 0.48437,
+    "metrics/recall(B)": 0.41114,
+    "metrics/mAP50(B)": 0.39335,
+    "metrics/mAP50-95(B)": 0.29015,
+    "val/box_loss": 1.22246,
+    "val/cls_loss": 1.09449,
+    "val/dfl_loss": 0.89591,
+    "lr/pg0": 6.0604e-05,
+    "lr/pg1": 6.0604e-05,
+    "lr/pg2": 6.0604e-05
+  },
+  "checkpointing": {
+    "save_period_epochs": 1,
+    "last": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\last.pt",
+    "best": "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\best.pt",
+    "epoch_checkpoints": [
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch0.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch1.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch10.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch11.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch12.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch13.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch14.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch15.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch16.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch17.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch18.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch19.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch2.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch20.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch21.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch22.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch23.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch24.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch25.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch26.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch27.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch28.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch29.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch3.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch4.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch5.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch6.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch7.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch8.pt",
+      "C:\\QASense-AI\\runs\\visionqa\\atomblock_yolo11n_main_b2\\weights\\epoch9.pt"
+    ]
+  },
+  "gpu": {
+    "utilization_percent": 0.0,
+    "memory_used_mib": 0.0,
+    "memory_total_mib": 4096.0,
+    "temperature_c": 48.0
+  }
+}

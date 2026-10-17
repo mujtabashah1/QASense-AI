@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "completed_epochs": 3,
+  "early_stopping_criterion_reached": true,
+  "stopped_before_max_epochs": false,
+  "best_validation_mrr": 0.5081639038098467,
+  "global_optimizer_step": 7278,
+  "total_elapsed_seconds": 30068.418169021606,
+  "beats_position_only_test_mrr": true
+}

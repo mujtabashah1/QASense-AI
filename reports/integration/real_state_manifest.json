@@ -1,0 +1,613 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-13T07:41:41.383040+00:00",
+  "target_type": "realistic_existing_local_fixture_fallback",
+  "reason": "No separate local application or configured deterministic target exists in the repository.",
+  "repeat_count": 2,
+  "states": [
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "desktop-default",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "setup_actions": []
+    },
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "desktop-empty-email",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "setup_actions": [
+        {
+          "action": "fill",
+          "selector": "#email",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "desktop-terms-unchecked",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "setup_actions": [
+        {
+          "action": "uncheck",
+          "selector": "#agree"
+        }
+      ]
+    },
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "desktop-navigation-focus",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "setup_actions": [
+        {
+          "action": "focus",
+          "selector": "nav a:first-of-type"
+        }
+      ]
+    },
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "tablet-default",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "setup_actions": []
+    },
+    {
+      "application": "QASense local runtime fixture",
+      "url": "file:///C:/QASense-AI/tests/fixtures/runtime_fixture.html",
+      "route": "/runtime_fixture.html",
+      "expected_stable_elements": [
+        {
+          "selector": "html > body > nav",
+          "name": "primary navigation",
+          "classes": [
+            "block-nav",
+            "block"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(1)",
+          "name": "checkout link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "html > body > nav > a:nth-of-type(2)",
+          "name": "status link",
+          "classes": [
+            "link"
+          ]
+        },
+        {
+          "selector": "#form",
+          "name": "checkout form",
+          "classes": [
+            "block-form",
+            "block"
+          ]
+        },
+        {
+          "selector": "#email",
+          "name": "email input",
+          "classes": [
+            "input"
+          ]
+        },
+        {
+          "selector": "#agree",
+          "name": "terms checkbox",
+          "classes": [
+            "checkbox",
+            "input"
+          ]
+        },
+        {
+          "selector": "#ship",
+          "name": "shipping radio",
+          "classes": [
+            "radio",
+            "input"
+          ]
+        },
+        {
+          "selector": "#country",
+          "name": "country select",
+          "classes": [
+            "select",
+            "input"
+          ]
+        },
+        {
+          "selector": "#submit",
+          "name": "submit button",
+          "classes": [
+            "button"
+          ]
+        },
+        {
+          "selector": "html > body > main > img",
+          "name": "product image",
+          "classes": [
+            "image"
+          ]
+        },
+        {
+          "selector": "html > body > main > table",
+          "name": "item table",
+          "classes": [
+            "block-table",
+            "block"
+          ]
+        }
+      ],
+      "expected_dynamic_elements": [],
+      "authentication_required": false,
+      "state_id": "mobile-default",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "setup_actions": []
+    }
+  ]
+}

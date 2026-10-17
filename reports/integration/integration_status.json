@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T07:31:00Z",
+  "status": "complete",
+  "run_id": "integration-final-20261013",
+  "playwright": {
+    "browser": "Microsoft Edge",
+    "headless": true,
+    "viewport": [1440, 900],
+    "dom_elements": 11,
+    "console_error_count": 2,
+    "page_error_count": 1,
+    "failed_request_count": 1,
+    "http_error_count": 0,
+    "trace_created": true
+  },
+  "visionqa": {
+    "checkpoint": "models/visionqa/atomblock_yolo11n/best.pt",
+    "device": "cuda:0",
+    "detections": 10,
+    "semantic_matches": 7,
+    "ambiguous_conflicts": 3,
+    "cold_process_inference_ms": 3184.5994
+  },
+  "artifacts": "runs/playwright/integration-final-20261013",
+  "tests": {"unit_passed": 11, "browser_passed": 2, "failed": 0}
+}

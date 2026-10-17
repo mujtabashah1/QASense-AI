@@ -1,0 +1,24 @@
+{
+  "decision_code": "B",
+  "decision": "GLOBAL THRESHOLD IMPROVES V2 BUT CLASS-SPECIFIC ISSUES REMAIN",
+  "recommended_global_threshold": 0.0625,
+  "threshold_stability": {
+    "mean": 0.0645,
+    "median": 0.0625,
+    "std": 0.0036742346141747702,
+    "variance": 1.3500000000000023e-05,
+    "min": 0.06,
+    "max": 0.07,
+    "range": 0.010000000000000009,
+    "rule": "stable when population std <= 0.01 and range <= 0.02",
+    "stable": true
+  },
+  "unresolved_classes": [
+    "select"
+  ],
+  "select_true_positives_at_prediction_floor": 0,
+  "next_single_milestone": "Authorize one final frozen 399-screen confirmation using the calibrated global threshold.",
+  "frozen_evaluation_used": false,
+  "gpu_inference_run": false,
+  "model_training_run": false
+}

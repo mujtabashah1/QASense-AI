@@ -1,0 +1,74 @@
+{
+  "image": {
+    "path": "C:\\QASense-AI\\runs\\playwright\\integration-final-20261013\\viewport.png",
+    "width": 1440,
+    "height": 900
+  },
+  "model": {
+    "name": "visionqa_v2_mixed14",
+    "checkpoint": "C:\\QASense-AI\\models\\visionqa\\visionqa_v2_mixed14\\candidate.pt",
+    "device": "cuda:0",
+    "imgsz": 640,
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.7,
+    "class_count": 14,
+    "class_names": {
+      "0": "button",
+      "1": "link",
+      "2": "input",
+      "3": "image",
+      "4": "icon",
+      "5": "checkbox",
+      "6": "radio",
+      "7": "select",
+      "8": "block-nav",
+      "9": "block-sidebar",
+      "10": "block-footer",
+      "11": "block-form",
+      "12": "block-table",
+      "13": "block"
+    }
+  },
+  "detection_count": 3,
+  "counts_by_class": {
+    "block": 1,
+    "block-nav": 1,
+    "icon": 1
+  },
+  "inference_time_ms": 3481.9387999596074,
+  "detections": [
+    {
+      "class_id": 8,
+      "class_name": "block-nav",
+      "confidence": 0.6291395425796509,
+      "bbox_xyxy": [
+        0.0,
+        0.0,
+        1429.6243896484375,
+        54.74260711669922
+      ]
+    },
+    {
+      "class_id": 13,
+      "class_name": "block",
+      "confidence": 0.4498436152935028,
+      "bbox_xyxy": [
+        31.223316192626953,
+        84.67767333984375,
+        492.0948791503906,
+        449.0147399902344
+      ]
+    },
+    {
+      "class_id": 4,
+      "class_name": "icon",
+      "confidence": 0.3293152451515198,
+      "bbox_xyxy": [
+        61.05726623535156,
+        221.64833068847656,
+        72.98638153076172,
+        236.8099822998047
+      ]
+    }
+  ]
+}

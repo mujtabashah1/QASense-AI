@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-10-14T19:34:52.673154+00:00",
+  "purpose": "Read-only integrity fingerprint for completed project artifacts before integration work.",
+  "artifacts": {
+    "risknet_model": {
+      "path": "models/risknet/risknet_v1.joblib",
+      "bytes": 426844,
+      "sha256": "b32efa3e83707f01bdf29bd7dbcaebe4d484aa9f81f44bf890b9a739deac913c",
+      "last_write_time_ns": 1791494604142646400
+    },
+    "risknet_report": {
+      "path": "reports/risknet/RISKNET_MODEL_REPORT.md",
+      "bytes": 11839,
+      "sha256": "ee30b6481a22cb4a89c18734dff279836678d7bf8499cf804471f2e7614e8550",
+      "last_write_time_ns": 1791494743620518200
+    },
+    "codelocator_v2_model": {
+      "path": "models/codelocator_v2/line_localizer/model.safetensors",
+      "bytes": 498612824,
+      "sha256": "9459bfa6b343fc749e5b7653df0f0def005d8781c89388d49466f83e6c0ec288",
+      "last_write_time_ns": 1791583821902324100
+    },
+    "codelocator_v2_report": {
+      "path": "reports/codelocator_v2/CODELOCATOR_V2_MODEL_REPORT.md",
+      "bytes": 7949,
+      "sha256": "968d7f69517ecd3b4137ba25e447a569116f71afed09a3d7593f68041d2b4aaf",
+      "last_write_time_ns": 1791620244791284900
+    },
+    "visionqa_model": {
+      "path": "models/visionqa/atomblock_yolo11n/best.pt",
+      "bytes": 5464794,
+      "sha256": "7f527e18271067e2c3ed1c85b557b8b794646b996fed2128bd5a06f8c7234f57",
+      "last_write_time_ns": 1791853118905646500
+    },
+    "visionqa_report": {
+      "path": "reports/visionqa/VISIONQA_ATOMBLOCK_REPORT.md",
+      "bytes": 8368,
+      "sha256": "418415f8bdb180e206413d0b41ffa5f5a1f80b1c7aff05f2689b1babf57093fd",
+      "last_write_time_ns": 1791853345996450900
+    }
+  }
+}

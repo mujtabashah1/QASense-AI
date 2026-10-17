@@ -1,0 +1,6 @@
+# Selected trained inference assets. Explicit paths prevent old checkpoints or
+# unrelated research binaries from entering Git LFS accidentally.
+models/risknet/risknet_v1.joblib filter=lfs diff=lfs merge=lfs -text
+models/codelocator_v2/line_localizer/model.safetensors filter=lfs diff=lfs merge=lfs -text
+models/visionqa/atomblock_yolo11n/best.pt filter=lfs diff=lfs merge=lfs -text
+models/visionqa/visionqa_v2_mixed14/candidate.pt filter=lfs diff=lfs merge=lfs -text

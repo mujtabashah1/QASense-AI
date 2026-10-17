@@ -1,0 +1,68 @@
+{
+  "train": {
+    "samples": 8352,
+    "bucket_counts": [
+      163,
+      1050,
+      5358,
+      1405,
+      376
+    ],
+    "bucket_percentages": [
+      0.019516283524904216,
+      0.1257183908045977,
+      0.6415229885057471,
+      0.16822318007662834,
+      0.045019157088122604
+    ],
+    "mean": 0.5128186187722494,
+    "median": 0.5,
+    "standard_deviation": 0.14553414412586937,
+    "center_window_percentage": 0.6415229885057471,
+    "exact_middle_percentage": 0.13493773946360152
+  },
+  "validation": {
+    "samples": 1983,
+    "bucket_counts": [
+      0,
+      2,
+      1868,
+      72,
+      41
+    ],
+    "bucket_percentages": [
+      0.0,
+      0.0010085728693898135,
+      0.9420070600100857,
+      0.036308623298033284,
+      0.020675743822491176
+    ],
+    "mean": 0.5133319743310489,
+    "median": 0.5,
+    "standard_deviation": 0.061748881003105535,
+    "center_window_percentage": 0.9420070600100857,
+    "exact_middle_percentage": 0.6878466969238527
+  },
+  "test": {
+    "samples": 1679,
+    "bucket_counts": [
+      0,
+      3,
+      1595,
+      58,
+      23
+    ],
+    "bucket_percentages": [
+      0.0,
+      0.001786777843954735,
+      0.9499702203692674,
+      0.034544371649791544,
+      0.0136986301369863
+    ],
+    "mean": 0.5094514760131937,
+    "median": 0.5,
+    "standard_deviation": 0.0536639946473214,
+    "center_window_percentage": 0.9499702203692674,
+    "exact_middle_percentage": 0.6402620607504467
+  }
+}
