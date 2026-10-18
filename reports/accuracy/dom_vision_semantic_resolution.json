@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "evaluated_at": "2026-10-18",
+  "evaluation_source": "12 saved real-state Playwright/VisionQA runs from 2026-10-13",
+  "model_training_performed": false,
+  "model_outputs_modified": false,
+  "dataset_modified": false,
+  "geometry_gate": {
+    "minimum_containment": 0.65,
+    "minimum_iou": 0.25,
+    "minimum_match_score": 0.3
+  },
+  "resolution_scope": {
+    "raw_vision_class": "icon",
+    "allowed_dom_classes": ["checkbox", "radio"],
+    "raw_class_preserved": true
+  },
+  "before": {
+    "runs": 12,
+    "reviewed_dom_elements": 132,
+    "detections": 104,
+    "matches": 70,
+    "match_coverage": 0.5303030303,
+    "strong_semantic_conflicts": 32
+  },
+  "after": {
+    "runs": 12,
+    "reviewed_dom_elements": 132,
+    "detections": 104,
+    "matches": 88,
+    "match_coverage": 0.6666666667,
+    "strong_semantic_conflicts": 14,
+    "semantic_resolutions": 18,
+    "resolved_by_class": {
+      "checkbox": 8,
+      "radio": 10
+    }
+  },
+  "remaining_conflicts": [
+    {"dom_tag": "table", "dom_role": "table", "vision_class": "button", "count": 8},
+    {"dom_tag": "a", "dom_role": "link", "vision_class": "image", "count": 2},
+    {"dom_tag": "input", "dom_role": "textbox", "vision_class": "block", "count": 2},
+    {"dom_tag": "button", "dom_role": "button", "vision_class": "block", "count": 2}
+  ],
+  "interpretation": "Measured improvement in integrated DOM/visual semantic evidence, not in standalone detector accuracy."
+}

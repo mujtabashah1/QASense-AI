@@ -262,3 +262,15 @@ Create a separate source-grouped, human-reviewed WebUI-derived training/validati
 ```
 
 Authoritative product records: `reports/QASENSE_FINAL_PRODUCT_REPORT.md`, `reports/QASENSE_MIGRATION_MANIFEST.md`, `docs/ARCHITECTURE.md`, and `docs/DEMO.md`.
+
+## Accuracy baseline and conservative runtime classification improvement (2026-10-18)
+
+- No model was trained, fine-tuned, promoted, or modified. No dataset, split, or frozen evaluation artifact changed.
+- Established a reproducible model/runtime baseline in `reports/QASENSE_ACCURACY_BASELINE.md` using authoritative persisted metrics and direct loader/runtime checks.
+- The 12 saved real-state runs reproduced 70 DOM/Vision matches and 32 strong semantic conflicts across 132 reviewed elements.
+- Eighteen conflicts were a single supported pattern: native DOM checkbox/radio controls localized by VisionQA as `icon` with strong geometric agreement.
+- Matcher v3 now preserves the raw `icon` class while recording DOM-resolved `checkbox` or `radio` semantics only when containment is at least 0.65 and IoU is at least 0.25.
+- Same-evidence replay: matches 70 -> 88; evidence-assisted coverage 53.03% -> 66.67%; strong conflicts 32 -> 14. Resolutions were 8 checkbox and 10 radio. All other conflict families remain unresolved.
+- This is an integration evidence-classification improvement, not a claim of improved standalone VisionQA detector metrics.
+- Machine-readable comparison: `reports/accuracy/dom_vision_semantic_resolution.json`.
+- Exact next accuracy task: fixed-fixture CodeLocator runtime audit covering line preservation, duplicate candidates, long-file truncation, Top-K ranking, and raw-score interpretation. Do not retrain.

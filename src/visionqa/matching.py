@@ -58,6 +58,16 @@ def _compatible(element: dict[str, Any], class_name: str) -> tuple[bool, list[st
     return class_name in expected, sorted(expected)
 
 
+def _exact_control_class(element: dict[str, Any]) -> str | None:
+    """Return a DOM-authoritative class only for native binary controls."""
+    role = str(element.get("role", "")).lower()
+    input_type = str(element.get("input_type", "")).lower()
+    for value in (role, input_type):
+        if value in {"checkbox", "radio"}:
+            return value
+    return None
+
+
 def match_dom_to_detections(
     dom_elements: list[dict[str, Any]], detections: list[dict[str, Any]], minimum_score: float = 0.30,
 ) -> dict[str, Any]:
@@ -74,8 +84,35 @@ def match_dom_to_detections(
             compatible, expected = _compatible(element, detection["class_name"])
             if not compatible:
                 # Containment alone is weak for nested UI (a link is contained by nav).
-                # Retain only conflicts that also share substantial area.
-                if containment >= 0.65 and iou >= 0.25:
+                # Native checkbox/radio semantics are authoritative when an icon-like
+                # detection has strong geometric agreement. Keep the raw detector
+                # class in the evidence; this resolves integrated classification only.
+                strong_geometry = containment >= 0.65 and iou >= 0.25
+                resolved_class = _exact_control_class(element)
+                if strong_geometry and detection["class_name"] == "icon" and resolved_class:
+                    score = (0.45 * iou + 0.20 * containment + 0.15 * center + 0.20)
+                    score *= float(detection.get("confidence", 1.0)) ** 0.25
+                    if score >= minimum_score:
+                        candidates.append({
+                            "dom_index": dom_index,
+                            "detection_index": detection_index,
+                            "score": score,
+                            "raw_vision_class": detection["class_name"],
+                            "resolved_class": resolved_class,
+                            "semantic_resolution_applied": True,
+                            "evidence": {
+                                "iou": iou,
+                                "containment": containment,
+                                "center_score": center,
+                                "class_compatible": False,
+                                "compatible_vision_classes": expected,
+                                "detection_confidence": float(detection.get("confidence", 1.0)),
+                                "resolution_source": "dom_native_control_semantics",
+                            },
+                        })
+                        continue
+                # Retain all other strong geometric conflicts as ambiguities.
+                if strong_geometry:
                     ambiguous_candidates.append({
                         "dom_index": dom_index,
                         "detection_index": detection_index,
@@ -112,12 +149,15 @@ def match_dom_to_detections(
             continue
         matched_dom.add(dom_index)
         matched_detections.add(detection_index)
+        raw_class = detections[detection_index]["class_name"]
         matches.append({**candidate, "selector": dom_elements[dom_index].get("selector"),
             "tag": dom_elements[dom_index].get("tag"), "role": dom_elements[dom_index].get("role"),
-            "vision_class": detections[detection_index]["class_name"],
+            "vision_class": raw_class, "raw_vision_class": raw_class,
+            "resolved_class": candidate.get("resolved_class", raw_class),
+            "semantic_resolution_applied": candidate.get("semantic_resolution_applied", False),
             "match_confidence": candidate["score"]})
     return {
-        "algorithm": "semantic_greedy_one_to_one_v2", "minimum_score": minimum_score,
+        "algorithm": "semantic_greedy_one_to_one_v3", "minimum_score": minimum_score,
         "dom_element_count": len(dom_elements), "visible_dom_element_count": len(visible_indices),
         "detection_count": len(detections), "match_count": len(matches), "matches": matches,
         "ambiguous_candidate_count": len(ambiguous_candidates),
