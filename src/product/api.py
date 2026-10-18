@@ -43,23 +43,36 @@ class RunRegistry:
                 except (OSError,json.JSONDecodeError,KeyError):
                     continue
         with self.lock: found.update(self.live)
-        return sorted(({"run_id":v["run_id"],"status":v["status"],"target":v.get("target",{}),"started_at":v.get("started_at"),"finding_count":len(v.get("findings",[]))} for v in found.values()),key=lambda x:x.get("started_at") or "",reverse=True)
+        return sorted(({"run_id":v["run_id"],"status":v["status"],"target":v.get("target",{}),"analysis_type":v.get("target",{}).get("analysis_type","full"),"started_at":v.get("started_at"),"finding_count":len(v.get("findings",[])),"qa_score":v.get("qa_score")} for v in found.values()),key=lambda x:x.get("started_at") or "",reverse=True)
 
     def start(self, payload: dict[str, Any]) -> str:
-        url=str(payload.get("url","")).strip()
-        if not url: raise ValueError("url is required")
+        url=str(payload.get("url","")).strip() or None
+        source_path=str(payload.get("source_path") or payload.get("source_file") or "").strip() or None
+        analysis_type=str(payload.get("analysis_type") or ("full" if url and source_path else "code" if source_path else "web")).lower()
+        if analysis_type not in {"web","code","full"}: raise ValueError("analysis_type must be web, code, or full")
+        if analysis_type in {"web","full"} and not url: raise ValueError("url is required for Web and Full Analysis")
+        if analysis_type in {"code","full"} and not source_path: raise ValueError("source_path is required for Code and Full Analysis")
+        if url and urlparse(url).scheme not in {"http","https","file"}: raise ValueError("url must use http, https, or file")
         run_id=str(payload.get("run_id") or "").strip() or None
         if run_id is None:
             from src.playwright_runtime.collector import make_run_id
             run_id=f"product-{make_run_id()}"
         self._analysis_path(run_id)
         viewport=payload.get("viewport") or {}; size=(int(viewport.get("width",1000)),int(viewport.get("height",700)))
-        state={"schema_version":"1.0","run_id":run_id,"status":"queued","target":{"url":url,"viewport":{"width":size[0],"height":size[1]}},"findings":[]}
+        max_source_files=int(payload.get("max_source_files",20))
+        if not 1 <= max_source_files <= 100: raise ValueError("max_source_files must be between 1 and 100")
+        state={"schema_version":"1.0","run_id":run_id,"status":"queued","target":{"analysis_type":analysis_type,"url":url,"source_path":source_path,"viewport":{"width":size[0],"height":size[1]}},"progress":{"stage":"queued","message":"Waiting for the local analysis engine"},"findings":[]}
         with self.lock: self.live[run_id]=state
+        def update_progress(stage: str, message: str) -> None:
+            with self.lock:
+                current=self.live.get(run_id,state)
+                self.live[run_id]={**current,"status":"running","progress":{"stage":stage,"message":message}}
         def execute() -> None:
             with self.lock: self.live[run_id]={**state,"status":"running"}
             try:
-                result=self.orchestrator.run(url,run_id=run_id,viewport=size,source_file=payload.get("source_file"),risk_metrics=payload.get("risk_metrics"))
+                result=self.orchestrator.run(url,run_id=run_id,viewport=size,source_path=source_path,
+                    risk_metrics=payload.get("risk_metrics"),analysis_type=analysis_type,
+                    max_source_files=max_source_files,progress_callback=update_progress)
                 with self.lock: self.live[run_id]=result
             except Exception as exc:
                 with self.lock: self.live[run_id]={**state,"status":"failed","errors":[{"module":"orchestrator","message":str(exc)}]}

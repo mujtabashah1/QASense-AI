@@ -37,6 +37,13 @@ def test_partial_results_when_modalities_unavailable():
     assert build_analysis(value)["status"]=="partial"
 
 
+def test_web_analysis_does_not_require_unrequested_code_models():
+    value=empty_analysis("web-only",{"analysis_type":"web","url":"https://example.com"})
+    value["runtime"]={"status":"available","page_errors":[],"http_error_responses":[],"failed_requests":[],"console":[]}
+    value["visual"]={"status":"available","defects":[],"matching":{"ambiguous_candidates":[]}}
+    assert build_analysis(value)["status"]=="completed"
+
+
 def test_runtime_visual_rules_are_conservative():
     dom={"elements":[{"selector":"#tiny","visible":True,"role":"button","bbox_xyxy":[0,0,12,12],"geometry":{}}]}
     issues=inspect_runtime_visuals(dom,{"width":100,"height":100},{"unmatched_dom_indices":[0]})

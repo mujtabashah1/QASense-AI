@@ -32,15 +32,28 @@ The command analyzes `tests/fixtures/runtime_fixture.html`, invokes all three pr
 .\.venv-integration\Scripts\python.exe scripts\serve_qasense.py --host 127.0.0.1 --port 8765
 ```
 
-Open `http://127.0.0.1:8765`. Saved runs appear automatically. The dashboard shows original and annotated screenshots, findings, recommendations, test suggestions, regression priorities, raw modality evidence, and model status.
+Open `http://127.0.0.1:8765`. The dashboard provides Web Analysis, Code Analysis, and Full Analysis. Saved runs show original and annotated screenshots, risk-ranked files, exact CodeLocator lines, findings, recommendations, test suggestions, regression priorities, and expandable technical evidence.
 
 Start a run through the API:
 
 ```powershell
 $fixture = [System.Uri]::new((Resolve-Path tests\fixtures\runtime_fixture.html).Path).AbsoluteUri
-$body = @{ url = $fixture } | ConvertTo-Json
+$body = @{ analysis_type = 'web'; url = $fixture } | ConvertTo-Json
 Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8765/api/runs -ContentType application/json -Body $body
 ```
+
+Run Code Analysis on the local fixture:
+
+```powershell
+$body = @{
+  analysis_type = 'code'
+  source_path = (Resolve-Path tests\fixtures\CheckoutService.java).Path
+  max_source_files = 1
+} | ConvertTo-Json
+Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8765/api/runs -ContentType application/json -Body $body
+```
+
+For Full Analysis, use `analysis_type = 'full'` and include both `url` and `source_path`. The API reports real stages while the run is active; it does not generate synthetic progress percentages.
 
 ## Tests
 

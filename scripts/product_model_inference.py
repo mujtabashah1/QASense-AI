@@ -19,7 +19,16 @@ def main() -> int:
     if len(sys.argv)!=4 or sys.argv[1] not in {"risknet","codelocator"}:
         raise SystemExit("usage: product_model_inference.py {risknet|codelocator} INPUT OUTPUT")
     module,input_path,output_path=sys.argv[1],Path(sys.argv[2]),Path(sys.argv[3]); payload=json.loads(input_path.read_text(encoding="utf-8"))
-    if module=="risknet":
+    items = payload.get("items")
+    if module=="risknet" and items is not None:
+        from src.adapters.risknet_adapter import RiskNetAdapter
+        adapter = RiskNetAdapter()
+        result = {"items": [adapter.predict(item["file"], item["metrics"]) for item in items]}
+    elif module=="codelocator" and items is not None:
+        from src.adapters.codelocator_adapter import CodeLocatorAdapter
+        adapter = CodeLocatorAdapter()
+        result = {"items": [adapter.locate(item["file"], top_k=int(item.get("top_k", 5))) for item in items]}
+    elif module=="risknet":
         from src.adapters.risknet_adapter import RiskNetAdapter
         result=RiskNetAdapter().predict(payload["file"],payload["metrics"])
     else:

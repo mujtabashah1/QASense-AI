@@ -274,3 +274,15 @@ Authoritative product records: `reports/QASENSE_FINAL_PRODUCT_REPORT.md`, `repor
 - This is an integration evidence-classification improvement, not a claim of improved standalone VisionQA detector metrics.
 - Machine-readable comparison: `reports/accuracy/dom_vision_semantic_resolution.json`.
 - Exact next accuracy task: fixed-fixture CodeLocator runtime audit covering line preservation, duplicate candidates, long-file truncation, Top-K ranking, and raw-score interpretation. Do not retrain.
+
+## Web, Code, and Full Analysis product workflows (2026-10-18)
+
+- Added explicit `web`, `code`, and `full` analysis types to the existing asynchronous API and orchestrator. Existing saved runs and evidence contracts remain compatible.
+- Web Analysis requests Playwright/runtime and VisionQA evidence only. Code Analysis requests RiskNet and CodeLocator only. Full Analysis requires all four modalities. Run completion now evaluates only the requested modalities.
+- Added safe local Java discovery with a default 20-file cap and exclusions for generated/build, dependency, data, environment, and Git directories.
+- Added deterministic runtime extraction of RiskNet's exact 21-feature contract. The saved run records that these lexical Halstead/complexity values are an estimate and not the original CK research extractor.
+- RiskNet and CodeLocator batch inference loads each protected model once per run. CodeLocator preserves exact original one-based line references.
+- The dashboard now leads with three workflow cards and dedicated forms, reports real orchestration stages, labels each run type, and renders risk-ranked files with CodeLocator snippets under progressive disclosure.
+- Real verification: Web completed in 5.658 s, Code in 31.590 s, and Full in 44.965 s. Full returned all four modalities, 9 findings/recommendations/tests/priorities, and zero errors.
+- UI verification passed at 1440 px and 390 px with no page/console errors and no horizontal overflow.
+- No model was trained, fine-tuned, promoted, or modified. No dataset changed. VisionQA v1 remains production and v2 remains experimental.

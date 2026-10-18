@@ -11,6 +11,14 @@ QASense AI is a portfolio-grade software quality platform that combines source-c
 - **Deterministic fusion v1** creates evidence-backed findings, severity, confidence, recommendations, test suggestions, and regression priorities.
 - **Local API and dashboard** expose completed runs and their original/annotated evidence.
 
+## Product workflows
+
+- **Web Analysis** accepts a reachable URL and runs Playwright, runtime collectors, production VisionQA v1, DOM/visual matching, visual rules, fusion, recommendations, tests, and regression prioritization.
+- **Code Analysis** accepts a local Java file or directory. RiskNet ranks the discovered files and CodeLocator v2 returns exact original line numbers and snippets. The dashboard keeps risk probability and line-ranking score separate.
+- **Full Analysis** runs both paths and sends the available evidence through the existing deterministic fusion rules. Evidence that cannot be reliably correlated remains separately labeled.
+
+Local directory analysis reads at most 20 Java files by default and skips generated/build, dataset, environment, dependency, and Git directories. Runtime RiskNet metrics use a deterministic lexical extractor aligned to the model's exact 21-feature contract. This is not the original CK research extractor, so its output is prioritization evidence with an explicit limitation, not proof that a file is defective.
+
 ```mermaid
 flowchart LR
   R[Repository] --> RN[RiskNet]
@@ -85,7 +93,7 @@ Run product tests:
 
 ## API
 
-- `POST /api/runs` starts an analysis.
+- `POST /api/runs` starts an analysis. Set `analysis_type` to `web`, `code`, or `full`; provide `url` for Web/Full and `source_path` for Code/Full.
 - `GET /api/runs` lists runs.
 - `GET /api/runs/{id}` returns the complete evidence contract.
 - `GET /api/runs/{id}/findings`, `/evidence`, `/recommendations`, `/tests`, and `/regression` return focused views.

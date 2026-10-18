@@ -34,6 +34,7 @@ flowchart TD
 - `src/product/contracts.py`: canonical JSON-serializable run contract, schema version `1.0`.
 - `src/product/fusion.py`: deterministic finding association, severity, confidence support, deduplication, recommendations, tests, and regression priority.
 - `src/product/orchestrator.py`: cross-environment execution and partial-result recovery.
+- `src/product/source_analysis.py`: safe Java discovery and deterministic 21-feature RiskNet runtime extraction.
 - `src/product/api.py`: local asynchronous run API and safe artifact serving.
 - `src/product/dashboard`: dependency-free run browser and evidence view.
 
@@ -54,6 +55,10 @@ The dashboard QA score starts at 100 and subtracts `severity_weight × confidenc
 ## Process isolation
 
 The integration process uses `.venv-integration`. RiskNet, CodeLocator, and VisionQA run in their validated environments through `scripts/product_model_inference.py` and `scripts/visionqa_inference.py`. This avoids dependency conflicts and preserves the model environments used for evaluation.
+
+`scripts/product_model_inference.py` supports batch inputs, so each Code Analysis loads RiskNet and CodeLocator once rather than once per file. CodeLocator receives unchanged source files and returns one-based original line references. The product source scanner currently supports Java, matching the validated CodeLocator domain.
+
+RiskNet's product extractor emits the saved 21-feature schema in the trained order. Its lexical Halstead and complexity values are deterministic runtime estimates; the product records this limitation because they are not outputs from the original CK research extractor.
 
 ## Model locations
 

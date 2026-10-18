@@ -172,6 +172,14 @@ def build_analysis(base: dict[str, Any]) -> dict[str, Any]:
     completed = time.perf_counter()
     base["timing"]["fusion_ms"] = round((fused_at - started) * 1000, 3)
     base["timing"]["recommendation_test_priority_ms"] = round((completed - fused_at) * 1000, 3)
-    base["status"] = "partial" if base["errors"] or any(base[x].get("status") != "available" for x in ("risk", "code", "runtime", "visual")) else "completed"
+    analysis_type = base.get("target", {}).get("analysis_type", "full")
+    required_modalities = {
+        "web": ("runtime", "visual"),
+        "code": ("risk", "code"),
+        "full": ("risk", "code", "runtime", "visual"),
+    }.get(analysis_type, ("risk", "code", "runtime", "visual"))
+    base["status"] = "partial" if base["errors"] or any(
+        base[name].get("status") != "available" for name in required_modalities
+    ) else "completed"
     validate_analysis(base)
     return base
