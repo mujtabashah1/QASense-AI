@@ -286,3 +286,11 @@ Authoritative product records: `reports/QASENSE_FINAL_PRODUCT_REPORT.md`, `repor
 - Real verification: Web completed in 5.658 s, Code in 31.590 s, and Full in 44.965 s. Full returned all four modalities, 9 findings/recommendations/tests/priorities, and zero errors.
 - UI verification passed at 1440 px and 390 px with no page/console errors and no horizontal overflow.
 - No model was trained, fine-tuned, promoted, or modified. No dataset changed. VisionQA v1 remains production and v2 remains experimental.
+
+## GitHub documentation and real product captures (2026-10-18)
+
+- Verified the real local API/dashboard at `http://127.0.0.1:8765` and used completed Web, Code, and Full Analysis runs from the current product implementation.
+- Captured five 1440×900 dashboard images under `docs/screenshots`. Capture completed with zero browser-console errors and zero uncaught page errors.
+- Reworked `README.md` around the actual workflows, architecture, model roles, datasets, evidence semantics, tested setup, and known limitations. Removed portfolio-oriented wording.
+- Added `reports/QASENSE_MODEL_PARAMETER_AUDIT.md`. Artifact-loaded counts are CodeLocator v2 124,647,170 parameters, VisionQA v1 2,608,042, and VisionQA v2 2,608,042. RiskNet remains a calibrated classical pipeline with 21 coefficients, one intercept, and two calibration parameters.
+- No model, dataset, split, generated run, or frozen evaluation artifact was modified. VisionQA v1 remains production/rollback; VisionQA v2 remains experimental.

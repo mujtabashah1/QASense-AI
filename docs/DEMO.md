@@ -34,6 +34,14 @@ The command analyzes `tests/fixtures/runtime_fixture.html`, invokes all three pr
 
 Open `http://127.0.0.1:8765`. The dashboard provides Web Analysis, Code Analysis, and Full Analysis. Saved runs show original and annotated screenshots, risk-ranked files, exact CodeLocator lines, findings, recommendations, test suggestions, regression priorities, and expandable technical evidence.
 
+Capture the five curated documentation views from completed saved runs:
+
+```powershell
+.\.venv-integration\Scripts\python.exe scripts\capture_qasense_readme_screenshots.py --base-url http://127.0.0.1:8765
+```
+
+The capture script uses the real dashboard and API, writes 1440×900 PNGs to `docs/screenshots`, and fails if it observes a browser-console or uncaught page error. It does not create or alter analysis results.
+
 Start a run through the API:
 
 ```powershell
