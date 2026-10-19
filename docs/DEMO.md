@@ -40,7 +40,7 @@ Capture the five curated documentation views from completed saved runs:
 .\.venv-integration\Scripts\python.exe scripts\capture_qasense_readme_screenshots.py --base-url http://127.0.0.1:8765
 ```
 
-The capture script uses the real dashboard and API, writes 1440×900 PNGs to `docs/screenshots`, and fails if it observes a browser-console or uncaught page error. It does not create or alter analysis results.
+The capture script uses the real dashboard and API, writes 1440×900 PNGs to `docs/screenshots`, verifies the finding drawer and evidence image, checks desktop/laptop/tablet/mobile overflow, and fails on browser-console, uncaught page, or API errors. It does not create or alter analysis results.
 
 Start a run through the API:
 

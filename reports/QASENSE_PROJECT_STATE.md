@@ -294,3 +294,13 @@ Authoritative product records: `reports/QASENSE_FINAL_PRODUCT_REPORT.md`, `repor
 - Reworked `README.md` around the actual workflows, architecture, model roles, datasets, evidence semantics, tested setup, and known limitations. Removed portfolio-oriented wording.
 - Added `reports/QASENSE_MODEL_PARAMETER_AUDIT.md`. Artifact-loaded counts are CodeLocator v2 124,647,170 parameters, VisionQA v1 2,608,042, and VisionQA v2 2,608,042. RiskNet remains a calibrated classical pipeline with 21 coefficients, one intercept, and two calibration parameters.
 - No model, dataset, split, generated run, or frozen evaluation artifact was modified. VisionQA v1 remains production/rollback; VisionQA v2 remains experimental.
+
+## Analysis-first dashboard redesign (2026-10-19)
+
+- Refined the existing dashboard into a calm, analysis-first product interface while preserving the Web, Code, and Full Analysis workflows and all API contracts.
+- Added a two-column product introduction with a real latest-run preview, clearer workflow entry points, compact navigation, severity summaries, and progressive evidence presentation.
+- Moved model information to the secondary System Details view. The primary experience now focuses on QA health, findings, evidence, recommendations, and tests.
+- Re-captured the five curated 1440×900 product screenshots from the real running application and verified saved Web, Code, and Full Analysis runs.
+- Browser verification passed with zero console errors, zero uncaught page errors, and zero failed API responses. Horizontal overflow was zero at 1440, 1024, 768, and 390 pixels.
+- Regression validation passed: 16 focused product/integration/adapter tests and 28 broader product/contract/VisionQA/visual-defect tests, with zero failures.
+- Protected model packages remained ready and unchanged. No model was trained, promoted, or modified; no dataset or frozen evaluation artifact changed.

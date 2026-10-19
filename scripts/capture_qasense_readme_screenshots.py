@@ -54,6 +54,30 @@ def show_saved_run(page, run_id: str, tab: str) -> None:
     page.wait_for_timeout(250)
 
 
+def verify_responsive(page, base_url: str) -> dict[str, dict[str, int]]:
+    checks: dict[str, dict[str, int]] = {}
+    for label, width in (("desktop", 1440), ("laptop", 1024), ("tablet", 768), ("mobile", 390)):
+        page.set_viewport_size({"width": width, "height": 900})
+        page.goto(f"{base_url}/#overview")
+        settle(page)
+        widest = 0
+        for view in ("overview", "web", "code", "full"):
+            page.evaluate("viewName => navigate(viewName, false)", view)
+            page.locator(f"#view-{view}.active").wait_for(state="visible", timeout=5_000)
+            overflow = page.evaluate(
+                "() => Math.max(0, document.documentElement.scrollWidth - window.innerWidth)"
+            )
+            widest = max(widest, int(overflow))
+            if view != "overview":
+                button = page.locator(f"#view-{view} .analyze-button")
+                if not button.is_visible():
+                    raise RuntimeError(f"{label}: {view} analysis action is not visible")
+        if widest:
+            raise RuntimeError(f"{label}: horizontal overflow is {widest}px")
+        checks[label] = {"width": width, "horizontal_overflow_px": widest}
+    return checks
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-url", default="http://127.0.0.1:8765")
@@ -68,6 +92,7 @@ def main() -> int:
 
     console_errors: list[str] = []
     page_errors: list[str] = []
+    api_errors: list[str] = []
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(channel=args.channel, headless=True)
         page = browser.new_page(viewport={"width": 1440, "height": 900}, device_scale_factor=1)
@@ -78,6 +103,12 @@ def main() -> int:
             else None,
         )
         page.on("pageerror", lambda error: page_errors.append(str(error)))
+        page.on(
+            "response",
+            lambda response: api_errors.append(f"{response.status} {response.url}")
+            if "/api/" in response.url and response.status >= 400
+            else None,
+        )
 
         page.goto(f"{args.base_url}/#overview")
         settle(page)
@@ -100,12 +131,34 @@ def main() -> int:
         if screenshot.count():
             screenshot.scroll_into_view_if_needed(timeout=5_000)
         page.screenshot(path=args.output / "05-evidence-details.png")
+
+        evidence_image = page.locator("#evidence-image")
+        if evidence_image.count():
+            evidence_image.wait_for(state="visible", timeout=5_000)
+            loaded = evidence_image.evaluate(
+                "image => image.complete && image.naturalWidth > 0 && image.naturalHeight > 0"
+            )
+            if not loaded:
+                raise RuntimeError("Evidence screenshot did not load")
+
+        show_saved_run(page, selected["full"], "findings")
+        first_finding = page.locator("#run-findings [data-finding-id]").first
+        if first_finding.count():
+            first_finding.click()
+            page.locator("#finding-drawer.open").wait_for(state="visible", timeout=5_000)
+            page.locator("#drawer-close").click()
+        responsive = verify_responsive(page, args.base_url)
         browser.close()
 
-    if console_errors or page_errors:
+    if console_errors or page_errors or api_errors:
         raise RuntimeError(
             json.dumps(
-                {"console_errors": console_errors, "page_errors": page_errors}, indent=2
+                {
+                    "console_errors": console_errors,
+                    "page_errors": page_errors,
+                    "api_errors": api_errors,
+                },
+                indent=2,
             )
         )
     print(
@@ -115,8 +168,10 @@ def main() -> int:
                 "viewport": "1440x900",
                 "runs": selected,
                 "screenshots": sorted(path.name for path in args.output.glob("*.png")),
+                "responsive": responsive,
                 "console_errors": 0,
                 "page_errors": 0,
+                "api_errors": 0,
             },
             indent=2,
         )
